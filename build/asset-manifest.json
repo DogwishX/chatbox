@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b430e87.css",
+    "main.js": "/static/js/main.d31a1bf1.js",
+    "static/media/hero-background-mobile.png": "/static/media/hero-background-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/logo.svg": "/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "index.html": "/index.html",
+    "main.7b430e87.css.map": "/static/css/main.7b430e87.css.map",
+    "main.d31a1bf1.js.map": "/static/js/main.d31a1bf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b430e87.css",
+    "static/js/main.d31a1bf1.js"
+  ]
+}
