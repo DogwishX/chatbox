@@ -1,7 +1,16 @@
-.rsc {
+.chatbox-container {
   position: absolute;
-  bottom: 4rem;
-  right: 2rem;
+  max-width: 35rem;
+  height: 0%;
+  bottom: 0;
+  background-color: black;
+  max-height: 0%;
+  transition: all 0.2s linear;
+}
+
+.chatbox-container--active {
+  height: fit-content;
+  max-height: 60rem;
 }
 
 .rsc-header {
@@ -15,6 +24,7 @@
 
 .rsc-ts-bubble {
   background-color: rgba(0, 0, 0, 0.9);
+  line-height: 1.7rem;
 }
 
 .rsc-os-option-element {
@@ -29,4 +39,13 @@
 .rsc-ts-user .rsc-ts-bubble {
   background-color: lightblue;
   color: var(--almost-black);
+}
+
+.chatbox__close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
 }
