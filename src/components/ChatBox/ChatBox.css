@@ -28,7 +28,8 @@
 }
 
 .rsc-os-option-element {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: lightblue;
+  color: var(--almost-black);
 }
 
 .rsc-os-option-element:hover {
