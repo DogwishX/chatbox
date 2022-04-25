@@ -57,6 +57,7 @@ function ChatBox() {
     <div className="chatbox-container">
       <ChatBot
         headerTitle="Conversa com DermaBot"
+        placeholder="Digite sua mensagem..."
         steps={steps}
       />
       <CloseChat />
