@@ -8,6 +8,13 @@ function Hero() {
         className="hero__image"
         src={heroBackgroundImg}
       />
+      <h1 className="hero__title">
+        Consulte agora
+      </h1>
+      <p className="hero__text">
+        Converse com a DermaBot,
+        <br /> nossa especialista virtual.
+      </p>
       <a
         className="hero__button"
         href="#"
