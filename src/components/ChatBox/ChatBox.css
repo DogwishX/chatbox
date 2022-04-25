@@ -1,9 +1,11 @@
 .chatbox-container {
   position: absolute;
+  width: 35rem;
   max-width: 35rem;
   height: 0%;
   bottom: 0;
-  background-color: black;
+  left: 50%;
+  transform: translateX(-50%);
   max-height: 0%;
   transition: all 0.2s linear;
 }
