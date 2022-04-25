@@ -11,6 +11,7 @@
 body {
   font-size: 1.8rem;
   font-family: "Epilogue", sans-serif;
+  overflow: hidden;
 }
 
 a {

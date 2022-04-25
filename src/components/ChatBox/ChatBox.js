@@ -82,7 +82,6 @@ function toggleChat() {
   chatBox.classList.toggle(
     "chatbox-container--active"
   );
-  console.log("toggled");
 }
 
 export default ChatBox;
