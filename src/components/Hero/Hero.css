@@ -6,9 +6,17 @@
   max-width: 100%;
 }
 
+.hero__image-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffdce0;
+  width: 100%;
+}
+
 .hero__image {
-  margin-top: 2rem;
   max-width: 100%;
+  max-height: 60vh;
+  margin: auto;
 }
 
 .hero__title {

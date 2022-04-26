@@ -1,13 +1,16 @@
-import heroBackgroundImg from "../../assets/hero-background-mobile.png";
+import heroBackgroundImg from "../../assets/background-mobile.avif";
 import "./Hero.css";
 
 function Hero() {
   return (
     <div className="hero">
-      <img
-        className="hero__image"
-        src={heroBackgroundImg}
-      />
+      <div className="hero__image-container">
+        <img
+          className="hero__image"
+          src={heroBackgroundImg}
+        />
+      </div>
+
       <h1 className="hero__title">
         Consulte agora
       </h1>

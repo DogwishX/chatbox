@@ -1,22 +1,27 @@
 .chatbox-container {
-  position: absolute;
+  position: fixed;
   width: 35rem;
   max-width: 35rem;
-  height: 0%;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  max-height: 0%;
+  right: -200%;
+  opacity: 0;
   transition: all 0.2s linear;
+  scrollbar-color: black;
 }
 
 .chatbox-container--active {
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   height: fit-content;
   max-height: 60rem;
+  opacity: 1;
 }
-
+.rsc {
+  font-family: sans-serif;
+}
 .rsc-header {
-  background-color: black;
+  background-color: #f1aab1e3;
+  height: 3rem;
 }
 
 .rsc-header-title {
@@ -25,13 +30,16 @@
 }
 
 .rsc-ts-bubble {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #c6ecf8;
+  color: var(--almost-black);
   line-height: 1.7rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .rsc-os-option-element {
   background-color: lightblue;
   color: var(--almost-black);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .rsc-os-option-element:hover {
@@ -41,12 +49,12 @@
 /* User */
 .rsc-ts-user .rsc-ts-bubble {
   background-color: lightblue;
-  color: var(--almost-black);
+  color: rgb(63, 62, 62);
 }
 
 .chatbox__close {
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   right: 2rem;
   color: white;
   cursor: pointer;
