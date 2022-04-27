@@ -1,0 +1,38 @@
+.cards {
+  margin-top: 5rem;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 2rem;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px; */
+  overflow: hidden;
+}
+
+.cards__item::after {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 0.1rem;
+  margin: 5rem;
+  background-color: gray;
+}
+
+.cards__image {
+  max-width: 100%;
+}
+
+.cards__title {
+  margin-top: 7rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.cards__description {
+  margin: 5rem;
+}
