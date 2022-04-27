@@ -1,0 +1,29 @@
+.faq {
+  padding: 2rem;
+  color: #fff46d;
+  background-color: #f00472;
+}
+
+.faq__title {
+  margin-top: 4rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.faq__question-container {
+  margin-top: 5rem;
+  letter-spacing: 0.08rem;
+}
+
+.faq__question {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.faq__answer {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #faabd0;
+  opacity: 0.8;
+}

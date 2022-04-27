@@ -5,6 +5,7 @@ import ChatBox from "./components/ChatBox/ChatBox";
 import ChatIcon from "./components/ChatIcon/ChatIcon";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Cards from "./components/Cards/Cards";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ChatIcon />
       <HowItWorks />
       <Cards />
+      <FAQ />
     </div>
   );
 }
