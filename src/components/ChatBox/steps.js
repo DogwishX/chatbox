@@ -39,7 +39,7 @@ const oleosa = [
   {
     id: "oleosa",
     message:
-      "Entendi! Agora diga pra mim se sua pele é :",
+      "Entendi! Agora diga pra mim se sua pele é:",
     trigger: "oleosa-options",
   },
   {
@@ -86,7 +86,7 @@ const oleosaSensivelPigmentada = [
   {
     id: "oleosa-sensivel-pigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger: "oleosa-sensivel-pigmentada-options",
   },
   {
@@ -207,7 +207,7 @@ const oleosaSensivelNaoPigmentada = [
   {
     id: "oleosa-sensivel-naoPigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger:
       "oleosa-sensivel-naoPigmentada-options",
   },
@@ -364,7 +364,7 @@ const oleosaResistentePigmentada = [
   {
     id: "oleosa-resistente-pigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger:
       "oleosa-resistente-pigmentada-options",
   },
@@ -491,7 +491,7 @@ const oleosaResistenteNaoPigmentada = [
   {
     id: "oleosa-resistente-naoPigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger:
       "oleosa-resistente-naoPigmentada-options",
   },
@@ -625,7 +625,7 @@ const seca = [
   {
     id: "seca",
     message:
-      "Entendi! Agora diga pra mim se sua pele é :",
+      "Entendi! Agora diga pra mim se sua pele é:",
     trigger: "seca-options",
   },
   {
@@ -672,7 +672,7 @@ const secaSensivelPigmentada = [
   {
     id: "seca-sensivel-pigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger: "seca-sensivel-pigmentada-options",
   },
   {
@@ -788,7 +788,7 @@ const secaSensivelNaoPigmentada = [
   {
     id: "seca-sensivel-nao-pigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger:
       "seca-sensivel-naoPigmentada-options",
   },
@@ -937,7 +937,7 @@ const secaResistentePigmentada = [
   {
     id: "seca-resistente-pigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger: "seca-resistente-pigmentada-options",
   },
   {
@@ -1058,7 +1058,7 @@ const secaResistenteNaoPigmentada = [
   {
     id: "seca-resistente-naoPigmentada",
     message:
-      "Entendi! última Pergunta! Sua pele é:",
+      "Entendi! Última Pergunta! Sua pele é:",
     trigger:
       "seca-resistente-naoPigmentada-options",
   },

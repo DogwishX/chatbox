@@ -1,6 +1,7 @@
 import ChatBot from "react-simple-chatbot";
 import steps from "./steps";
 import "./ChatBox.css";
+import toggleChat from "../../hooks/toggleChat";
 
 function ChatBox() {
   return (
@@ -24,15 +25,6 @@ function CloseChat() {
     >
       ✖
     </div>
-  );
-}
-
-function toggleChat() {
-  const chatBox = document.querySelector(
-    ".chatbox-container"
-  );
-  chatBox.classList.toggle(
-    "chatbox-container--active"
   );
 }
 

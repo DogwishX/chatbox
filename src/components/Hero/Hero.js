@@ -1,4 +1,5 @@
 import heroBackgroundImg from "../../assets/background-mobile.avif";
+import toggleChat from "../../hooks/toggleChat";
 import "./Hero.css";
 
 function Hero() {
@@ -15,7 +16,7 @@ function Hero() {
         Consulte agora
       </h1>
       <p className="hero__text">
-        Converse com a DermaBot,
+        Converse com a PicSkin,
         <br /> nossa especialista virtual.
       </p>
       <a
@@ -29,12 +30,4 @@ function Hero() {
   );
 }
 
-function toggleChat() {
-  const chatBox = document.querySelector(
-    ".chatbox-container"
-  );
-  chatBox.classList.toggle(
-    "chatbox-container--active"
-  );
-}
 export default Hero;

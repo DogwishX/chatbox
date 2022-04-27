@@ -1,0 +1,29 @@
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  color: var(--almost-black);
+  letter-spacing: 0.1rem;
+  background-color: #fff46d;
+}
+
+.how-it-works__title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.how-it-works__subtitle {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 2rem;
+}
+
+.how-it-works__text {
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08rem;
+  opacity: 0.8;
+}
