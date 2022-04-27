@@ -109,53 +109,53 @@ const oleosaSensivelPigmentada = [
 ];
 
 const oleosaSensivelPigmentadaEnrugada = [
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada1",
-  //     message:
-  //       "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-sensivel-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger:
-  //       "oleosa-sensivel-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-sensivel-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-sensivel-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-sensivel-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "oleosa-sensivel-pigmentada-enrugada1",
     message:
-      "sua pele e oleosa, sensivel, pigmentada e enrugada.",
+      "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
+    trigger:
+      "oleosa-sensivel-pigmentada-enrugada2",
+  },
+  {
+    id: "oleosa-sensivel-pigmentada-enrugada2",
+    message:
+      "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
+    trigger:
+      "oleosa-sensivel-pigmentada-enrugada3",
+  },
+  {
+    id: "oleosa-sensivel-pigmentada-enrugada3",
+    message:
+      "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
+    trigger:
+      "oleosa-sensivel-pigmentada-enrugada4",
+  },
+  {
+    id: "oleosa-sensivel-pigmentada-enrugada4",
+    message:
+      "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
+    trigger:
+      "oleosa-sensivel-pigmentada-enrugada5",
+  },
+  {
+    id: "oleosa-sensivel-pigmentada-enrugada5",
+    message:
+      "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
+    trigger:
+      "oleosa-sensivel-pigmentada-enrugada6",
+  },
+  {
+    id: "oleosa-sensivel-pigmentada-enrugada6",
+    message:
+      "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
     end: true,
   },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada1",
+  //   message:
+  //     "sua pele e oleosa, sensivel, pigmentada e enrugada.",
+  //   end: true,
+  // },
 ];
 
 const oleosaSensivelPigmentadaFirme = [
