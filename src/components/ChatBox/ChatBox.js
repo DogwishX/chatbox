@@ -10,6 +10,7 @@ function ChatBox() {
         fontFamily="arial"
         headerTitle="Conversa com DermaBot"
         placeholder="Digite sua mensagem..."
+        handleEnd={handleEndFn}
         steps={steps}
       />
       <CloseChat />
@@ -25,6 +26,13 @@ function CloseChat() {
     >
       ✖
     </div>
+  );
+}
+
+function handleEndFn({ values }) {
+  setTimeout(
+    () => (window.location.href = "/result"),
+    5000
   );
 }
 

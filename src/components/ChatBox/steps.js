@@ -22,12 +22,12 @@ const skinType = [
     id: "skin-type-options",
     options: [
       {
-        value: 1,
+        value: "oleosa",
         label: "Oleosa",
         trigger: "oleosa",
       },
       {
-        value: 2,
+        value: "seca",
         label: "Seca",
         trigger: "seca",
       },
@@ -46,12 +46,12 @@ const oleosa = [
     id: "oleosa-options",
     options: [
       {
-        value: 1,
+        value: "oleosa-sensivel",
         label: "Sensível",
         trigger: "oleosa-sensivel",
       },
       {
-        value: 2,
+        value: "oleosa-resistente",
         label: "Resistente",
         trigger: "oleosa-resistente",
       },
@@ -69,12 +69,12 @@ const oleosaSensivel = [
     id: "oleosa-sensivel-options",
     options: [
       {
-        value: 1,
+        value: "oleosa-sensivel-pigmentada",
         label: "Pigmentada",
         trigger: "oleosa-sensivel-pigmentada",
       },
       {
-        value: 2,
+        value: "oleosa-sensivel-nao-pigmentada",
         label: "Não-pigmentada",
         trigger: "oleosa-sensivel-naoPigmentada",
       },
@@ -93,13 +93,13 @@ const oleosaSensivelPigmentada = [
     id: "oleosa-sensivel-pigmentada-options",
     options: [
       {
-        value: 1,
+        value: "olspe",
         label: "Enrugada",
         trigger:
           "oleosa-sensivel-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "olspf",
         label: "Firme",
         trigger:
           "oleosa-sensivel-pigmentada-firme1",
@@ -109,92 +109,63 @@ const oleosaSensivelPigmentada = [
 ];
 
 const oleosaSensivelPigmentadaEnrugada = [
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada1",
+  //   message:
+  //     "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
+  //   trigger:
+  //     "oleosa-sensivel-pigmentada-enrugada2",
+  // },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada2",
+  //   message:
+  //     "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
+  //   trigger:
+  //     "oleosa-sensivel-pigmentada-enrugada3",
+  // },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada3",
+  //   message:
+  //     "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
+  //   trigger:
+  //     "oleosa-sensivel-pigmentada-enrugada4",
+  // },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada4",
+  //   message:
+  //     "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
+  //   trigger:
+  //     "oleosa-sensivel-pigmentada-enrugada5",
+  // },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada5",
+  //   message:
+  //     "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
+  //   trigger:
+  //     "oleosa-sensivel-pigmentada-enrugada6",
+  // },
+  // {
+  //   id: "oleosa-sensivel-pigmentada-enrugada6",
+  //   message:
+  //     "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
+  //   end: true,
+  // },
   {
     id: "oleosa-sensivel-pigmentada-enrugada1",
     message:
-      "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
+      "Perfeito! Consegui identificar seu tipo de pele. Eu criei uma pagina especialmente para você!",
     trigger:
       "oleosa-sensivel-pigmentada-enrugada2",
   },
   {
     id: "oleosa-sensivel-pigmentada-enrugada2",
     message:
-      "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-    trigger:
-      "oleosa-sensivel-pigmentada-enrugada3",
-  },
-  {
-    id: "oleosa-sensivel-pigmentada-enrugada3",
-    message:
-      "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-    trigger:
-      "oleosa-sensivel-pigmentada-enrugada4",
-  },
-  {
-    id: "oleosa-sensivel-pigmentada-enrugada4",
-    message:
-      "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-    trigger:
-      "oleosa-sensivel-pigmentada-enrugada5",
-  },
-  {
-    id: "oleosa-sensivel-pigmentada-enrugada5",
-    message:
-      "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-    trigger:
-      "oleosa-sensivel-pigmentada-enrugada6",
-  },
-  {
-    id: "oleosa-sensivel-pigmentada-enrugada6",
-    message:
-      "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
+      "Estou te direcionando para a pagina agora.",
     end: true,
   },
-  // {
-  //   id: "oleosa-sensivel-pigmentada-enrugada1",
-  //   message:
-  //     "sua pele e oleosa, sensivel, pigmentada e enrugada.",
-  //   end: true,
-  // },
 ];
 
 const oleosaSensivelPigmentadaFirme = [
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme1",
-  //     message:
-  //       "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger: "oleosa-sensivel-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger: "oleosa-sensivel-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger: "oleosa-sensivel-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger: "oleosa-sensivel-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger: "oleosa-sensivel-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "oleosa-sensivel-pigmentada-firme1",
     message:
@@ -215,13 +186,13 @@ const oleosaSensivelNaoPigmentada = [
     id: "oleosa-sensivel-naoPigmentada-options",
     options: [
       {
-        value: 1,
+        value: "osnpe",
         label: "Enrugada",
         trigger:
           "oleosa-sensivel-nao-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "osnpf",
         label: "Firme",
         trigger:
           "oleosa-sensivel-nao-pigmentada-firme1",
@@ -231,47 +202,6 @@ const oleosaSensivelNaoPigmentada = [
 ];
 
 const oleosaSensivelNaoPigmentadaFirme = [
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme1",
-  //     message:
-  //       "[Oleosa-sensivel-naoPigmentada-firme selecionado]Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "oleosa-sensivel-nao-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "oleosa-sensivel-nao-pigmentada-firme1",
     message:
@@ -281,53 +211,6 @@ const oleosaSensivelNaoPigmentadaFirme = [
 ];
 
 const oleosaSensivelNaoPigmentadaEnrugada = [
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada1",
-  //     message:
-  //       "[Oleosa-sensivel-naoPigmentada-enrugada selecionado]Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-sensivel-nao-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id:
       "oleosa-sensivel-nao-pigmentada-enrugada1",
@@ -347,12 +230,12 @@ const oleosaResistente = [
     id: "oleosa-resistente-options",
     options: [
       {
-        value: 1,
+        value: "oleosa-resistente-pigmentada",
         label: "Pigmentada",
         trigger: "oleosa-resistente-pigmentada",
       },
       {
-        value: 2,
+        value: "oleosa-resistente-nao-pigmentada",
         label: "Não-pigmentada",
         trigger:
           "oleosa-resistente-naoPigmentada",
@@ -372,13 +255,13 @@ const oleosaResistentePigmentada = [
     id: "oleosa-resistente-pigmentada-options",
     options: [
       {
-        value: 1,
+        value: "orpe",
         label: "Enrugada",
         trigger:
           "oleosa-resistente-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "orpf",
         label: "Firme",
         trigger:
           "oleosa-resistente-pigmentada-firme1",
@@ -388,47 +271,6 @@ const oleosaResistentePigmentada = [
 ];
 
 const oleosaResistentePigmentadaEnrugada = [
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada1",
-  //     message:
-  //       "[Oleosa-resistente-pigmentada-enrugada selecionado] Ótimo, já sei seu tipo de pele !Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "oleosa-resistente-pigmentada-enrugada1",
     message:
@@ -438,47 +280,7 @@ const oleosaResistentePigmentadaEnrugada = [
 ];
 
 const oleosaResistentePigmentadaFirme = [
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme1",
-  //     message:
-  //       "[Oleosa-resistente-pigmentada-firme selecionado] Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-resistente-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
+  //
   {
     id: "oleosa-resistente-pigmentada-firme1",
     message:
@@ -499,13 +301,13 @@ const oleosaResistenteNaoPigmentada = [
     id: "oleosa-resistente-naoPigmentada-options",
     options: [
       {
-        value: 1,
+        value: "olrnpe",
         label: "Enrugada",
         trigger:
           "oleosa-resistente-nao-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "olrnpf",
         label: "Firme",
         trigger:
           "oleosa-resistente-nao-pigmentada-firme1",
@@ -515,53 +317,6 @@ const oleosaResistenteNaoPigmentada = [
 ];
 
 const oleosaResistenteNaoPigmentadaEnrugada = [
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada1",
-  //     message:
-  //       "[Oleosa-resistente-naoPigmentada-enrugada selecionado] Ótimo, já sei seu tipo de pele !Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-enrugada2",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-enrugada3",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-enrugada4",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-enrugada5",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-enrugada6",
-  //   },
-  //   {
-  //     id:
-  //       "oleosa-resistente-naoPigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id:
       "oleosa-resistente-nao-pigmentada-enrugada1",
@@ -572,47 +327,6 @@ const oleosaResistenteNaoPigmentadaEnrugada = [
 ];
 
 const oleosaResistenteNaoPigmentadaFirme = [
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme1",
-  //     message:
-  //       "[Oleosa-resistente-naoPigmentada-firme selecionado] Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-firme2",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-firme3",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-firme4",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-firme5",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "oleosa-resistente-naoPigmentada-firme6",
-  //   },
-  //   {
-  //     id: "oleosa-resistente-naoPigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "oleosa-resistente-nao-pigmentada-firme1",
     message:
@@ -632,12 +346,12 @@ const seca = [
     id: "seca-options",
     options: [
       {
-        value: 1,
+        value: "seca-sensivel",
         label: "Sensível",
         trigger: "seca-sensivel",
       },
       {
-        value: 2,
+        value: "seca-resistente",
         label: "Resistente",
         trigger: "seca-resistente",
       },
@@ -655,12 +369,12 @@ const secaSensivel = [
     id: "seca-sensivel-options",
     options: [
       {
-        value: 1,
+        value: "seca-sensivel-pigmentada",
         label: "Pigmentada",
         trigger: "seca-sensivel-pigmentada",
       },
       {
-        value: 2,
+        value: "seca-sensivel-nao-pigmentada",
         label: "Não-pigmentada",
         trigger: "seca-sensivel-nao-pigmentada",
       },
@@ -679,13 +393,13 @@ const secaSensivelPigmentada = [
     id: "seca-sensivel-pigmentada-options",
     options: [
       {
-        value: 1,
+        value: "sspe",
         label: "Enrugada",
         trigger:
           "seca-sensivel-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "sspf",
         label: "Firme",
         trigger:
           "seca-sensivel-pigmentada-firme1",
@@ -695,42 +409,6 @@ const secaSensivelPigmentada = [
 ];
 
 const secaSensivelPigmentadaEnrugada = [
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada1",
-  //     message:
-  //       "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger: "seca-sensivel-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger: "seca-sensivel-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger: "seca-sensivel-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger: "seca-sensivel-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger: "seca-sensivel-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-sensivel-pigmentada-enrugada1",
     message:
@@ -740,42 +418,6 @@ const secaSensivelPigmentadaEnrugada = [
 ];
 
 const secaSensivelPigmentadaFirme = [
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme1",
-  //     message:
-  //       "Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger: "seca-sensivel-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger: "seca-sensivel-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger: "seca-sensivel-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger: "seca-sensivel-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger: "seca-sensivel-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "seca-sensivel-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-sensivel-pigmentada-firme1",
     message:
@@ -796,13 +438,13 @@ const secaSensivelNaoPigmentada = [
     id: "seca-sensivel-naoPigmentada-options",
     options: [
       {
-        value: 1,
+        value: "ssnpe",
         label: "Enrugada",
         trigger:
           "seca-sensivel-nao-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "ssnpf",
         label: "Firme",
         trigger:
           "seca-sensivel-nao-pigmentada-firme1",
@@ -812,47 +454,6 @@ const secaSensivelNaoPigmentada = [
 ];
 
 const secaSensivelNaoPigmentadaFirme = [
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme1",
-  //     message:
-  //       "[seca-sensivel-naoPigmentada-firme selecionado]Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-sensivel-nao-pigmentada-firme1",
     message:
@@ -862,47 +463,6 @@ const secaSensivelNaoPigmentadaFirme = [
 ];
 
 const secaSensivelNaoPigmentadaEnrugada = [
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada1",
-  //     message:
-  //       "[seca-sensivel-naoPigmentada-enrugada selecionado]Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "seca-sensivel-nao-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "seca-sensivel-nao-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-sensivel-nao-pigmentada-enrugada1",
     message:
@@ -921,12 +481,12 @@ const secaResistente = [
     id: "seca-resistente-options",
     options: [
       {
-        value: 1,
+        value: "seca-resistente-pigmentada",
         label: "Pigmentada",
         trigger: "seca-resistente-pigmentada",
       },
       {
-        value: 2,
+        value: "seca-resistente-naoPigmentada",
         label: "Não-pigmentada",
         trigger: "seca-resistente-naoPigmentada",
       },
@@ -944,13 +504,13 @@ const secaResistentePigmentada = [
     id: "seca-resistente-pigmentada-options",
     options: [
       {
-        value: 1,
+        value: "srpe",
         label: "Enrugada",
         trigger:
           "seca-resistente-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "srpf",
         label: "Firme",
         trigger:
           "seca-resistente-pigmentada-firme1",
@@ -960,47 +520,6 @@ const secaResistentePigmentada = [
 ];
 
 const secaResistentePigmentadaEnrugada = [
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada1",
-  //     message:
-  //       "[seca-resistente-pigmentada-enrugada selecionado] Ótimo, já sei seu tipo de pele !Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "seca-resistente-pigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger:
-  //       "seca-resistente-pigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "seca-resistente-pigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "seca-resistente-pigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "seca-resistente-pigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-resistente-pigmentada-enrugada1",
     message:
@@ -1010,42 +529,6 @@ const secaResistentePigmentadaEnrugada = [
 ];
 
 const secaResistentePigmentadaFirme = [
-  //   {
-  //     id: "seca-resistente-pigmentada-firme1",
-  //     message:
-  //       "[seca-resistente-pigmentada-firme selecionado] Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger: "seca-resistente-pigmentada-firme2",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger: "seca-resistente-pigmentada-firme3",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger: "seca-resistente-pigmentada-firme4",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger: "seca-resistente-pigmentada-firme5",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger: "seca-resistente-pigmentada-firme6",
-  //   },
-  //   {
-  //     id: "seca-resistente-pigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-resistente-pigmentada-firme1",
     message:
@@ -1066,13 +549,13 @@ const secaResistenteNaoPigmentada = [
     id: "seca-resistente-naoPigmentada-options",
     options: [
       {
-        value: 1,
+        value: "srnpe",
         label: "Enrugada",
         trigger:
           "seca-resistente-nao-pigmentada-enrugada1",
       },
       {
-        value: 2,
+        value: "srnpf",
         label: "Firme",
         trigger:
           "seca-resistente-nao-pigmentada-firme1",
@@ -1082,47 +565,6 @@ const secaResistenteNaoPigmentada = [
 ];
 
 const secaResistenteNaoPigmentadaEnrugada = [
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada1",
-  //     message:
-  //       "[seca-resistente-naoPigmentada-enrugada selecionado] Ótimo, já sei seu tipo de pele !Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-enrugada2",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza. ",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-enrugada3",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-enrugada4",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-enrugada5",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-enrugada6",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-enrugada6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id:
       "seca-resistente-nao-pigmentada-enrugada1",
@@ -1133,47 +575,6 @@ const secaResistenteNaoPigmentadaEnrugada = [
 ];
 
 const secaResistenteNaoPigmentadaFirme = [
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme1",
-  //     message:
-  //       "[seca-resistente-naoPigmentada-firme selecionado] Ótimo, já sei seu tipo de pele! Já tenho dipónível para você ótimas indicações de produtos de SkinCare! ",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-firme2",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme2",
-  //     message:
-  //       "Sabonete facial:1- Effaclar alta tolerância 2- Suavié Darrow 3-Purete Thermale da Vichy  4-Gel de Limpeza Avène Cleanance Gel 5- Nutrel Gel de Limpeza.",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-firme3",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme3",
-  //     message:
-  //       "Clareador: 1- Pigmentaclar sérum facial 2- discoloration defense",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-firme4",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme4",
-  //     message:
-  //       "Vitamina C: 1- Vitamina C vichy Ao concetrate 2- Ivy C rejuvenescedor facial 3- Hyalu C creme 4- sérum 10 skinceuticals 5- Aoxitive sérum avene.",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-firme5",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme5",
-  //     message:
-  //       "Hidratante Facial: 1- Mineral 89 probiotic face 2- Epidrat calm hidratante facial 3- Toleriane hidratante facial 4- Nivea creme hidratante facial 5- Hyalu B5 repair creme.",
-  //     trigger:
-  //       "seca-resistente-naoPigmentada-firme6",
-  //   },
-  //   {
-  //     id: "seca-resistente-naoPigmentada-firme6",
-  //     message:
-  //       "Protetor Solar: 1- Episol sec fps 60 2- anthelios airlicium 3- Anthelios ae pigmentation fps 50 4- episol color 70 5- Mate perfect fluido antiacne fps 60 sem cor Avene 6- UV oil defense fps 80 Skinceuticals 7- Isdin fusion water oil control fps 60.",
-  //     end: true,
-  //   },
   {
     id: "seca-resistente-nao-pigmentada-firme1",
     message:
