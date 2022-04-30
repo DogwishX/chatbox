@@ -21,7 +21,6 @@ function Hero() {
       </p>
       <a
         className="hero__button"
-        href="#"
         onClick={toggleChat}
       >
         Abrir o chat

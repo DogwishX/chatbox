@@ -1,0 +1,46 @@
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #212a2f;
+}
+
+.recommendations__title {
+  font-family: "geograph-bold";
+  font-size: 2.8rem;
+}
+
+.recommendations__tabs {
+  display: flex;
+  justify-content: space-evenly;
+  width: clamp(25rem, 100%, 40rem);
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.recommendations__tab {
+  font-family: "geograph-bold";
+  cursor: pointer;
+}
+
+.recommendations__tab::after {
+  content: "";
+  display: block;
+  background-color: black;
+  margin: 1rem 0;
+  height: 0.2rem;
+  width: 0%;
+  transition: all 0.2s linear;
+}
+
+.recommendations__tab--active::after {
+  width: 100%;
+}
+
+.recommendations__carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}

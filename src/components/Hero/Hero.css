@@ -27,7 +27,7 @@
 .hero__title {
   margin: 2rem;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-family: "geograph-bold";
 }
 
 .hero__text {
@@ -41,6 +41,9 @@
   padding: 1.5rem 2rem;
   border: 2px solid white;
   border-radius: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-family: "geograph-bold";
   font-size: 1.5rem;
   background-color: black;
   color: white;
@@ -48,4 +51,5 @@
 
 .hero__button:hover {
   filter: invert(1);
+  cursor: pointer;
 }
