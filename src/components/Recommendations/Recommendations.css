@@ -38,9 +38,3 @@
 .recommendations__tab--active::after {
   width: 100%;
 }
-
-.recommendations__carousel {
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
-}

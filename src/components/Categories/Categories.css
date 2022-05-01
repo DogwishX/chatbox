@@ -5,10 +5,23 @@
 }
 
 .categories__image {
-  height: clamp(12rem, 70vw, 50vh);
   margin-left: 2rem;
 }
 
 .categories__name {
+  text-align: center;
+}
+
+.categories .product-section {
+  margin-top: 0;
+  min-width: clamp(20rem, 90vw, 30rem);
+  margin-top: clamp(2rem, 5vw, 10rem);
+}
+
+.categories .product-section:nth-child(1) {
+  margin-left: 1rem;
+}
+
+.categories .product-section__text-container {
   text-align: center;
 }

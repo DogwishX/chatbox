@@ -1,11 +1,16 @@
 import "./ProductSection.css";
 
-function ProductSection({ title, images }) {
+function ProductSection({
+  title,
+  images,
+  productQty,
+}) {
   return (
     <div className="product-section">
       <div className="product-section__collection">
-        {images.map((src) => (
+        {images.map((src, index) => (
           <img
+            key={index}
             className="product-section__image"
             src={src}
           />
@@ -16,7 +21,7 @@ function ProductSection({ title, images }) {
           {title}
         </h2>
         <p className="product-selection__product-count">
-          5 produtos
+          {productQty} produtos
         </p>
       </div>
     </div>

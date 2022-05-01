@@ -1,6 +1,26 @@
 
-Home Page:
-  ☐ Add ProductSection to Categories.js
-  ☐ Retrieve product details in pages.js
+Survey: 
+Priority
+  ☐ Install Dependencies
+  ☐ Implement react-survey
+  ☐ Add questions
+  ☐ Calculate results
 
 
+Carousel:
+Stretch
+  ☐ Add swipe interaction to carousel
+  ☐ Remove empty space when you reach end of carousel
+  ☐ Show/Hide navigation buttons based on viewport position
+    
+
+Archive:
+  ✔ Add ProductSection to Categories.js @started(22-04-30 16:04) @done(22-04-30 16:32) @lasted(28m49s) @project(Home Page)
+  ✔ Improve carousel item styling @started(22-04-30 16:36) @done(22-04-30 16:49) @lasted(13m49s) @project(Home Page)
+  ✔ Add navigation buttons to carousel @started(22-04-30 20:29) @done(22-05-01 00:16) @lasted(3h47m43s) @project(Home Page)
+  ✔ Create buttons @started(22-04-30 20:29) @done(22-04-30 20:47) @lasted(18m9s) @project(Home Page)
+  ✔ useState for focused card @done(22-04-30 21:04) @project(Home Page)
+  ✔ click event function to change focused card @done(22-04-30 21:04) @project(Home Page)
+  ✔ apply offset left (focusedCardIndex * cardWidth) @done(22-05-01 00:16) @project(Home Page)
+  ✘ Retrieve product details in pages.js @cancelled(22-04-30 17:10)  @project(Home Page)
+    Due to possible performance issues

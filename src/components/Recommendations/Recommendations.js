@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Carousel from "../Carousel/Carousel";
 import Categories from "../Categories/Categories";
 import "./Recommendations.css";
 
@@ -29,9 +30,13 @@ function Recommendations() {
           Pele Oleosa
         </h3>
       </div>
-      <div className="recommendations__carousel">
-        <Categories selectedPage={selectedPage} />
-      </div>
+      <Carousel
+        content={
+          <Categories
+            selectedPage={selectedPage}
+          />
+        }
+      />
     </div>
   );
 
