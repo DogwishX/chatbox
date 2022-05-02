@@ -1,35 +1,47 @@
 import { useState } from "react";
+import Answer from "../Answer/Answer";
 import "./Question.css";
 
-function Question({ cardInfo }) {
+function Question({ cardInfo, updateFocusedQuestion }) {
   const [selectedOption, setSelectedOption] = useState();
   const { buttonText, question, options, numbered } = cardInfo;
 
   return (
     <div className="question">
       <h2 className="question__title">{question}</h2>
-      {options && <Options />}
+      {options && <Answer options={options} />}
+      <SubmitButton text={buttonText} />
     </div>
   );
 
-  function Options() {
-    const optionNameMap = {
-      0: "A",
-      1: "B",
-      2: "C",
-      3: "D",
-      4: "E",
-    };
-
+  function SubmitButton() {
     return (
-      <ul className="answer__list">
-        {options.map(({ value, text }, index) => (
-          <li className="answer__item" data-value={value} key={value}>
-            <p className="answer__prefix">{optionNameMap[index]}</p>
-            {text}
-          </li>
-        ))}
-      </ul>
+      <button
+        id="submit-btn-next"
+        className="question__submit"
+        onClick={handleSubmit}
+      >
+        {buttonText || (
+          <p className="question__submit--default">
+            OK
+            <span className="question__check-mark">
+              <CheckmarkSvg />
+            </span>
+          </p>
+        )}
+      </button>
+    );
+  }
+
+  function handleSubmit(event) {
+    updateFocusedQuestion(event);
+  }
+
+  function CheckmarkSvg() {
+    return (
+      <svg height="13" width="16" fill="white">
+        <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
+      </svg>
     );
   }
 }

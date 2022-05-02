@@ -3,15 +3,15 @@ const questionnaireCards = [
     order: 0,
     id: "greeting1",
     question:
-      "Essa é uma ferramenta que pode ajudar a determinar o seu tipo de pele - o Sistema de Baumann. É um método de classificação que foi desenvolvido pela dermatologista Leslie Baumann",
-    buttonText: "Quero usar",
+      "Este é um questionario que ajuda a determinar o seu tipo de pele - o Sistema de Baumann.",
+    buttonText: "Quero fazer!",
     numbered: false,
   },
   {
     order: 1,
     id: "greeting2",
     question:
-      "Esta seção avalia a produção de óleo da pele e a hidratação. Estudos mostram que a percepção que as pessoas têm de se a pele é oleosa ou seca geralmente está incorreta. Não permita que os seus preconceitos ou o que as outras pessoas pensam ou falam sobre sua pele interfira nas respostas.",
+      "Esta seção avalia a produção de óleo da pele e a hidratação. Não permita que os seus preconceitos ou falam sobre sua pele interfira nas respostas.",
     buttonText: "Entendi",
     numbered: false,
   },

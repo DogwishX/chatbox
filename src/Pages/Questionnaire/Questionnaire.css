@@ -1,6 +1,7 @@
 .questionnaire {
   position: relative;
   overflow: hidden;
+  background-color: #f6ece2;
 }
 
 .questionnaire__questions-container {
@@ -8,7 +9,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   max-height: 100vh;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .questionnaire__navigation {
@@ -21,11 +22,11 @@
 
 .questionanaire__nav-btn {
   border: none;
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: rgb(15, 15, 15);
   padding: 0.5rem 1rem;
 }
 
 .questionanaire__nav-btn:hover {
   cursor: pointer;
-  opacity: 0.9;
+  background-color: rgb(32, 32, 32);
 }

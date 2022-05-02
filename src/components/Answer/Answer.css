@@ -1,0 +1,37 @@
+.answer__list {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.answer__item {
+  display: flex;
+  align-items: center;
+  width: clamp(25rem, 80%, 90rem);
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-family: "geograph-light";
+  background-color: rgba(218, 210, 197, 0.2);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.answer__item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.answer__prefix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: "geograph-regular";
+  font-weight: 900;
+  background-color: white;
+}

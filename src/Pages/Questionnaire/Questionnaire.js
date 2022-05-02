@@ -12,16 +12,21 @@ function Questionnaire() {
     const questionnaireQuestionsContainer = document.querySelector(
       ".questionnaire__questions-container"
     );
-
-    console.log(window.innerHeight * focusedQuestionIndex);
     questionnaireQuestionsContainer.style = `transform: translateY(-${100 *
       focusedQuestionIndex}%)`;
   }, [focusedQuestionIndex]);
+
   return (
     <div className="questionnaire">
       <div className="questionnaire__questions-container">
         {questionnaireCards.map((card, index) => (
-          <Question key={index} cardInfo={card} />
+          <Question
+            key={index}
+            cardInfo={card}
+            // setFocusedQuestionIndex={setFocusedQuestionIndex}
+            // focusedQuestionIndex={focusedQuestionIndex}
+            updateFocusedQuestion={updateFocusedQuestion}
+          />
         ))}
       </div>
       <CardNavigation />
@@ -50,8 +55,7 @@ function Questionnaire() {
   }
   function updateFocusedQuestion({ currentTarget }) {
     // Clicked button identifier
-    const isNextBtnClicked =
-      currentTarget.id === "questionanaire__nav-btn--next";
+    const isNextBtnClicked = currentTarget.id.includes("next");
 
     // Conditional variables
     const isBeforeEnd = focusedQuestionIndex + 1 < questionnaireCards.length;
