@@ -6,7 +6,9 @@ import questionnaireCards from "../../data/questionnaireData";
 import "./Questionnaire.css";
 
 function Questionnaire() {
-  const [focusedQuestionIndex, setFocusedQuestionIndex] = useState(0);
+  const [focusedQuestionIndex, setFocusedQuestionIndex] = useState(
+    JSON.parse(localStorage.lastAnswered || 0)
+  );
 
   useEffect(() => {
     const questionnaireQuestionsContainer = document.querySelector(

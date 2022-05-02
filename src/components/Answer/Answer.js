@@ -5,7 +5,6 @@ import "./Answer.css";
 
 function Answer({ options, optionState }) {
   const { selectedOption, setSelectedOption } = optionState;
-  const [activeAnswerIndex, setActiveAnswerIndex] = useState();
 
   const optionPrefixMap = {
     0: "A",
