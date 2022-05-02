@@ -757,6 +757,30 @@ const questionnaireCards = [
       },
     ],
   },
+  {
+    order: 32,
+    sectionOrder: 19,
+    section: "sensitiveOrResistant",
+    buttonText: "Mostrar Resultados",
+    end: true,
+    question:
+      "O seu dermatologista já deu o diagnóstico de acne, rosácea, dermatite de contato ou eczema?",
+    options: [
+      {
+        value: 5,
+        text: "Sim",
+      },
+      {
+        value: 2,
+        text:
+          "Um médico de outra especialidade deu algum desses mesmos diagnósticos",
+      },
+      {
+        value: 0,
+        text: "Não",
+      },
+    ],
+  },
 ];
 
 export default questionnaireCards;
