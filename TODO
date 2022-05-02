@@ -1,10 +1,9 @@
 
 Survey: 
-Priority
-  ☐ Install Dependencies
-  ☐ Implement react-survey
-  ☐ Add questions
-  ☐ Calculate results
+  ☐ Add functionality to navigation
+  ☐ Create skeleton
+  ☐ Style skeleton
+  ☐ Input Data
 
 
 Carousel:

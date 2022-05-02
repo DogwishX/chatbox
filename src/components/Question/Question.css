@@ -1,0 +1,50 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 clamp(2rem, 10vw, 10rem);
+  min-height: 100vh;
+}
+
+.question__content {
+  transform: translateY(-50%);
+}
+
+.question__title {
+  letter-spacing: 0.1rem;
+  line-height: 2.2rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-family: "geograph-light";
+  font-weight: 900;
+}
+
+.answer__item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-family: "geograph-light";
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.answer__item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.answer__prefix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: "geograph-regular";
+  background-color: white;
+}

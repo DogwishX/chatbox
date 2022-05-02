@@ -1,0 +1,31 @@
+.questionnaire {
+  position: relative;
+  overflow: hidden;
+}
+
+.questionnaire__questions-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  max-height: 100vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.questionnaire__navigation {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.questionanaire__nav-btn {
+  border: none;
+  background-color: rgba(10, 10, 10, 0.9);
+  padding: 0.5rem 1rem;
+}
+
+.questionanaire__nav-btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}

@@ -4,26 +4,18 @@ import ProductSection from "../ProductSection/ProductSection";
 import "./Categories.css";
 
 function Categories({ selectedPage }) {
-  console.log(selectedPage);
-  const selectedPageCategories = pages.find(
-    ({ id }) => id === selectedPage
-  ).categories;
+  const selectedPageCategories = pages.find(({ id }) => id === selectedPage)
+    .categories;
 
   return (
     <div className="categories">
       {selectedPageCategories.map(
-        ({
-          categoryName,
-          categoryId,
-          categoryProducts,
-        }) => (
+        ({ categoryName, categoryId, categoryProducts }) => (
           <ProductSection
             key={categoryId}
             title={categoryName}
             productQty={categoryProducts.length}
-            images={categoryProducts.map((item) =>
-              returnProductImage(item)
-            )}
+            images={categoryProducts.map((item) => returnProductImage(item))}
           />
         )
       )}
@@ -32,11 +24,8 @@ function Categories({ selectedPage }) {
 }
 
 function returnProductImage(item) {
-  const currentProductObj = products.find(
-    (product) => product.name === item
-  );
-  const currentProductImg =
-    currentProductObj.image;
+  const currentProductObj = products.find((product) => product.name === item);
+  const currentProductImg = currentProductObj.image;
   return currentProductImg;
 }
 
