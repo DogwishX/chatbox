@@ -23,8 +23,6 @@ function Questionnaire() {
           <Question
             key={index}
             cardInfo={card}
-            // setFocusedQuestionIndex={setFocusedQuestionIndex}
-            // focusedQuestionIndex={focusedQuestionIndex}
             updateFocusedQuestion={updateFocusedQuestion}
           />
         ))}

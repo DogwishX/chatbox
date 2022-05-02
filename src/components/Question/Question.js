@@ -1,16 +1,30 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import Answer from "../Answer/Answer";
 import "./Question.css";
 
 function Question({ cardInfo, updateFocusedQuestion }) {
+  const {
+    buttonText,
+    question,
+    options,
+    numbered = true,
+    sectionOrder,
+    section,
+  } = cardInfo;
+
   const [selectedOption, setSelectedOption] = useState();
-  const { buttonText, question, options, numbered } = cardInfo;
+  const optionState = { selectedOption, setSelectedOption };
 
   return (
     <div className="question">
-      <h2 className="question__title">{question}</h2>
-      {options && <Answer options={options} />}
-      <SubmitButton text={buttonText} />
+      <div className="question__content">
+        {numbered && <h2 className="question__number">{sectionOrder}.</h2>}
+        <h2 className="question__title">{question}</h2>
+        {options && <Answer options={options} optionState={optionState} />}
+        <SubmitButton text={buttonText} />
+      </div>
     </div>
   );
 
@@ -25,7 +39,7 @@ function Question({ cardInfo, updateFocusedQuestion }) {
           <p className="question__submit--default">
             OK
             <span className="question__check-mark">
-              <CheckmarkSvg />
+              <FontAwesomeIcon icon={faCheck} color="white" />
             </span>
           </p>
         )}
@@ -35,14 +49,14 @@ function Question({ cardInfo, updateFocusedQuestion }) {
 
   function handleSubmit(event) {
     updateFocusedQuestion(event);
+    options && storeAnswer();
   }
 
-  function CheckmarkSvg() {
-    return (
-      <svg height="13" width="16" fill="white">
-        <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
-      </svg>
-    );
+  function storeAnswer() {
+    const sectionObj = JSON.parse(localStorage[section]);
+    sectionObj[sectionOrder] = options[selectedOption].value;
+    localStorage.setItem(section, JSON.stringify(sectionObj));
+    console.log(localStorage);
   }
 }
 

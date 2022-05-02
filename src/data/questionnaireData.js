@@ -17,7 +17,9 @@ const questionnaireCards = [
   },
   {
     order: 2,
+    sectionOrder: 1,
     id: "question1",
+    section: "oleosa",
     question:
       "Após lavar o rosto, não aplique hidratante, protetor solar, tônico, pó ou qualquer outro produto. Depois de duas ou três horas, olhe o rosto no espelho sob boa iluminação. Como é a aparência geral da fronte (testa) e das bochechas? ",
     options: [
