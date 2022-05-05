@@ -6,7 +6,7 @@
 .answer__item {
   display: flex;
   align-items: center;
-  width: clamp(25rem, 85%, 90rem);
+  max-width: 90rem;
   padding: 1rem;
   margin: 1rem 0;
   border: 1px solid rgba(0, 0, 0, 0.3);

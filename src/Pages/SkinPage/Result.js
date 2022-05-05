@@ -2,19 +2,28 @@ import Nav from "../../components/Nav/Nav";
 import resultImg from "../../assets/result.jpg";
 import ProductSection from "../../components/ProductSection/ProductSection";
 import "./Result.css";
-// const skinTypes = {}
 
 function Result({ selectedSkinType }) {
   return (
     <>
       <Nav />
       <div className="result">
-        <img className="result__image" src={resultImg} />
-        <h1 className="result__title">Nossas recomendacoes</h1>
+        <img
+          className="result__image"
+          src={resultImg}
+          alt="Random products being displayed"
+        />
+        <h1 className="result__title">
+          Nossas recomendacoes
+        </h1>
         <p className="result__text">
-          Estes produtos foram recomendados por nossos especialistas para o seu
-          tipo de pele:
-          <em>"Oleosa, Sensivel, Pigmentada e Enrugada"</em>
+          Estes produtos foram recomendados por
+          nossos especialistas para o seu tipo de
+          pele:
+          <em>
+            "Oleosa, Sensivel, Pigmentada e
+            Enrugada"
+          </em>
         </p>
         <ProductSection
           title="Sabonetes"

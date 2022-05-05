@@ -1,0 +1,18 @@
+.result {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  animation: show-result 1s forwards;
+}
+
+@keyframes show-result {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

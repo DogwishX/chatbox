@@ -761,8 +761,6 @@ const questionnaireCards = [
     order: 32,
     sectionOrder: 19,
     section: "sensitiveOrResistant",
-    buttonText: "Mostrar Resultados",
-    end: true,
     question:
       "O seu dermatologista já deu o diagnóstico de acne, rosácea, dermatite de contato ou eczema?",
     options: [
@@ -779,6 +777,350 @@ const questionnaireCards = [
         value: 0,
         text: "Não",
       },
+    ],
+  },
+  {
+    order: 33,
+    question:
+      "Esta seção avaliará a tendência de  pele para formar melanina, um pigmento que produz tons escuros na pele, assim como todas as manchas castanhas, sardas e as áreas escuras pós-trauma.",
+    buttonText: "Entendi",
+    numbered: false,
+  },
+  {
+    order: 34,
+    sectionOrder: 1,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Se  tiver uma pápula (“bolinha vermelha”), uma “espinha” ou um pêlo encravado, no local fica uma mancha castanha ou um ponto preto:",
+    options: [
+      { value: 1, text: "Nunca." },
+      {
+        value: 2,
+        text: "Às vezes.",
+      },
+      {
+        value: 3,
+        text: "Freqüentemente.",
+      },
+      {
+        value: 4,
+        text: "Sempre.",
+      },
+      {
+        value: 2.5,
+        text: "Nunca tive pápulas, “espinhas”, nem pêlo encravado.Sempre.",
+      },
+    ],
+  },
+  {
+    order: 35,
+    sectionOrder: 2,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Quando sofre um corte ou ferimento, quanto tempo o local fica com uma marca castanha (não vermelha)?",
+    options: [
+      { value: 1, text: "Nunca fico com marcas castanhas." },
+      {
+        value: 2,
+        text: "Uma semana.",
+      },
+      {
+        value: 3,
+        text: "Algumas semanas.",
+      },
+      {
+        value: 4,
+        text: "Meses.",
+      },
+    ],
+  },
+  {
+    order: 36,
+    sectionOrder: 3,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Quantas manchas escuras  teve no rosto quando engravidou, ou tomou pílulas anticoncepcionais, ou fez terapia de reposição hormonal?",
+    options: [
+      { value: 1, text: "Nenhuma." },
+      {
+        value: 2,
+        text: "Uma",
+      },
+      {
+        value: 3,
+        text: "Poucas.",
+      },
+      {
+        value: 4,
+        text: "Muitas.",
+      },
+      {
+        value: 2.5,
+        text:
+          "Esta questão não se aplica no meu caso (porque sou homem, ou porque nunca engravidei, nem usei pílulas anticoncepcionais, nem fiz reposição hormonal, ou porque não sei quando apareceram as manchas escuras).",
+      },
+    ],
+  },
+  {
+    order: 36,
+    sectionOrder: 4,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Tem algum tipo de mancha escura no buço (pele sobre o lábio superior) ou bochechas? Ou já teve alguma que foi tratada?",
+    options: [
+      { value: 1, text: "Não." },
+      {
+        value: 2,
+        text: "Não tenho certeza",
+      },
+      {
+        value: 3,
+        text: "Sim, elas são (ou eram) levemente perceptíveis.",
+      },
+      {
+        value: 4,
+        text: "Sim, elas são (ou eram) muito perceptíveis.",
+      },
+    ],
+  },
+  {
+    order: 37,
+    sectionOrder: 5,
+    section: "pigmentedOrNonPigmented",
+    question:
+      " As suas manchas escuras no rosto ficam piores quando você apanha sol?",
+    options: [
+      { value: 1, text: "Não tenho manchas escuras." },
+      {
+        value: 2,
+        text: "Não tenho certeza.",
+      },
+      {
+        value: 3,
+        text: "Pioram um pouco.",
+      },
+      {
+        value: 4,
+        text: "Pioram muito.",
+      },
+      {
+        value: 2.5,
+        text:
+          "Uso protetor solar todos os dias e nunca pego sol. (Nota: Se você usa proteção solar constante porque tem medo de ficar com a pele manchada ou com sardas, marcar “d”).",
+      },
+    ],
+  },
+  {
+    order: 38,
+    sectionOrder: 6,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Já teve diagnóstico de melasma (manchas castanhas no rosto), sardas brancas ou sardas castanhas, ou melanoses solares (manchas de sol castanhas) no rosto?",
+    options: [
+      { value: 1, text: "Não" },
+      {
+        value: 2,
+        text: "Uma vez, mas saíram.",
+      },
+      {
+        value: 3,
+        text: "Sim.",
+      },
+      {
+        value: 4,
+        text: "Sim, um caso grave.",
+      },
+      {
+        value: 2.5,
+        text: "Não tenho certeza.",
+      },
+    ],
+  },
+  {
+    order: 39,
+    sectionOrder: 7,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Tem, ou já teve, manchas castanhas (sardas ou manchas de sol) no rosto, colo, costas ou braços?",
+    options: [
+      { value: 1, text: "Não" },
+      {
+        value: 2,
+        text: "Sim, poucas (1-5).",
+      },
+      {
+        value: 3,
+        text: "Sim, muitas (6-15).",
+      },
+      {
+        value: 4,
+        text: "Sim, inúmeras (16 ou mais).",
+      },
+    ],
+  },
+  {
+    order: 40,
+    sectionOrder: 8,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Quando a sua pele é exposta ao sol pela primeira vez após muitos meses:",
+    options: [
+      { value: 1, text: "Ela só queima." },
+      {
+        value: 2,
+        text: "Queima e depois fica levemente bronzeada.",
+      },
+      {
+        value: 3,
+        text: "Fica bronzeada.",
+      },
+      {
+        value: 4,
+        text:
+          'A minha pele já é escura, por isso é difícil avaliar se ela fica escura. (Atenção: Não teremos a alternativa "eu nunca tive exposição solar", se  estiver há muitos anos sem tomar sol; tente lembrar como reagia sua pele na infância).',
+      },
+    ],
+  },
+  {
+    order: 41,
+    sectionOrder: 9,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "O que acontece quando se expõe o sol por vários dias consecutivos?",
+    options: [
+      { value: 1, text: "Somente fico vermelha." },
+      {
+        value: 2,
+        text: "A minha pele fica discretamente morena.",
+      },
+      {
+        value: 3,
+        text: "A minha pele fica muito morena.",
+      },
+      {
+        value: 4,
+        text:
+          "A minha pele já é morena, por isso é difícil avaliar se fica mais morena.",
+      },
+      {
+        value: 2.5,
+        text:
+          "Não tenho certeza. (Tente  lembrar-se de sua infância! Só responda “e” se não for possível outra resposta).",
+      },
+    ],
+  },
+  {
+    order: 42,
+    sectionOrder: 10,
+    section: "pigmentedOrNonPigmented",
+    question: "Quando se expõe ao sol aparecem sardas (pequenas 1-2 mm)?",
+    options: [
+      { value: 1, text: "Não, nunca tenho sardas." },
+      {
+        value: 2,
+        text: "Aparecem poucas sardas por ano.",
+      },
+      {
+        value: 3,
+        text: "Aparecem sardas freqüentemente.",
+      },
+      {
+        value: 4,
+        text:
+          "Minha pele é morena escura, por isso é difícil avaliar se aparecem sardas.",
+      },
+      {
+        value: 2.5,
+        text: "Nunca me exponho ao sol (Bom pra você!)",
+      },
+    ],
+  },
+  {
+    order: 43,
+    sectionOrder: 11,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Algum de seus pais tem sardas? Por favor, assinalar quantas. Se nenhum ou apenas um apresentar, responda às questões. Se os dois apresentarem, considere o que apresenta mais sardas para responder.",
+    options: [
+      { value: 1, text: "Não" },
+      {
+        value: 2,
+        text: "Um pouco no rosto.",
+      },
+      {
+        value: 3,
+        text: "Muitas no rosto.",
+      },
+      {
+        value: 4,
+        text: "Muitas no rosto, colo, pescoço e braços.",
+      },
+      {
+        value: 2.5,
+        text: "Não tenho certeza.",
+      },
+    ],
+  },
+  {
+    order: 44,
+    sectionOrder: 12,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Qual a cor natural de seu cabelo? (Atenção: se já estiver “branco”, considerar a cor anterior).",
+    options: [
+      { value: 1, text: "Loiro." },
+      {
+        value: 2,
+        text: "Castanho",
+      },
+      {
+        value: 3,
+        text: "Preto.",
+      },
+      {
+        value: 4,
+        text: "Ruivo.",
+      },
+    ],
+  },
+  {
+    order: 45,
+    sectionOrder: 13,
+    section: "pigmentedOrNonPigmented",
+    question:
+      "Já teve melanoma (tipo de câncer de pele maligno) ou alguém em sua família já teve (parente “de sangue”)?",
+    options: [
+      { value: 1, text: "Não." },
+      {
+        value: 2,
+        text: "Uma pessoa na minha família.",
+      },
+      {
+        value: 3,
+        text: "Mais de uma pessoa na minha família.",
+      },
+      {
+        value: 4,
+        text: "Sim.",
+      },
+      {
+        value: 2.5,
+        text: "Não tenho certeza.",
+      },
+    ],
+  },
+  {
+    order: 46,
+    sectionOrder: 14,
+    section: "pigmentedOrNonPigmented",
+    question: "Você tem manchas escuras na pele, em áreas de exposição ao sol?",
+    end: true,
+    options: [
+      {
+        value: 5,
+        text: "Sim.",
+      },
+      { value: 0, text: "Não." },
     ],
   },
 ];

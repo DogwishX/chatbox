@@ -4,8 +4,10 @@ import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Question from "../../components/Question/Question";
 import questionnaireCards from "../../data/questionnaireData";
 import "./Questionnaire.css";
+import Result from "../../components/Result/Result";
 
 function Questionnaire() {
+  const [displayResult, setDisplayResult] = useState(false);
   const [focusedQuestionIndex, setFocusedQuestionIndex] = useState(
     JSON.parse(localStorage.lastAnswered || 0)
   );
@@ -26,10 +28,12 @@ function Questionnaire() {
             key={index}
             cardInfo={card}
             updateFocusedQuestion={updateFocusedQuestion}
+            setDisplayResult={setDisplayResult}
           />
         ))}
       </div>
       <CardNavigation />
+      {displayResult && <Result />}
     </div>
   );
 
