@@ -1114,7 +1114,6 @@ const questionnaireCards = [
     sectionOrder: 14,
     section: "pigmentedOrNonPigmented",
     question: "Você tem manchas escuras na pele, em áreas de exposição ao sol?",
-    end: true,
     options: [
       {
         value: 5,
@@ -1122,6 +1121,556 @@ const questionnaireCards = [
       },
       { value: 0, text: "Não." },
     ],
+  },
+  {
+    order: 47,
+    question:
+      "Esta seção avaliará a sua tendência a enrugar e quão enrugada você está no momento. Algumas das minhas pacientes confessaram ter feito batota nesta seção para cair no tipo 'firme' Não faça isso! ",
+    buttonText: "Entendi",
+    numbered: false,
+  },
+  {
+    order: 48,
+    sectionOrder: 1,
+    section: "wrinkledOrTight",
+    question: " Tem rugas no rosto?",
+    options: [
+      {
+        value: 1,
+        text:
+          "Não, mesmo quando faço expressões faciais (como sorrir ou franzir a testa).",
+      },
+      {
+        value: 2,
+        text:
+          "Somente ao sorrir, franzir a testa ou outras expressões faciais.",
+      },
+      {
+        value: 3,
+        text: "Sim, ao fazer expressões faciais e algumas mesmo sem movimento.",
+      },
+      {
+        value: 4,
+        text:
+          "As rugas estão presentes mesmo quando não estou sorrindo, franzindo a testa ou fazendo outras expressões faciais.",
+      },
+    ],
+  },
+  {
+    order: 49,
+    sectionOrder: 2,
+    section: "wrinkledOrTight",
+    question: "Quantos anos sua mãe aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velha que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 50,
+    sectionOrder: 3,
+    section: "wrinkledOrTight",
+    question: "Quantos anos seu pai aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velho que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 51,
+    sectionOrder: 4,
+    section: "wrinkledOrTight",
+    question: "Quantos anos sua avó materna aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velha que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 52,
+    sectionOrder: 5,
+    section: "wrinkledOrTight",
+    question: "Quantos anos seu avô materno aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velho que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 53,
+    sectionOrder: 6,
+    section: "wrinkledOrTight",
+    question: "Quantos anos sua avó paterna aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velha que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 54,
+    sectionOrder: 7,
+    section: "wrinkledOrTight",
+    question: "Quantos anos seu avô paterno aparenta (rosto)?",
+    options: [
+      {
+        value: 1,
+        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "5 anos mais velho que sua verdadeira idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos que sua verdadeira idade.",
+      },
+      {
+        value: 2.5,
+        text: "Não-aplicável; sou adotado ou não me lembro.",
+      },
+    ],
+  },
+  {
+    order: 55,
+    sectionOrder: 8,
+    section: "wrinkledOrTight",
+    question:
+      "Alguma vez já bronzeou sua pele rotineiramente cerca de duas semanas ininterruptas ou mais por ano?Em  caso afirmativo, por quantos anos no total você fez ou faz isso? Por favor, considerar bronzeamento como todas as atividades que são realizadas em local ensolarado, como jogar tênis, pescar, jogar golfe, vôlei, ou qualquer outra atividade com exposição solar, a praia não é o único local onde se “apanha sol”!",
+    options: [
+      {
+        value: 1,
+        text: "Nunca.",
+      },
+      {
+        value: 2,
+        text: "De 1 a 5 anos.",
+      },
+      {
+        value: 3,
+        text: "De 5 a 10 anos.",
+      },
+      {
+        value: 4,
+        text: "Mais de 10 anos.",
+      },
+    ],
+  },
+  {
+    order: 56,
+    sectionOrder: 9,
+    section: "wrinkledOrTight",
+    question:
+      "Alguma vez na sua vida você já se bronzeou em ocasiões esporádicas duas semanas por ano ou mais? (Sim, as férias durante o verão também contam). Em caso afirmativo, qual a freqüência:",
+    options: [
+      {
+        value: 1,
+        text: "Nunca.",
+      },
+      {
+        value: 2,
+        text: "De 1 a 5 anos.",
+      },
+      {
+        value: 3,
+        text: "De 5 a 10 anos.",
+      },
+      {
+        value: 4,
+        text: "Mais de 10 anos.",
+      },
+    ],
+  },
+  {
+    order: 57,
+    sectionOrder: 10,
+    section: "wrinkledOrTight",
+    question:
+      "Baseando-se nos locais em que já viveu (morou), quanta exposição solar  teve em sua vida?",
+    options: [
+      {
+        value: 1,
+        text:
+          "Pouca, sempre morei em lugares com clima nublado e com pouca luz do sol.",
+      },
+      {
+        value: 2,
+        text:
+          "Alguma, já morei tanto em lugares nublados e com pouca luz como em lugares mais ensolarados.",
+      },
+      {
+        value: 3,
+        text: "Moderada; morei em lugares razoavelmente ensolarados.",
+      },
+      {
+        value: 4,
+        text:
+          "Muita; morei em lugares com clima tropical ou muito ensolarados.",
+      },
+    ],
+  },
+  {
+    order: 58,
+    sectionOrder: 11,
+    section: "wrinkledOrTight",
+    question: "Que idade  aparenta?",
+    options: [
+      {
+        value: 1,
+        text: "De 1 a 5 anos mais nova que sua idade.",
+      },
+      {
+        value: 2,
+        text: "Exatamente sua idade.",
+      },
+      {
+        value: 3,
+        text: "De 1 a 5 anos a mais que sua idade.",
+      },
+      {
+        value: 4,
+        text: "Mais de 5 anos a mais que sua idade.",
+      },
+    ],
+  },
+  {
+    order: 59,
+    sectionOrder: 12,
+    section: "wrinkledOrTight",
+    question:
+      "Durante os últimos cinco anos,  bronzeou-se  em atividades ao ar livre (intencionalmente ou não)?",
+    options: [
+      {
+        value: 1,
+        text: "Nunca.",
+      },
+      {
+        value: 2,
+        text: "Uma vez por mês.",
+      },
+      {
+        value: 3,
+        text: "Uma vez por semana.",
+      },
+      {
+        value: 4,
+        text: "Diariamente.",
+      },
+    ],
+  },
+  {
+    order: 60,
+    sectionOrder: 13,
+    section: "wrinkledOrTight",
+    question: "Com que freqüência  faz bronzeamento artificial?",
+    options: [
+      {
+        value: 1,
+        text: "Nunca.",
+      },
+      {
+        value: 2,
+        text: "De 1 a 5 vezes.",
+      },
+      {
+        value: 3,
+        text: "De 5 a 10 vezes.",
+      },
+      {
+        value: 4,
+        text: "Muitas vezes.",
+      },
+    ],
+  },
+  {
+    order: 61,
+    sectionOrder: 14,
+    section: "wrinkledOrTight",
+    question:
+      "Durante a sua vida, quantos cigarros você já fumou (considerar também exposição passiva):",
+    options: [
+      {
+        value: 1,
+        text: "Nenhum.",
+      },
+      {
+        value: 2,
+        text: "Poucos maços.",
+      },
+      {
+        value: 3,
+        text: "Muitos ou vários maços.",
+      },
+      {
+        value: 4,
+        text: "Fumo todos os dias.",
+      },
+      {
+        value: 2.5,
+        text:
+          "Nunca fumei, mas sempre estive exposto passivamente ao cigarro (“fumante passivo”).",
+      },
+    ],
+  },
+  {
+    order: 62,
+    sectionOrder: 15,
+    section: "wrinkledOrTight",
+    question: "Por favor, descreva a poluição do ar no local onde você vive.",
+    options: [
+      {
+        value: 1,
+        text: "O ar é limpo e fresco.",
+      },
+      {
+        value: 2,
+        text:
+          "Na maior parte do ano, mas não durante o ano todo, moro num local com ar limpo e fresco.",
+      },
+      {
+        value: 3,
+        text: "O ar é um pouco poluído.",
+      },
+      {
+        value: 4,
+        text: "O ar é muito poluído.",
+      },
+    ],
+  },
+  {
+    order: 63,
+    sectionOrder: 16,
+    section: "wrinkledOrTight",
+    question:
+      "Considere quanto você já utilizou de produtos para cuidado com a pele contendo vitamina A, ácido retinóico ou derivados (como: retinol, retinova, retin-A, tazaroteno, adapaleno, differin, dalap ou produtos manipulados com ácido retinóico):",
+    options: [
+      {
+        value: 1,
+        text: "Muitos anos.",
+      },
+      {
+        value: 2,
+        text: "Ocasionalmente.",
+      },
+      {
+        value: 3,
+        text:
+          "Uma vez (por exemplo: tratamento de acne na adolescência ou adulto jovem).",
+      },
+      {
+        value: 4,
+        text: "Nunca.",
+      },
+    ],
+  },
+  {
+    order: 64,
+    sectionOrder: 17,
+    section: "wrinkledOrTight",
+    question: "Com que freqüência você come frutas, legumes e verduras:",
+    options: [
+      {
+        value: 1,
+        text: "Em todas as refeições.",
+      },
+      {
+        value: 2,
+        text: "Uma vez por dia.",
+      },
+      {
+        value: 3,
+        text: "Ocasionalmente.",
+      },
+      {
+        value: 4,
+        text: "Nunca.",
+      },
+    ],
+  },
+  {
+    order: 65,
+    sectionOrder: 18,
+    section: "wrinkledOrTight",
+    question:
+      "Durante a sua vida, que percentagem da sua dieta consistiu em frutas, legumes e verduras? (Nota: Não considerar suco de fruta industrializado, só vale se for fresco).",
+    options: [
+      {
+        value: 1,
+        text: "75 – 100 %.",
+      },
+      {
+        value: 2,
+        text: "25 – 75 %.",
+      },
+      {
+        value: 3,
+        text: "10 – 25 %.",
+      },
+      {
+        value: 4,
+        text: "0 – 10 %.",
+      },
+    ],
+  },
+  {
+    order: 66,
+    sectionOrder: 19,
+    section: "wrinkledOrTight",
+    question:
+      "Qual a cor natural de sua pele? (Considere pele as áreas cobertas e sem bronzeado, nem autobronzeamento).",
+    options: [
+      {
+        value: 1,
+        text: "Negra.",
+      },
+      {
+        value: 2,
+        text: "Média.",
+      },
+      {
+        value: 3,
+        text: "Clara.",
+      },
+      {
+        value: 4,
+        text: "Muito clara.",
+      },
+    ],
+  },
+  {
+    order: 67,
+    sectionOrder: 20,
+    section: "wrinkledOrTight",
+    question: "Qual sua etnia?",
+    options: [
+      {
+        value: 1,
+        text: "Africano ou descendente de africanos, caribenho, negro.",
+      },
+      {
+        value: 2,
+        text: "Asiático, índio, mediterrâneo, árabe, indiano.",
+      },
+      {
+        value: 3,
+        text: "Latino-americano, hispânico.",
+      },
+      {
+        value: 4,
+        text: "Caucasiano, branco.",
+      },
+    ],
+  },
+  {
+    order: 68,
+    sectionOrder: 21,
+    section: "wrinkledOrTight",
+    question: "Você tem mais de 65 anos?",
+    options: [
+      {
+        value: 5,
+        text: "Sim",
+      },
+      {
+        value: 0,
+        text: "Não",
+      },
+    ],
+    buttonText: "Mostrar resultados",
+    end: true,
   },
 ];
 

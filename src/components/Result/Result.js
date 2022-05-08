@@ -4,8 +4,9 @@ function Result() {
   return (
     <div className="result">
       <p className="result__text">
-        Parabens por ter completado o questionario! Nos conseguimos identificar
-        seu tipo de pele como: "<em>{calculateResults()}</em>"
+        Parabens por ter completado o questionario! <br />
+        Nos conseguimos identificar seu tipo de pele como:
+        <em>"{calculateResults()}"</em>
       </p>
     </div>
   );
