@@ -3,11 +3,20 @@ import "./Result.css";
 function Result() {
   return (
     <div className="result">
-      <p className="result__text">
-        Parabens por ter completado o questionario! <br />
-        Nos conseguimos identificar seu tipo de pele como:
-        <em>"{calculateResults()}"</em>
-      </p>
+      <div className="result__content">
+        <h2 className="result__title">Parabéns!</h2>
+        <p className="result__text">
+          Nós conseguimos identificar seu tipo de pele como:
+          <em className="result__skin-type">"{calculateResults()}"</em>
+          Criamos uma pagina especialmente para você!
+        </p>
+        <p className="result__call-to-action">
+          <a className="result__link" href="#">
+            Clique aqui
+          </a>{" "}
+          para acessar a página de produtos para o seu tipo de pele.
+        </p>
+      </div>
     </div>
   );
 
@@ -26,7 +35,7 @@ function Result() {
     calculateSkinSectionScore(skinType, {
       section: "sensitiveOrResistant",
       thresholdValue: 29,
-      option1: "sensivel",
+      option1: "sensível",
       option2: "resistente",
     });
 
@@ -36,6 +45,14 @@ function Result() {
       thresholdValue: 29,
       option1: "pigmentada",
       option2: "não-pigmentada",
+    });
+
+    // WrinkledOrTight results
+    calculateSkinSectionScore(skinType, {
+      section: "wrinkledOrTight",
+      thresholdValue: 40,
+      option1: "com tendencia a rugas",
+      option2: "firme",
     });
 
     return skinType.join(", ");

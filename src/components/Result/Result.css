@@ -3,32 +3,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: clamp(10rem, 60%, 50rem);
+  padding: 5rem;
+  border-radius: 2rem;
   box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
   animation: show-result 1s forwards;
+  background-color: white;
 }
 
-.result__text {
+.result__content {
   text-align: center;
-  width: 80%;
+  letter-spacing: 0.08rem;
+  font-size: 1.5rem;
 }
 
-.result__text em {
+.result__title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.result__skin-type {
   display: block;
+  margin: 0.8rem 0 2rem;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-@media only screen and (min-width: 768px) {
-  .result {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: clamp(15rem, 100%, 70vh);
-    width: clamp(15rem, 100%, 70vw);
-  }
+.result__call-to-action {
+  margin-top: 2rem;
 }
+
+.result__link {
+  color: rgb(194, 99, 122);
+  font-weight: 900;
+}
+
 @keyframes show-result {
   from {
     opacity: 0;
