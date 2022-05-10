@@ -96,7 +96,7 @@ const pages = [
     ],
   },
   {
-    id: "osnf", //oleosa, sensivel, nao pigmentada, com tendencia a rugas
+    id: "osnc", //oleosa, sensivel, nao pigmentada, com tendencia a rugas
     name: "Oleosa, sensível, não pigmentada e com tendência a rugas",
     categories: [
       {
@@ -117,7 +117,6 @@ const pages = [
           "Effaclar anti-age sérum",
           "Sérum oil- Free Blemish + age defense skinceuticals",
           "Normaderm Skin Balance Vichy",
-          "Hidradeep loção hidratante oil control",
         ],
       },
       {
@@ -127,7 +126,7 @@ const pages = [
           "C E ferulic skinceuticals",
           "Salicily C 10",
           "Ivy C aox",
-          "Vichy Lift active AXO",
+          "Vichy Lift active AOX",
         ],
       },
 
@@ -157,8 +156,8 @@ const pages = [
     ],
   },
   {
-    id: "ssnc", // Seca, sensível, não-pigmentada e com tendência a rugas
-    name: "Pele Seca",
+    id: "osnf",
+    name: "Oleosa, sensível, não–pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -166,7 +165,7 @@ const pages = [
         categoryProducts: [
           "Effaclar alta tolerância",
           "Suavié sabonete liquido",
-          "Nutrel sabonete barra",
+          "Nutrel sabonete Barra",
         ],
       },
 
@@ -178,7 +177,6 @@ const pages = [
           "Effaclar anti-age sérum",
           "Sérum oil- Free Blemish + age defense skinceuticals",
           "Normaderm Skin Balance Vichy",
-          "Hidradeep loção hidratante oil control",
         ],
       },
       {
@@ -187,29 +185,17 @@ const pages = [
         categoryProducts: [
           "C E ferulic skinceuticals",
           "Salicily C 10",
-          "Ivy C ao",
-          "Vichy Lift active AXO",
-        ],
-      },
-
-      {
-        categoryId: "anti-aging",
-        categoryName: "Antiaging e Ruga",
-        categoryProducts: [
-          "Liftactiv supreme vichy",
-          "Peptide – AHA vichy",
-          "Neovadiol comple sustitut nuit",
-          "Reviline sérum rejuvenescedor",
-          "H. A intesifier skinceuticals",
+          "Ivy C aox",
+          "Vichy Lift active AOX",
         ],
       },
       {
         categoryId: "protetor-solar",
         categoryName: "Protetor Solar",
         categoryProducts: [
-          "Episol sec",
-          "Episol Color 70",
-          "Anthelios Airlicium",
+          "Episol sec 60 fps",
+          "Episol Color 70 Pele Extra clara",
+          "Anthelios Airlicium 70 fps",
           "Neutrogena Ultra sheer face FPS 55",
           "Isdin fusion water FPS 50",
           "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",

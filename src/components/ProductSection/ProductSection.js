@@ -1,5 +1,5 @@
-import "./ProductSection.css";
 import products from "../../data/products";
+import "./ProductSection.css";
 
 function ProductSection({ title, categoryProducts }) {
   return (
@@ -15,6 +15,7 @@ function ProductSection({ title, categoryProducts }) {
               key={index}
               className="product-section__image"
               src={currentProductImgSrc}
+              alt="product shelf"
             />
           );
         })}
@@ -22,7 +23,7 @@ function ProductSection({ title, categoryProducts }) {
       <div className="product-section__text-container">
         <h2 className="product-section__title">{title}</h2>
         <p className="product-selection__product-count">
-          {/* {categoryProducts.length} produtos */}
+          {categoryProducts.length} produtos
         </p>
       </div>
     </div>

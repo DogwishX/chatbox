@@ -19,7 +19,7 @@ function SkinPage({ selectedSkinType }) {
         <p className="skin-page__text">
           Estes produtos foram recomendados por nossos especialistas para o seu
           tipo de pele:
-          <em>"Oleosa, Sensivel, Pigmentada e Enrugada"</em>
+          <em>{currentPage.name}</em>
         </p>
         {currentPage.categories.map(
           ({ categoryName, categoryProducts }, index) => (

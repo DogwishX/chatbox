@@ -33,89 +33,92 @@ const products = [
   {
     name: "Vichy mineral 89",
     amazonLink: "https://amzn.to/3MKSBjI",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51HSOjcm+xS._AC_SY450_.jpg",
   },
   {
     name: "Effaclar anti-age sérum",
     amazonLink: "https://amzn.to/3KrWkBq",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/417S4zZIN-L._AC_SY355_.jpg",
   },
   {
     name: "Sérum oil- Free Blemish + age defense skinceuticals",
     amazonLink: "https://amzn.to/3F8qc4D",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51B7jtRysML._AC_SY355_.jpg",
   },
   {
     name: "Normaderm Skin Balance Vichy",
     amazonLink: "https://amzn.to/3OOCRhH",
-    image: "",
-  },
-  {
-    name: "Hidradeep loção hidratante oil control",
-    amazonLink: "RETIRAR",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/41WW2B3dn-L.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "C E ferulic skinceiticals",
     amazonLink: "https://amzn.to/3F2dzZ3",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51NIpG0t8qL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Salicily C 10",
     amazonLink: "https://amzn.to/3FjuMNP",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51f6IpPyXSL._AC_SY355_.jpg",
   },
-  { name: "Ivy C AOX", amazonLink: "https://amzn.to/38J2QXn", image: "" },
+  {
+    name: "Ivy C AOX",
+    amazonLink: "https://amzn.to/38J2QXn",
+    image: "https://m.media-amazon.com/images/I/51GUmmnSuHL._AC_SY355_.jpg",
+  },
   {
     name: "Vichy Lift active AOX",
     amazonLink: "https://amzn.to/39vyKa8",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
   },
   {
     name: "Episol sec 60 fps",
     amazonLink: "https://amzn.to/3OOx5g1",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/415+AArN3xL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Extra clara",
     amazonLink: "https://amzn.to/3Ly3FRh",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/411A2lo6mTL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Clara",
     amazonLink: "https://amzn.to/3736FpG",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/41A00phTT0L._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Morena",
     amazonLink: "https://amzn.to/3vZYWkV",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/511UCGkevVL._AC_SY741_.jpg",
   },
   {
     name: "Episol Color 70 Pele Morena-Escura",
     amazonLink: "https://amzn.to/3kzyKIc",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/41cVJqDZuXL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Negra",
     amazonLink: "https://amzn.to/3kvGJq0",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51BmoBsN0QL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
 
   {
     name: "Anthelios Airlicium 70 fps",
     amazonLink: "https://amzn.to/3s4LMSd",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/41KG1rsauDL._AC_SY355_.jpg",
   },
   {
     name: "Neutrogena Ultra sheer face FPS 55",
     amazonLink: "https://amzn.to/3y5vtZe",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/61005K7VJFL._AC_SY355_.jpg",
   },
   {
     name: "Isdin fusion water FPS 50",
     amazonLink: "https://amzn.to/37UsS9W",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51m0yOmNYqL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
@@ -125,112 +128,106 @@ const products = [
   {
     name: "Fisiogel Sabonete líquido",
     amazonLink: "https://amzn.to/3LxGPZW",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SY355_.jpg",
   },
   {
     name: "Cetaphil loção de limpeza facial",
     amazonLink: "https://amzn.to/3krGuvZ",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/61Vt7fnQL6L._AC_SY606_.jpg",
   },
   {
     name: "Dermotivin soft sabonete liquido",
     amazonLink: "https://amzn.to/3OOA6gj",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/410+zCIetHL._AC_SY355_.jpg",
   },
   {
     name: "Profuse Nutrel creme suavizante",
     amazonLink: "https://amzn.to/3F1EeFj",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/41CMM4kjSlL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name: "bepantol derma hidratante loção facial noturno",
+    name: "Bepantol derma hidratante loção facial noturno",
     amazonLink: "https://amzn.to/3ONpyxT",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/81RnjAQwLGL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Hidratante calmante Avene Tolerance Etreme",
     amazonLink: "https://amzn.to/3vtSfbE",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/61CFax4nLUL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Hidratante Nivea lata",
     amazonLink: "https://amzn.to/3vxA4BS",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51tT+dtZJuS._AC_SY355_.jpg",
   },
   {
     name: "Toleriane Hidratante facial",
     amazonLink: "https://amzn.to/3KC6rDE",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/41Nu0f07r4L.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Serum 10 skinceuticals",
     amazonLink: "https://amzn.to/3F1EPXz",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/519ErIGbv0L._AC_SY355_.jpg",
   },
   {
     name: "Improve c 20 dermage",
     amazonLink: "https://amzn.to/38CIv5R",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51tuk6pPVCL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Active C 10 creme",
     amazonLink: "https://amzn.to/3Fjxp29",
-    image: "",
-  },
-  {
-    name: "Protetor Solar",
-    amazonLink: "",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/41Xwu9QFHZL._AC_SY355_.jpg",
   },
   {
     name: "Filtrum Hidrat FPS 30",
     amazonLink: "https://amzn.to/3MCAL2q",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/515ZdZp4yVL.__AC_SY300_SX300_QL70_ML2_.jpg",
   },
   {
     name: "Isdin Ultra FPS 99",
     amazonLink: "https://amzn.to/3wfHnNV",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/61nQiyEIF8L.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name: "Anthelios xL FPS 60",
+    name: "Anthelios XL FPS 60",
     amazonLink: "https://amzn.to/3OLIwFc",
-    image: "",
-  },
-  {
-    name: "Skinblock extreme FPs 60",
-    amazonLink: "não tem",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51SDV2D4KAL._AC_SY355_.jpg",
   },
   {
     name: "Discoloration Defense skinceuticals",
     amazonLink: "https://amzn.to/3LBE6ij",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/517GFNcUzxL._AC_SY355_.jpg",
   },
   {
     name: "Blancy TX gel clareador",
     amazonLink: "https://amzn.to/3vV2hBI",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51h+--ckvxL._AC_SY355_.jpg",
   },
   {
-    name: "LumiXyl loção clareadora",
+    name: "Lumixyl loção clareadora",
     amazonLink: "https://amzn.to/3F2qM40",
-    image: "",
-  },
-  {
-    name: "Pigmentclar sérum clareador",
-    amazonLink: "não tem na amozon vou retirar da lista",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/41x+GdqTbiL._AC_SY355_.jpg",
   },
   {
     name: "Neostrata Gel clareador",
     amazonLink: "https://amzn.to/3KylNsM",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/61SxjrhYlBL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Clarité face Dermage",
     amazonLink: "https://amzn.to/3y7HFZK",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/41bsgYra8RL.__AC_SY300_SX300_QL70_ML2_.jpg",
   },
   {
     name: "Effaclar alta tolerância",
@@ -240,57 +237,57 @@ const products = [
   {
     name: "Suavié sabonete liquido",
     amazonLink: "https://amzn.to/3LAJZfC",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/612-Co7D3-L.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Nutrel sabonete Barra",
     amazonLink: "https://amzn.to/38IeZfa",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/51bK7g96cML._AC_SY355_.jpg",
   },
   {
     name: "C E ferulic skinceuticals",
     amazonLink: "https://amzn.to/3ksWtKb",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51xWPfXCyaL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name: "Vichy Lift active AXO",
+    name: "Vichy Lift active Aox",
     amazonLink: "https://amzn.to/3F35naK",
     image: "",
   },
   {
     name: "Liftactiv supreme vichy",
     amazonLink: "https://amzn.to/3OReX4W",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
   },
   {
     name: "Peptide – AHA vichy",
     amazonLink: "https://amzn.to/3LBiEK2",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/411qch8z8tS._AC_SY355_.jpg",
   },
   {
     name: "Neovadiol comple sustitut nuit",
     amazonLink: "https://amzn.to/3LtbR5f",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/71aY8aCLLKL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "Reviline sérum rejuvenescedor",
     amazonLink: "https://amzn.to/3LGDrfC",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51TSOrNrHiL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
     name: "H. A intensifier skinceuticals",
     amazonLink: "https://amzn.to/3vY1jog",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/71oxQ8Yo2iL._AC_SY355_.jpg",
   },
   {
     name: "Ivy C aox",
     amazonLink: "https://amzn.to/3KynhmQ",
-    image: "",
-  },
-  {
-    name: "Vichy Lift active AOx",
-    amazonLink: "https://amzn.to/37UvYe4",
-    image: "",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/51GUmmnSuHL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
 ];
 
