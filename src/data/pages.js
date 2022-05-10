@@ -1,109 +1,4 @@
 const pages = [
-  // {
-  //   id: "oleosa",
-  //   name: "Pele Oleosa",
-  //   categories: [
-  //     {
-  //       categoryId: "sabonetes",
-  //       categoryName: "Sabonetes",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "LHA Cleansing Gel Skinceuticals",
-  //         "Effaclar concentrado",
-  //         "Normaderm Phytosolution",
-  //         "Cleanance gel",
-  //         "Epidac OC líquido",
-  //         "Bioderma Sebium Gel Moussant",
-  //       ],
-  //     },
-  //     {
-  //       categoryId: "hidratantes",
-  //       categoryName: "Hidratantes",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "Vichy mineral 89",
-  //         "Effaclar anti-age sérum",
-  //         "Sérum oil- Free Blemish + age defense skinceuticals",
-  //         "Normaderm Total mat",
-  //         "Hidradeep loção hidratante oil control",
-  //       ],
-  //     },
-  //     {
-  //       categoryId: "vitamina-c",
-  //       categoryName: "Vitamina C",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "C E ferulic skinceiticals",
-  //         "Salicily C 10",
-  //         "Ivy C ao",
-  //         "Vichy Lift active AO",
-  //       ],
-  //     },
-  //     {
-  //       categoryId: "protetor-solar",
-  //       categoryName: "Protetor Solar",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       protetorSolar: [
-  //         "Episol sec",
-  //         "Episol Color 70",
-  //         "Anthelios Airlicium",
-  //         "Neutrogena Ultra sheer face FPS 55",
-  //         "Isdin fusion water FPS 50",
-  //         "Skinceuticals FPS 80 com ou sem cor",
-  //       ],
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "seca",
-  //   name: "Pele Seca",
-  //   categories: [
-  //     {
-  //       categoryId: "sabonetes",
-  //       categoryName: "Sabonetes",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "Fisiogel Cleanser",
-  //         "Cetaphil loção de limpeza facial",
-  //         "Dermotivin soft sabonete liquido",
-  //       ],
-  //     },
-
-  //     {
-  //       categoryId: "hidratantes",
-  //       categoryName: "Hidratantes",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "Profuse Nutrel creme suavizante",
-  //         "Ureadin creme hidratante facial com FPS 20",
-  //         "Hidratanet calmante Avene Tolerance Etreme",
-  //         "Hidratante Nivea lata",
-  //         "Toleriane Hidratante facial",
-  //       ],
-  //     },
-  //     {
-  //       categoryId: "vitamina-c",
-  //       categoryName: "Vitamina C",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "Serum 10  skinceuticals",
-  //         "Improve c 20 dermage",
-  //         "Active C 10 creme",
-  //       ],
-  //     },
-  //     {
-  //       categoryId: "protetor-solar",
-  //       categoryName: "Protetor Solar",
-  //       categoryImage: require("../assets/products/lcgs.jpg"),
-  //       categoryProducts: [
-  //         "Filtrum Hidrat FPS 30",
-  //         "Isdin Ultra FPS 90",
-  //         "Anthelios  xL FPS 60",
-  //         "Skinblock extreme FPs 60",
-  //       ],
-  //     },
-  //   ],
-  // },
   {
     id: "oleosa",
     name: "Pele Oleosa",
@@ -111,43 +6,45 @@ const pages = [
       {
         categoryId: "sabonetes",
         categoryName: "Sabonetes",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
           "LHA Cleansing Gel Skinceuticals",
           "Effaclar concentrado",
-          "Normaderm Phytosolution",
-          "Normaderm Phytosolution",
-          "Normaderm Phytosolution",
+          "Cleanance gel",
+          "Epidac OC Sabonete Barra",
+          "Bioderma Sebium Gel Moussant",
         ],
       },
       {
         categoryId: "hidratantes",
         categoryName: "Hidratantes",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Vichy mineral 89",
+          "Effaclar anti-age sérum",
+          "Sérum oil- Free Blemish + age defense skinceuticals",
+          "Normaderm Skin Balance Vichy",
+          "Hidradeep loção hidratante oil control",
         ],
       },
       {
         categoryId: "vitamina-c",
         categoryName: "Vitamina C",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "Effaclar concentrado",
-          "LHA Cleansing Gel Skinceuticals",
-          "Normaderm Phytosolution",
+          "C E ferulic  skinceuticals",
+          "Salicily C 10",
+          "Ivy C AOX",
+          "Vichy Lift active AOX",
         ],
       },
       {
         categoryId: "protetor-solar",
         categoryName: "Protetor Solar",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Episol sec 60 FPS",
+          "Episol Color 70 FPS ( pele extra clara, clara, morena, morena escura e negra)",
+          "Anthelios Airlicium 70 FPS",
+          "Neutrogena Ultra sheer face FPS 55",
+          "Isdin fusion water FPS 50",
+          "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
         ],
       },
     ],
@@ -159,42 +56,163 @@ const pages = [
       {
         categoryId: "sabonetes",
         categoryName: "Sabonetes",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Fisiogel sabonete liquido",
+          "Cetaphil loção de limpeza facial",
+          "Dermotivin soft sabonete liquido",
         ],
       },
 
       {
         categoryId: "hidratantes",
         categoryName: "Hidratantes",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Profuse Nutrel creme suavizante",
+          "Bepantol Derma Hidratante Restaurador Loção Facial Noturna 50ml, Bepantol",
+          "Hidratanet calmante Avene Tolerance Extreme",
+          "Hidratante Nivea lata",
+          "Toleriane  sensitive Hidratante facial",
         ],
       },
       {
         categoryId: "vitamina-c",
         categoryName: "Vitamina C",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Serum 10  skinceuticals",
+          "Improve c 20 dermage",
+          "Active C 10 creme",
         ],
       },
       {
         categoryId: "protetor-solar",
         categoryName: "Protetor Solar",
-        categoryImage: require("../assets/products/lcgs.jpg"),
         categoryProducts: [
-          "LHA Cleansing Gel Skinceuticals",
-          "Effaclar concentrado",
-          "Normaderm Phytosolution",
+          "Filtrum Hidrat FPS 30",
+          "Isdin Ultra FPS 99",
+          "Anthelios  xL FPS 60",
+          "Skinblock extreme FPS 60",
+        ],
+      },
+    ],
+  },
+  {
+    id: "osnf", //oleosa, sensivel, nao pigmentada, com tendencia a rugas
+    name: "Oleosa, sensível, não pigmentada e com tendência a rugas",
+    categories: [
+      {
+        categoryId: "sabonetes",
+        categoryName: "Sabonetes",
+        categoryProducts: [
+          "Effaclar alta tolerância",
+          "Suavié sabonete liquido",
+          "Nutrel sabonete Barra",
+        ],
+      },
+
+      {
+        categoryId: "hidratantes",
+        categoryName: "Hidratantes",
+        categoryProducts: [
+          "Vichy mineral 89",
+          "Effaclar anti-age sérum",
+          "Sérum oil- Free Blemish + age defense skinceuticals",
+          "Normaderm Skin Balance Vichy",
+          "Hidradeep loção hidratante oil control",
+        ],
+      },
+      {
+        categoryId: "vitamina-c",
+        categoryName: "Vitamina C",
+        categoryProducts: [
+          "C E ferulic skinceuticals",
+          "Salicily C 10",
+          "Ivy C aox",
+          "Vichy Lift active AXO",
+        ],
+      },
+
+      {
+        categoryId: "anti-aging",
+        categoryName: "Antiaging e Ruga",
+        categoryProducts: [
+          "Liftactiv supreme vichy",
+          "Peptide – AHA vichy",
+          "Neovadiol comple sustitut nuit",
+          "Reviline sérum rejuvenescedor",
+          "H. A intensifier skinceuticals",
+        ],
+      },
+      {
+        categoryId: "protetor-solar",
+        categoryName: "Protetor Solar",
+        categoryProducts: [
+          "Episol sec 60 fps",
+          "Episol Color 70 Pele Extra clara",
+          "Anthelios Airlicium 70 fps",
+          "Neutrogena Ultra sheer face FPS 55",
+          "Isdin fusion water FPS 50",
+          "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ssnc", // Seca, sensível, não-pigmentada e com tendência a rugas
+    name: "Pele Seca",
+    categories: [
+      {
+        categoryId: "sabonetes",
+        categoryName: "Sabonetes",
+        categoryProducts: [
+          "Effaclar alta tolerância",
+          "Suavié sabonete liquido",
+          "Nutrel sabonete barra",
+        ],
+      },
+
+      {
+        categoryId: "hidratantes",
+        categoryName: "Hidratantes",
+        categoryProducts: [
+          "Vichy mineral 89",
+          "Effaclar anti-age sérum",
+          "Sérum oil- Free Blemish + age defense skinceuticals",
+          "Normaderm Skin Balance Vichy",
+          "Hidradeep loção hidratante oil control",
+        ],
+      },
+      {
+        categoryId: "vitamina-c",
+        categoryName: "Vitamina C",
+        categoryProducts: [
+          "C E ferulic skinceuticals",
+          "Salicily C 10",
+          "Ivy C ao",
+          "Vichy Lift active AXO",
+        ],
+      },
+
+      {
+        categoryId: "anti-aging",
+        categoryName: "Antiaging e Ruga",
+        categoryProducts: [
+          "Liftactiv supreme vichy",
+          "Peptide – AHA vichy",
+          "Neovadiol comple sustitut nuit",
+          "Reviline sérum rejuvenescedor",
+          "H. A intesifier skinceuticals",
+        ],
+      },
+      {
+        categoryId: "protetor-solar",
+        categoryName: "Protetor Solar",
+        categoryProducts: [
+          "Episol sec",
+          "Episol Color 70",
+          "Anthelios Airlicium",
+          "Neutrogena Ultra sheer face FPS 55",
+          "Isdin fusion water FPS 50",
+          "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
         ],
       },
     ],

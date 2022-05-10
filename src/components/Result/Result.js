@@ -1,17 +1,32 @@
+import { useEffect, useState } from "react";
 import "./Result.css";
 
 function Result() {
+  const [skinType, setSkinType] = useState("");
+  const [skinURL, setSkinURL] = useState("");
+
+  useEffect(() => {
+    const skinTypeResult = calculateResults();
+    // Extract first character from each result item and form the url based on that
+    const skinTypeURL = skinTypeResult
+      .map((item) => item.toString().toLowerCase()[0])
+      .join("");
+    setSkinType(skinTypeResult.join(", "));
+    setSkinURL(skinTypeURL);
+  }, []);
+
   return (
     <div className="result">
+      <div className="result__overlay"></div>
       <div className="result__content">
         <h2 className="result__title">Parabéns!</h2>
         <p className="result__text">
           Nós conseguimos identificar seu tipo de pele como:
-          <em className="result__skin-type">"{calculateResults()}"</em>
+          <em className="result__skin-type">"{skinType}"</em>
           Criamos uma pagina especialmente para você!
         </p>
         <p className="result__call-to-action">
-          <a className="result__link" href="#">
+          <a className="result__link" href={skinURL}>
             Clique aqui
           </a>{" "}
           para acessar a página de produtos para o seu tipo de pele.
@@ -51,11 +66,10 @@ function Result() {
     calculateSkinSectionScore(skinType, {
       section: "wrinkledOrTight",
       thresholdValue: 40,
-      option1: "com tendencia a rugas",
+      option1: "com tendência a rugas",
       option2: "firme",
     });
-
-    return skinType.join(", ");
+    return skinType;
   }
 
   function calculateSkinSectionScore(skinType, props) {

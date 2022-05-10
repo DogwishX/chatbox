@@ -1,6 +1,22 @@
 .result {
+  animation: show-result 1s forwards;
+}
+
+.result__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(138, 2, 138);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.result__content {
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 50%;
@@ -10,14 +26,10 @@
   padding: 5rem;
   border-radius: 2rem;
   box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
-  animation: show-result 1s forwards;
-  background-color: white;
-}
-
-.result__content {
   text-align: center;
   letter-spacing: 0.08rem;
   font-size: 1.5rem;
+  background-color: white;
 }
 
 .result__title {

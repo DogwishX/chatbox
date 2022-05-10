@@ -1,27 +1,28 @@
 import "./ProductSection.css";
+import products from "../../data/products";
 
-function ProductSection({
-  title,
-  images,
-  productQty,
-}) {
+function ProductSection({ title, categoryProducts }) {
   return (
     <div className="product-section">
       <div className="product-section__collection">
-        {images.map((src, index) => (
-          <img
-            key={index}
-            className="product-section__image"
-            src={src}
-          />
-        ))}
+        {categoryProducts.map((product, index) => {
+          const currentProduct = products.find(
+            (item) => item.name.toLowerCase() === product.toLowerCase()
+          );
+          const currentProductImgSrc = currentProduct.image;
+          return (
+            <img
+              key={index}
+              className="product-section__image"
+              src={currentProductImgSrc}
+            />
+          );
+        })}
       </div>
       <div className="product-section__text-container">
-        <h2 className="product-section__title">
-          {title}
-        </h2>
+        <h2 className="product-section__title">{title}</h2>
         <p className="product-selection__product-count">
-          {productQty} produtos
+          {/* {categoryProducts.length} produtos */}
         </p>
       </div>
     </div>
