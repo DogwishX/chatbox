@@ -14,8 +14,9 @@ function Categories({ selectedPage }) {
           <ProductSection
             key={categoryId}
             title={categoryName}
-            productQty={categoryProducts.length}
-            images={categoryProducts.map((item) => returnProductImage(item))}
+            categoryProducts={categoryProducts}
+            selectedSkinType={selectedPage}
+            categoryId={categoryId}
           />
         )
       )}

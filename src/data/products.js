@@ -153,7 +153,7 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/81RnjAQwLGL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name: "Hidratante calmante Avene Tolerance Etreme",
+    name: "Hidratante calmante Avene Tolerance Extreme",
     amazonLink: "https://amzn.to/3vtSfbE",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/61CFax4nLUL.__AC_SX300_SY300_QL70_ML2_.jpg",

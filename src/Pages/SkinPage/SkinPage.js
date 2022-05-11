@@ -22,11 +22,13 @@ function SkinPage({ selectedSkinType }) {
           <em>{currentPage.name}</em>
         </p>
         {currentPage.categories.map(
-          ({ categoryName, categoryProducts }, index) => (
+          ({ categoryId, categoryName, categoryProducts }, index) => (
             <ProductSection
               key={index}
               title={categoryName}
+              categoryId={categoryId}
               categoryProducts={categoryProducts}
+              selectedSkinType={selectedSkinType}
             />
           )
         )}

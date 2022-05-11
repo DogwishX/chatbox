@@ -31,15 +31,33 @@ const skinType = [
         label: "Seca",
         trigger: "seca",
       },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
+      },
     ],
+  },
+];
+
+const desconhecido = [
+  {
+    id: "desconhecido",
+    message:
+      "Não tem problema! Temos um questionlário que te ajudarlá identificar o seu tipo de pele.",
+    trigger: "desconhecido2",
+  },
+  {
+    id: "desconhecido2",
+    message: "Estou te direcionando para a pagina agora.",
+    end: true,
   },
 ];
 
 const oleosa = [
   {
     id: "oleosa",
-    message:
-      "Entendi! Agora diga pra mim se sua pele é:",
+    message: "Entendi! Agora diga pra mim se sua pele é:",
     trigger: "oleosa-options",
   },
   {
@@ -54,6 +72,11 @@ const oleosa = [
         value: "oleosa-resistente",
         label: "Resistente",
         trigger: "oleosa-resistente",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -78,6 +101,11 @@ const oleosaSensivel = [
         label: "Não-pigmentada",
         trigger: "oleosa-sensivel-naoPigmentada",
       },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
+      },
     ],
   },
 ];
@@ -85,8 +113,7 @@ const oleosaSensivel = [
 const oleosaSensivelPigmentada = [
   {
     id: "oleosa-sensivel-pigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
+    message: "Entendi! Última Pergunta! Sua pele é:",
     trigger: "oleosa-sensivel-pigmentada-options",
   },
   {
@@ -95,14 +122,17 @@ const oleosaSensivelPigmentada = [
       {
         value: "olspe",
         label: "Enrugada",
-        trigger:
-          "oleosa-sensivel-pigmentada-enrugada1",
+        trigger: "oleosa-sensivel-pigmentada-enrugada1",
       },
       {
         value: "olspf",
         label: "Firme",
-        trigger:
-          "oleosa-sensivel-pigmentada-firme1",
+        trigger: "oleosa-sensivel-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -154,13 +184,11 @@ const oleosaSensivelPigmentadaEnrugada = [
     id: "oleosa-sensivel-pigmentada-enrugada1",
     message:
       "Perfeito! Consegui identificar seu tipo de pele. Eu criei uma pagina especialmente para você!",
-    trigger:
-      "oleosa-sensivel-pigmentada-enrugada2",
+    trigger: "oleosa-sensivel-pigmentada-enrugada2",
   },
   {
     id: "oleosa-sensivel-pigmentada-enrugada2",
-    message:
-      "Estou te direcionando para a pagina agora.",
+    message: "Estou te direcionando para a pagina agora.",
     end: true,
   },
 ];
@@ -168,8 +196,7 @@ const oleosaSensivelPigmentadaEnrugada = [
 const oleosaSensivelPigmentadaFirme = [
   {
     id: "oleosa-sensivel-pigmentada-firme1",
-    message:
-      "sua pele e oleosa, sensivel, pigmentada e firme.",
+    message: "sua pele e oleosa, sensivel, pigmentada e firme.",
     end: true,
   },
 ];
@@ -177,10 +204,8 @@ const oleosaSensivelPigmentadaFirme = [
 const oleosaSensivelNaoPigmentada = [
   {
     id: "oleosa-sensivel-naoPigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
-    trigger:
-      "oleosa-sensivel-naoPigmentada-options",
+    message: "Entendi! Última Pergunta! Sua pele é:",
+    trigger: "oleosa-sensivel-naoPigmentada-options",
   },
   {
     id: "oleosa-sensivel-naoPigmentada-options",
@@ -188,14 +213,17 @@ const oleosaSensivelNaoPigmentada = [
       {
         value: "osnpe",
         label: "Enrugada",
-        trigger:
-          "oleosa-sensivel-nao-pigmentada-enrugada1",
+        trigger: "oleosa-sensivel-nao-pigmentada-enrugada1",
       },
       {
         value: "osnpf",
         label: "Firme",
-        trigger:
-          "oleosa-sensivel-nao-pigmentada-firme1",
+        trigger: "oleosa-sensivel-nao-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -204,18 +232,15 @@ const oleosaSensivelNaoPigmentada = [
 const oleosaSensivelNaoPigmentadaFirme = [
   {
     id: "oleosa-sensivel-nao-pigmentada-firme1",
-    message:
-      "sua pele e oleosa, sensivel, nao-pigmentada e firme.",
+    message: "sua pele e oleosa, sensivel, nao-pigmentada e firme.",
     end: true,
   },
 ];
 
 const oleosaSensivelNaoPigmentadaEnrugada = [
   {
-    id:
-      "oleosa-sensivel-nao-pigmentada-enrugada1",
-    message:
-      "sua pele e oleosa, sensivel, nao-pigmentada e enrugada.",
+    id: "oleosa-sensivel-nao-pigmentada-enrugada1",
+    message: "sua pele e oleosa, sensivel, nao-pigmentada e enrugada.",
     end: true,
   },
 ];
@@ -237,8 +262,12 @@ const oleosaResistente = [
       {
         value: "oleosa-resistente-nao-pigmentada",
         label: "Não-pigmentada",
-        trigger:
-          "oleosa-resistente-naoPigmentada",
+        trigger: "oleosa-resistente-naoPigmentada",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -246,10 +275,8 @@ const oleosaResistente = [
 const oleosaResistentePigmentada = [
   {
     id: "oleosa-resistente-pigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
-    trigger:
-      "oleosa-resistente-pigmentada-options",
+    message: "Entendi! Última Pergunta! Sua pele é:",
+    trigger: "oleosa-resistente-pigmentada-options",
   },
   {
     id: "oleosa-resistente-pigmentada-options",
@@ -257,14 +284,17 @@ const oleosaResistentePigmentada = [
       {
         value: "orpe",
         label: "Enrugada",
-        trigger:
-          "oleosa-resistente-pigmentada-enrugada1",
+        trigger: "oleosa-resistente-pigmentada-enrugada1",
       },
       {
         value: "orpf",
         label: "Firme",
-        trigger:
-          "oleosa-resistente-pigmentada-firme1",
+        trigger: "oleosa-resistente-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -273,8 +303,7 @@ const oleosaResistentePigmentada = [
 const oleosaResistentePigmentadaEnrugada = [
   {
     id: "oleosa-resistente-pigmentada-enrugada1",
-    message:
-      "sua pele e oleosa, resistente, pigmentada e enrugada.",
+    message: "sua pele e oleosa, resistente, pigmentada e enrugada.",
     end: true,
   },
 ];
@@ -283,8 +312,7 @@ const oleosaResistentePigmentadaFirme = [
   //
   {
     id: "oleosa-resistente-pigmentada-firme1",
-    message:
-      "sua pele e oleosa, resistente, pigmentada e firme.",
+    message: "sua pele e oleosa, resistente, pigmentada e firme.",
     end: true,
   },
 ];
@@ -292,10 +320,8 @@ const oleosaResistentePigmentadaFirme = [
 const oleosaResistenteNaoPigmentada = [
   {
     id: "oleosa-resistente-naoPigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
-    trigger:
-      "oleosa-resistente-naoPigmentada-options",
+    message: "Entendi! Última Pergunta! Sua pele é:",
+    trigger: "oleosa-resistente-naoPigmentada-options",
   },
   {
     id: "oleosa-resistente-naoPigmentada-options",
@@ -303,14 +329,17 @@ const oleosaResistenteNaoPigmentada = [
       {
         value: "olrnpe",
         label: "Enrugada",
-        trigger:
-          "oleosa-resistente-nao-pigmentada-enrugada1",
+        trigger: "oleosa-resistente-nao-pigmentada-enrugada1",
       },
       {
         value: "olrnpf",
         label: "Firme",
-        trigger:
-          "oleosa-resistente-nao-pigmentada-firme1",
+        trigger: "oleosa-resistente-nao-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -318,10 +347,8 @@ const oleosaResistenteNaoPigmentada = [
 
 const oleosaResistenteNaoPigmentadaEnrugada = [
   {
-    id:
-      "oleosa-resistente-nao-pigmentada-enrugada1",
-    message:
-      "sua pele e oleosa, resistente, nao-pigmentada e enrugada.",
+    id: "oleosa-resistente-nao-pigmentada-enrugada1",
+    message: "sua pele e oleosa, resistente, nao-pigmentada e enrugada.",
     end: true,
   },
 ];
@@ -329,8 +356,7 @@ const oleosaResistenteNaoPigmentadaEnrugada = [
 const oleosaResistenteNaoPigmentadaFirme = [
   {
     id: "oleosa-resistente-nao-pigmentada-firme1",
-    message:
-      "sua pele e oleosa, resistente, nao-pigmentada e firme.",
+    message: "sua pele e oleosa, resistente, nao-pigmentada e firme.",
     end: true,
   },
 ];
@@ -338,8 +364,7 @@ const oleosaResistenteNaoPigmentadaFirme = [
 const seca = [
   {
     id: "seca",
-    message:
-      "Entendi! Agora diga pra mim se sua pele é:",
+    message: "Entendi! Agora diga pra mim se sua pele é:",
     trigger: "seca-options",
   },
   {
@@ -354,6 +379,11 @@ const seca = [
         value: "seca-resistente",
         label: "Resistente",
         trigger: "seca-resistente",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -378,6 +408,11 @@ const secaSensivel = [
         label: "Não-pigmentada",
         trigger: "seca-sensivel-nao-pigmentada",
       },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
+      },
     ],
   },
 ];
@@ -385,8 +420,7 @@ const secaSensivel = [
 const secaSensivelPigmentada = [
   {
     id: "seca-sensivel-pigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
+    message: "Entendi! Última Pergunta! Sua pele é:",
     trigger: "seca-sensivel-pigmentada-options",
   },
   {
@@ -395,14 +429,17 @@ const secaSensivelPigmentada = [
       {
         value: "sspe",
         label: "Enrugada",
-        trigger:
-          "seca-sensivel-pigmentada-enrugada1",
+        trigger: "seca-sensivel-pigmentada-enrugada1",
       },
       {
         value: "sspf",
         label: "Firme",
-        trigger:
-          "seca-sensivel-pigmentada-firme1",
+        trigger: "seca-sensivel-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -411,8 +448,7 @@ const secaSensivelPigmentada = [
 const secaSensivelPigmentadaEnrugada = [
   {
     id: "seca-sensivel-pigmentada-enrugada1",
-    message:
-      "sua pele e seca, sensivel, pigmentada, enrugada",
+    message: "sua pele e seca, sensivel, pigmentada, enrugada",
     end: true,
   },
 ];
@@ -420,8 +456,7 @@ const secaSensivelPigmentadaEnrugada = [
 const secaSensivelPigmentadaFirme = [
   {
     id: "seca-sensivel-pigmentada-firme1",
-    message:
-      "sua pele e seca, sensivel, pigmentada, firme",
+    message: "sua pele e seca, sensivel, pigmentada, firme",
     end: true,
   },
 ];
@@ -429,10 +464,8 @@ const secaSensivelPigmentadaFirme = [
 const secaSensivelNaoPigmentada = [
   {
     id: "seca-sensivel-nao-pigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
-    trigger:
-      "seca-sensivel-naoPigmentada-options",
+    message: "Entendi! Última Pergunta! Sua pele é:",
+    trigger: "seca-sensivel-naoPigmentada-options",
   },
   {
     id: "seca-sensivel-naoPigmentada-options",
@@ -440,14 +473,17 @@ const secaSensivelNaoPigmentada = [
       {
         value: "ssnpe",
         label: "Enrugada",
-        trigger:
-          "seca-sensivel-nao-pigmentada-enrugada1",
+        trigger: "seca-sensivel-nao-pigmentada-enrugada1",
       },
       {
         value: "ssnpf",
         label: "Firme",
-        trigger:
-          "seca-sensivel-nao-pigmentada-firme1",
+        trigger: "seca-sensivel-nao-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -456,8 +492,7 @@ const secaSensivelNaoPigmentada = [
 const secaSensivelNaoPigmentadaFirme = [
   {
     id: "seca-sensivel-nao-pigmentada-firme1",
-    message:
-      "sua pele e seca, sensivel, nao-pigmentada, firme",
+    message: "sua pele e seca, sensivel, nao-pigmentada, firme",
     end: true,
   },
 ];
@@ -465,8 +500,7 @@ const secaSensivelNaoPigmentadaFirme = [
 const secaSensivelNaoPigmentadaEnrugada = [
   {
     id: "seca-sensivel-nao-pigmentada-enrugada1",
-    message:
-      "sua pele e seca, sensivel, nao-pigmentada, enrugada",
+    message: "sua pele e seca, sensivel, nao-pigmentada, enrugada",
     end: true,
   },
 ];
@@ -490,14 +524,18 @@ const secaResistente = [
         label: "Não-pigmentada",
         trigger: "seca-resistente-naoPigmentada",
       },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
+      },
     ],
   },
 ];
 const secaResistentePigmentada = [
   {
     id: "seca-resistente-pigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
+    message: "Entendi! Última Pergunta! Sua pele é:",
     trigger: "seca-resistente-pigmentada-options",
   },
   {
@@ -506,14 +544,17 @@ const secaResistentePigmentada = [
       {
         value: "srpe",
         label: "Enrugada",
-        trigger:
-          "seca-resistente-pigmentada-enrugada1",
+        trigger: "seca-resistente-pigmentada-enrugada1",
       },
       {
         value: "srpf",
         label: "Firme",
-        trigger:
-          "seca-resistente-pigmentada-firme1",
+        trigger: "seca-resistente-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -522,8 +563,7 @@ const secaResistentePigmentada = [
 const secaResistentePigmentadaEnrugada = [
   {
     id: "seca-resistente-pigmentada-enrugada1",
-    message:
-      "sua pele e seca, resistente, pigmentada, enrugada",
+    message: "sua pele e seca, resistente, pigmentada, enrugada",
     end: true,
   },
 ];
@@ -531,8 +571,7 @@ const secaResistentePigmentadaEnrugada = [
 const secaResistentePigmentadaFirme = [
   {
     id: "seca-resistente-pigmentada-firme1",
-    message:
-      "sua pele e seca, resistente, pigmentada, firme",
+    message: "sua pele e seca, resistente, pigmentada, firme",
     end: true,
   },
 ];
@@ -540,10 +579,8 @@ const secaResistentePigmentadaFirme = [
 const secaResistenteNaoPigmentada = [
   {
     id: "seca-resistente-naoPigmentada",
-    message:
-      "Entendi! Última Pergunta! Sua pele é:",
-    trigger:
-      "seca-resistente-naoPigmentada-options",
+    message: "Entendi! Última Pergunta! Sua pele é:",
+    trigger: "seca-resistente-naoPigmentada-options",
   },
   {
     id: "seca-resistente-naoPigmentada-options",
@@ -551,14 +588,17 @@ const secaResistenteNaoPigmentada = [
       {
         value: "srnpe",
         label: "Enrugada",
-        trigger:
-          "seca-resistente-nao-pigmentada-enrugada1",
+        trigger: "seca-resistente-nao-pigmentada-enrugada1",
       },
       {
         value: "srnpf",
         label: "Firme",
-        trigger:
-          "seca-resistente-nao-pigmentada-firme1",
+        trigger: "seca-resistente-nao-pigmentada-firme1",
+      },
+      {
+        value: "nao-sei",
+        label: "Não sei",
+        trigger: "desconhecido",
       },
     ],
   },
@@ -566,10 +606,8 @@ const secaResistenteNaoPigmentada = [
 
 const secaResistenteNaoPigmentadaEnrugada = [
   {
-    id:
-      "seca-resistente-nao-pigmentada-enrugada1",
-    message:
-      "sua pele e seca, resistente, nao-pigmentada, enrugada",
+    id: "seca-resistente-nao-pigmentada-enrugada1",
+    message: "sua pele e seca, resistente, nao-pigmentada, enrugada",
     end: true,
   },
 ];
@@ -577,8 +615,7 @@ const secaResistenteNaoPigmentadaEnrugada = [
 const secaResistenteNaoPigmentadaFirme = [
   {
     id: "seca-resistente-nao-pigmentada-firme1",
-    message:
-      "sua pele e seca, resistente, nao-pigmentada, firme",
+    message: "sua pele e seca, resistente, nao-pigmentada, firme",
     end: true,
   },
 ];
@@ -616,6 +653,7 @@ const steps = [
   ...secaResistenteNaoPigmentada,
   ...secaResistenteNaoPigmentadaFirme,
   ...secaResistenteNaoPigmentadaEnrugada,
+  ...desconhecido,
 ];
 
 export default steps;

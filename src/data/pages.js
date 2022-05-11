@@ -9,6 +9,7 @@ const pages = [
         categoryProducts: [
           "LHA Cleansing Gel Skinceuticals",
           "Effaclar concentrado",
+          "Normaderm Phytosolution",
           "Cleanance gel",
           "Epidac OC Sabonete Barra",
           "Bioderma Sebium Gel Moussant",
@@ -22,14 +23,13 @@ const pages = [
           "Effaclar anti-age sérum",
           "Sérum oil- Free Blemish + age defense skinceuticals",
           "Normaderm Skin Balance Vichy",
-          "Hidradeep loção hidratante oil control",
         ],
       },
       {
         categoryId: "vitamina-c",
         categoryName: "Vitamina C",
         categoryProducts: [
-          "C E ferulic  skinceuticals",
+          "C E ferulic skinceuticals",
           "Salicily C 10",
           "Ivy C AOX",
           "Vichy Lift active AOX",
@@ -40,7 +40,7 @@ const pages = [
         categoryName: "Protetor Solar",
         categoryProducts: [
           "Episol sec 60 FPS",
-          "Episol Color 70 FPS ( pele extra clara, clara, morena, morena escura e negra)",
+          "Episol Color 70 Pele Extra clara",
           "Anthelios Airlicium 70 FPS",
           "Neutrogena Ultra sheer face FPS 55",
           "Isdin fusion water FPS 50",
@@ -57,7 +57,7 @@ const pages = [
         categoryId: "sabonetes",
         categoryName: "Sabonetes",
         categoryProducts: [
-          "Fisiogel sabonete liquido",
+          "Fisiogel Sabonete líquido",
           "Cetaphil loção de limpeza facial",
           "Dermotivin soft sabonete liquido",
         ],
@@ -68,17 +68,17 @@ const pages = [
         categoryName: "Hidratantes",
         categoryProducts: [
           "Profuse Nutrel creme suavizante",
-          "Bepantol Derma Hidratante Restaurador Loção Facial Noturna 50ml, Bepantol",
-          "Hidratanet calmante Avene Tolerance Extreme",
+          "Bepantol derma hidratante loção facial noturno",
+          "Hidratante calmante Avene Tolerance Extreme",
           "Hidratante Nivea lata",
-          "Toleriane  sensitive Hidratante facial",
+          "Toleriane Hidratante facial",
         ],
       },
       {
         categoryId: "vitamina-c",
         categoryName: "Vitamina C",
         categoryProducts: [
-          "Serum 10  skinceuticals",
+          "Serum 10 skinceuticals",
           "Improve c 20 dermage",
           "Active C 10 creme",
         ],
@@ -89,15 +89,14 @@ const pages = [
         categoryProducts: [
           "Filtrum Hidrat FPS 30",
           "Isdin Ultra FPS 99",
-          "Anthelios  xL FPS 60",
-          "Skinblock extreme FPS 60",
+          "Anthelios XL FPS 60",
         ],
       },
     ],
   },
   {
-    id: "osnc", //oleosa, sensivel, nao pigmentada, com tendencia a rugas
-    name: "Oleosa, sensível, não pigmentada e com tendência a rugas",
+    id: "osnc",
+    name: "Oleosa, sensível, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -199,6 +198,157 @@ const pages = [
           "Neutrogena Ultra sheer face FPS 55",
           "Isdin fusion water FPS 50",
           "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ornf",
+    name: "Oleosa, resistente, não-pigmentada e firme",
+    categories: [
+      {
+        categoryId: "sabonetes",
+        categoryName: "Sabonetes",
+        categoryProducts: [
+          "LHA Cleansing Gel Skinceuticals",
+          "Effaclar concentrado",
+          "Normaderm Phytosolution",
+          "Cleanance gel",
+          "Epidac OC Sabonete Barra",
+          "Bioderma Sebium Gel Moussant",
+        ],
+      },
+
+      {
+        categoryId: "hidratantes",
+        categoryName: "Hidratantes",
+        categoryProducts: [
+          "Vichy mineral 89",
+          "Effaclar anti-age sérum",
+          "Sérum oil- Free Blemish + age defense skinceuticals",
+          "Normaderm Skin Balance Vichy",
+        ],
+      },
+      {
+        categoryId: "vitamina-c",
+        categoryName: "Vitamina C",
+        categoryProducts: [
+          "C E ferulic skinceuticals",
+          "Salicily C 10",
+          "Ivy C aox",
+          "Vichy Lift active AOX",
+        ],
+      },
+      {
+        categoryId: "protetor-solar",
+        categoryName: "Protetor Solar",
+        categoryProducts: [
+          "Episol sec 60 fps",
+          "Episol Color 70 Pele Extra clara",
+          "Anthelios Airlicium 70 fps",
+          "Neutrogena Ultra sheer face FPS 55",
+          "Isdin fusion water FPS 50",
+          "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ssnc",
+    name: "Seca, sensível, não-pigmentada e com tendência a rugas",
+    categories: [
+      {
+        categoryId: "sabonetes",
+        categoryName: "Sabonetes",
+        categoryProducts: [
+          "Fisiogel Sabonete líquido",
+          "Cetaphil loção de limpeza facial",
+          "Dermotivin soft sabonete liquido",
+        ],
+      },
+
+      {
+        categoryId: "hidratantes",
+        categoryName: "Hidratantes",
+        categoryProducts: [
+          "Toleriane Hidratante facial",
+          "Profuse Nutrel creme suavizante",
+          "Bepantol derma hidratante loção facial noturno",
+          "Hidratante calmante Avene Tolerance Extreme",
+          "Hidratante Nivea lata",
+        ],
+      },
+      {
+        categoryId: "vitamina-c",
+        categoryName: "Vitamina C",
+        categoryProducts: [
+          "Serum 10 skinceuticals",
+          "Improve c 20 dermage",
+          "Active C 10 creme",
+        ],
+      },
+      {
+        categoryId: "protetor-solar",
+        categoryName: "Protetor Solar",
+        categoryProducts: [
+          "Filtrum Hidrat FPS 30",
+          "Isdin Ultra FPS 99",
+          "Anthelios XL FPS 60",
+        ],
+      },
+      {
+        categoryId: "anti-aging",
+        categoryName: "Antiaging e Ruga",
+        categoryProducts: [
+          "Liftactiv supreme vichy",
+          "Peptide – AHA vichy",
+          "Neovadiol comple sustitut nuit",
+          "Reviline sérum rejuvenescedor",
+          "H. A intensifier skinceuticals",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ssnf",
+    name: "Seca, sensível, não pigmentada e firme",
+    categories: [
+      {
+        categoryId: "sabonetes",
+        categoryName: "Sabonetes",
+        categoryProducts: [
+          "Fisiogel Sabonete líquido",
+          "Cetaphil loção de limpeza facial",
+          "Dermotivin soft sabonete liquido",
+        ],
+      },
+
+      {
+        categoryId: "hidratantes",
+        categoryName: "Hidratantes",
+        categoryProducts: [
+          "Profuse Nutrel creme suavizante",
+          "Hidratante calmante Avene Tolerance Extreme",
+          "Hidratante Nivea lata",
+          "Toleriane Hidratante facial",
+        ],
+      },
+      {
+        categoryId: "vitamina-c",
+        categoryName: "Vitamina C",
+        categoryProducts: [
+          "Serum 10 skinceuticals",
+          "Improve c 20 dermage",
+          "Active C 10 creme",
+        ],
+      },
+      {
+        categoryId: "protetor-solar",
+        categoryName: "Protetor Solar",
+        categoryProducts: [
+          "Filtrum Hidrat FPS 30",
+          "Isdin Ultra FPS 99",
+          "Anthelios XL FPS 60",
         ],
       },
     ],

@@ -20,20 +20,15 @@ function ChatBox() {
 
 function CloseChat() {
   return (
-    <div
-      className="chatbox__close"
-      onClick={toggleChat}
-    >
+    <div className="chatbox__close" onClick={toggleChat}>
       ✖
     </div>
   );
 }
 
 function handleEndFn({ values }) {
-  setTimeout(
-    () => (window.location.href = "/result"),
-    5000
-  );
+  values.includes("nao-sei") &&
+    setTimeout(() => (window.location.href = "/questionnaire"), 5000);
 }
 
 export default ChatBox;

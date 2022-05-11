@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
+import pages from "./data/pages";
+import SectionPage from "./Pages/CategoryPage/CategoryPage";
 import Questionnaire from "./Pages/Questionnaire/Questionnaire";
 import SkinPage from "./Pages/SkinPage/SkinPage";
 
@@ -10,10 +12,22 @@ function Router() {
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/questionnaire" element={<Questionnaire />} />
-          <Route
-            path="/osnf"
-            element={<SkinPage selectedSkinType={"osnf"} />}
-          />
+          {pages.map((page) => (
+            <>
+              <Route
+                path={`/${page.id}`}
+                element={<SkinPage selectedSkinType={page.id} />}
+              />
+              {page.categories.map(({ categoryId }) => (
+                <Route
+                  path={`/${page.id}/${categoryId}`}
+                  element={
+                    <SectionPage skinTypeId={page.id} categoryId={categoryId} />
+                  }
+                />
+              ))}
+            </>
+          ))}
         </Routes>
       </BrowserRouter>
     </>

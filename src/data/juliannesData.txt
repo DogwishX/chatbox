@@ -1,88 +1,4 @@
 
-Pagina pele oleosa
-
-Sabonetes:
-
-LHA Cleansing Gel Skinceuticals
-Effaclar concentrado
-Normaderm Phytosolution
-Cleanance gel
-Epidac OC Sabonete Barra
-Bioderma Sebium Gel Moussant
-
-HIDRATANTES:
-Pele oleosa:
-Vichy mineral 89
-Effaclar anti-age sérum
-Sérum oil- Free Blemish + age defense skinceuticals
-Normaderm Skin Balance Vichy
-"
-
-
-
-Vitamina C:
-
-Pele oleosa:
-C E ferulic  skinceuticals
-Salicily C 10
-Ivy C AOX
-Vichy Lift active AOX
-
-
-Protetor solar:
-Pele oleosa:
-
-Episol sec 60 fps 60 FPS
-Episol Color 70 Pele Extra clara 70 FPS ( pele extra clara, clara, morena, morena escura e negra)
-Anthelios Airlicium 70 fps 70 FPS
-Neutrogena Ultra sheer face FPS 55
-Isdin fusion water FPS 50
-Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
-
-
-
-
-
-
-
-Pagina Pele seca
-
- Sabonete
-
-Seca:
-Fisiogel sabonete liquido
-Cetaphil loção de limpeza facial
-Dermotivin soft sabonete liquido
-
-
-Hidratantes:
-
-Pele Seca :
-Profuse Nutrel creme suavizante
-Bepantol Derma Hidratante Restaurador Loção Facial Noturna 50ml, Bepantol
-Hidratanet calmante Avene Tolerance Extreme
-Hidratante Nivea lata
-Toleriane  sensitive Hidratante facial
-
-Vitamina C
-
-Pele seca:
-
-Serum 10  skinceuticals
-Improve c 20 dermage
- Active C 10 creme
-
-
-Protetor Solar
-             Pele Seca:
-Filtrum Hidrat FPS 30
-Isdin Ultra FPS 99
-Anthelios  xL FPS 60
-Skinblock extreme FPs 60
-
-
-
-
 Pagina Clareadores
 
 Clareadores:
@@ -110,107 +26,13 @@ Neostrata Gel clareador
 
 
 
-                                      Paginas Respostas  Formulario Baumann e chatbot
-.
- 
-Oleosa, sensível, não pigmentada e com tendência a rugas
-
-
-Sabonetes
-Effaclar alta tolerância        
-Suavié sabonete liquido
-Nutrel  sabonete barra       
-
-Hidratantes
-
-Vichy mineral 89
-Effaclar anti-age sérum
-Sérum oil- Free Blemish + age defense skinceuticals
-Normaderm Skin Balance Vichy
-"
-
-
-Vitamina C
-
-C E ferulic skinceuticals
-Salicily C 10
-Ivy C ao
-Vichy Lift active AOX
-
-
-Antiaging  e Ruga
-
-Liftactiv supreme vichy
- Peptide – AHA vichy
-Neovadiol comple sustitut nuit
-Reviline sérum rejuvenescedor
-H. A intesifier skinceuticals
-
-Protetor Solar
-
-
-Episol sec 60 fps
-Episol Color 70 Pele Extra clara
-Anthelios Airlicium 70 fps
-Neutrogena Ultra sheer face FPS 55
-Isdin fusion water FPS 50
-Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar
-
-
-
-
-
-Seca, sensível, não-pigmentada e com tendência a rugas:
-
-
-Sabonete
-
-
-Fisiogel Cleanser
-Cetaphil loção de limpeza facial
-Dermotivin soft sabonete liquido
-
-
-Hidratantes:
-
-Toleriane Hidratante facial
-Profuse Nutrel creme suavizante
-Bepantol Derma Hidratante Restaurador Loção Facial Noturna 50ml, Bepantol
-Hidratante calmante Avene Tolerance Etreme
-Hidratante Nivea lata
-
-
-Vitamina C
-
-Serum 10  skinceuticals
-Improve c 20 dermage
- Active C 10 creme
-
-
-Antiaging  e Rugas
-
-
-Liftactiv supreme vichy
- Peptide – AHA vichy
-Neovadiol comple sustitut nuit
-Reviline sérum rejuvenescedor
-H. A intesifier skinceuticals
-
-
-Protetor Solar
-Filtrum Hidrat FPS 30
-Isdin Ultra FPS 90
-Anthelios  xL FPS 60
-Skinblock extreme FPs 60
-
-
 
 Seca, sensível, não pigmentada e firme:
 
 Sabonete
 
 
-Fisiogel Cleanser
+Fisiogel Sabonete líquido
 Cetaphil loção de limpeza facial
 Dermotivin soft sabonete liquido
 
@@ -219,21 +41,20 @@ Hidratantes:
 
 Profuse Nutrel creme suavizante
 Ureadin creme hidratante facial com FPS 20
-Hidratanet calmante Avene Tolerance Etreme
+Hidratante calmante Avene Tolerance Extreme
 Hidratante Nivea lata
 Toleriane Hidratante facial
 
 Vitamina C
 
-Serum 10  skinceuticals
+Serum 10 skinceuticals
 Improve c 20 dermage
  Active C 10 creme
 
 Protetor Solar
 Filtrum Hidrat FPS 30
 Isdin Ultra FPS 90
-Anthelios  xL FPS 60
-Skinblock extreme FPs 60
+Anthelios XL FPS 60
 
 
 
@@ -351,7 +172,7 @@ Normaderm Skin Balance Vichy
 
 Vitamina C
 
-Serum 10  skinceuticals
+Serum 10 skinceuticals
 Improve c 20 dermage
  Active C 10 creme
 
@@ -402,7 +223,7 @@ Hidratantes:
 
 Profuse Nutrel creme suavizante
 Ureadin creme hidratante facial com FPS 20
-Hidratanet calmante Avene Tolerance Etreme
+Hidratante calmante Avene Tolerance Extreme
 Hidratante Nivea lata
 Toleriane Hidratante facial
 
@@ -427,8 +248,7 @@ H. A intesifier skinceuticals
 Protetor Solar
 Filtrum Hidrat FPS 30
 Isdin Ultra FPS 90
-Anthelios  xL FPS 60
-Skinblock extreme FPs 60
+Anthelios XL FPS 60
 
 
 Oleosa, resistente, pigmentada e com tendência a rugas
@@ -501,7 +321,7 @@ Hidratantes:
 
 Profuse Nutrel creme suavizante
 Ureadin creme hidratante facial com FPS 20
-Hidratanet calmante Avene Tolerance Etreme
+Hidratante calmante Avene Tolerance Extreme
 Hidratante Nivea lata
 Toleriane Hidratante facial
 
@@ -516,6 +336,5 @@ Vichy Lift active AOX
 Protetor Solar
 Filtrum Hidrat FPS 30
 Isdin Ultra FPS 90
-Anthelios  xL FPS 60
-Skinblock extreme FPs 60
+Anthelios XL FPS 60
 
