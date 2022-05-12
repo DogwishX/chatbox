@@ -28,8 +28,8 @@ function CloseChat() {
 
 function handleEndFn({ values }) {
   // When skin type is unknown by the user
-  values.includes("nao-sei") &&
-    setTimeout(() => (window.location.href = "/questionnaire"), 5000);
+  if (values.includes("nao-sei"))
+    return setTimeout(() => (window.location.href = "/questionnaire"), 5000);
 
   // When user knows their skin type
   const skinTypeId = values[values.length - 1];
