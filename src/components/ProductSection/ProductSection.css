@@ -3,6 +3,10 @@
   margin-top: 8rem;
 }
 
+.product-section__link {
+  color: black;
+}
+
 .product-section__collection {
   display: flex;
   justify-content: center;

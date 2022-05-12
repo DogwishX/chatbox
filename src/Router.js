@@ -18,8 +18,9 @@ function Router() {
                 path={`/${page.id}`}
                 element={<SkinPage selectedSkinType={page.id} />}
               />
-              {page.categories.map(({ categoryId }) => (
+              {page.categories.map(({ categoryId }, index) => (
                 <Route
+                  key={index}
                   path={`/${page.id}/${categoryId}`}
                   element={
                     <SectionPage skinTypeId={page.id} categoryId={categoryId} />

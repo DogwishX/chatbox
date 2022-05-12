@@ -9,7 +9,10 @@ function ProductSection({
 }) {
   return (
     <div className="product-section">
-      <a href={selectedSkinType + "/" + categoryId}>
+      <a
+        className="product-section__link"
+        href={selectedSkinType + "/" + categoryId}
+      >
         <div className="product-section__collection">
           {categoryProducts.map((product, index) => {
             const currentProduct = products.find(
