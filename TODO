@@ -1,8 +1,9 @@
 ☐ Add footer
 
 Nav:
-  ☐ Add nav menu
-
+  ☐ Add nav menu --mobile
+  ☐ Add nav menu --desktop
+  ☐ Add clareadores link
 
 Home: 
   ☐ Add background image on hero for desktop/high resolution views
@@ -11,11 +12,12 @@ Home:
   ☐ Improve card styling
 
 Carousel:
-    ☐ Add swipe interaction to carousel
+  ☐ Add clareadores
+  ☐ Add swipe interaction to carousel
 
-  FAQ:
-    ☐ Ask what they want to do with the section.
-    ☐ Ask for content of answers to questions.
+FAQ:
+  ☐ Ask what they want to do with the section.
+  ☐ Ask for content of answers to questions.
 
 Archive:
   ✔ Add functionality to navigation @done(22-05-12 04:47) @project(Survey)

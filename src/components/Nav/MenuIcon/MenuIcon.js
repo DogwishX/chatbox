@@ -1,15 +1,9 @@
-import useToggle from "../../../hooks/useToggle";
 import "./MenuIcon.css";
 
-function MenuIcon() {
-  const [isMenuActive, toggleIsMenuActive] =
-    useToggle(false);
-
+function MenuIcon({ isMenuActive, toggleIsMenuActive }) {
   return (
     <div
-      className={`menu-icon${
-        isMenuActive ? " menu-icon--active" : ""
-      }`}
+      className={`menu-icon${isMenuActive ? " menu-icon--active" : ""}`}
       onClick={toggleIsMenuActive}
     >
       <span className="menu-icon--top"></span>
