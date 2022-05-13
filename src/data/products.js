@@ -123,7 +123,7 @@ const products = [
   {
     name: "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
     amazonLink: "https://amzn.to/3KwmIdu",
-    image: "",
+    image: "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SL1000_.jpg",
   },
   {
     name: "Fisiogel Sabonete líquido",
