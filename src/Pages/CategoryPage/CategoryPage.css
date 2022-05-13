@@ -67,6 +67,7 @@
 }
 
 .products-grid__image {
+  min-height: 20rem;
   max-height: 20rem;
   max-width: 100%;
   padding: 2rem;

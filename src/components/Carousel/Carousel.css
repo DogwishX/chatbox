@@ -11,7 +11,8 @@
 }
 
 .carousel .product-section {
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
