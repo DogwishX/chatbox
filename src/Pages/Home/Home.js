@@ -14,7 +14,6 @@ function Home() {
     <div id="home">
       <Nav />
       <Hero />
-      <ChatIcon />
       <HowItWorks />
       <Cards />
       <Recommendations />

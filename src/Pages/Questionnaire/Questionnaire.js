@@ -47,13 +47,15 @@ function Questionnaire() {
         >
           <FontAwesomeIcon icon={faAngleUp} size="2x" color="white" />
         </button>
-        <button
-          onClick={updateFocusedQuestion}
-          id="questionanaire__nav-btn--next"
-          className="questionanaire__nav-btn"
-        >
-          <FontAwesomeIcon icon={faAngleDown} size="2x" color="white" />
-        </button>
+        {focusedQuestionIndex <= localStorage.lastAnswered && (
+          <button
+            onClick={updateFocusedQuestion}
+            id="questionanaire__nav-btn--next"
+            className="questionanaire__nav-btn"
+          >
+            <FontAwesomeIcon icon={faAngleDown} size="2x" color="white" />
+          </button>
+        )}
       </div>
     );
   }

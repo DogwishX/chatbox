@@ -1,0 +1,17 @@
+.chat-popup {
+  position: absolute;
+  top: -2rem;
+  left: -16em;
+  width: 20rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: 1px solid #faaab55b;
+  border-radius: 2rem;
+  border-bottom-right-radius: 0;
+  background-color: white;
+}
+
+.chat-popup--hide {
+  display: none;
+  background-color: black;
+}

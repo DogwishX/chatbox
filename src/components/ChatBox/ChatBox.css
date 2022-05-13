@@ -1,7 +1,7 @@
 .chatbox-container {
   position: fixed;
-  width: 35rem;
-  max-width: 35rem;
+  width: 30rem;
+  max-width: 30rem;
   right: -200%;
   bottom: 2rem;
   opacity: 0;
@@ -10,14 +10,14 @@
   z-index: 1000;
 }
 
-.chatbox-container--active {
-  right: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
+.chatbox-container--active,
+.ikahXp {
+  right: 5rem;
   height: fit-content;
   max-height: 60rem;
   opacity: 1;
 }
+
 .rsc {
   font-family: sans-serif;
 }
@@ -44,6 +44,7 @@
   background-color: lightblue;
   color: var(--almost-black);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid gray;
 }
 
 .rsc-os-option-element:hover {
@@ -58,7 +59,7 @@
 
 .chatbox__close {
   position: absolute;
-  top: 0.8rem;
+  top: 0.5rem;
   right: 2rem;
   color: white;
   cursor: pointer;

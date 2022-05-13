@@ -4,24 +4,26 @@ Survey:
   ✔ Create skeleton @done(22-05-12 04:47)
   ✔ Style skeleton @done(22-05-12 04:47)
   ✔ Input Data @done(22-05-12 04:47)
-  ☐ Add logic to disable proceeding further than last question answered + 1
-  ☐ Dynamic styling on navigation buttons based on displayedCardIndex. Gray out button that is inactive.
+  ✔ Add logic to disable proceeding further than last question answered @done(22-05-12 20:53)
+  Decided that dynamically rendering rather than changin styles looks better for the user and is simpler code
+  ✘ Dynamic styling on navigation buttons based on displayedCardIndex. Gray out button that is inactive. @cancelled(22-05-12 20:53) 
 
 ChatIcon:
-  ☐ Add popup to call user's attention.
+  ✔ Add popup to call user's attention. @done(22-05-12 21:58)
 
+ChatBox:
+  ✔ Fix close button position to align with rest of header @done(22-05-13 02:01)
 
 Carousel:
-Stretch
-☐ Remove empty space when you reach end of carousel
-☐ Show/Hide navigation buttons based on displayed card
-  Stretch:
-  ☐ Improve card styling/Add border
-  ☐ Add swipe interaction to carousel
+  ☐ Remove empty space when you reach end of carousel
+  ☐ Show/Hide navigation buttons based on displayed card
+    Stretch:
+    ☐ Improve card styling/Add border
+    ☐ Add swipe interaction to carousel
 
-FAQ:
-  ☐ Ask what they want to do with the section.
-  ☐ Ask for content of answers to questions.
+  FAQ:
+    ☐ Ask what they want to do with the section.
+    ☐ Ask for content of answers to questions.
 
 
 Archive:
