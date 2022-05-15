@@ -1,4 +1,3 @@
-import heroBackgroundImg from "../../assets/background-mobile.avif";
 import toggleChat from "../../hooks/toggleChat";
 import "./Hero.css";
 
@@ -8,23 +7,24 @@ function Hero() {
       <div className="hero__image-container">
         <img
           className="hero__image"
-          src={heroBackgroundImg}
+          alt="background"
         />
       </div>
-
-      <h1 className="hero__title">
-        Consulte agora
-      </h1>
-      <p className="hero__text">
-        Converse com a PicSkin,
-        <br /> nossa especialista virtual.
-      </p>
-      <a
-        className="hero__button"
-        onClick={toggleChat}
-      >
-        Abrir o chat
-      </a>
+      <div className="hero__call-to-action">
+        <h1 className="hero__title">
+          Consulte agora
+        </h1>
+        <p className="hero__text">
+          Converse com a PicSkin, nossa
+          especialista virtual.
+        </p>
+        <p
+          className="hero__button"
+          onClick={toggleChat}
+        >
+          Abrir o chat
+        </p>
+      </div>
     </div>
   );
 }
