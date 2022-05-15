@@ -1,9 +1,13 @@
 ☐ Add footer
 
 Nav:
-  ☐ Add nav menu --mobile
+  ✔ Add nav menu --mobile @done(22-05-15 05:57)
   ☐ Add nav menu --desktop
   ☐ Add clareadores link
+
+Questionnaire: 
+  ☐ Add numbers
+  ☐ Add progress bar
 
 Home: 
   ☐ Add background image on hero for desktop/high resolution views

@@ -11,7 +11,7 @@ const questionnaireCards = [
   {
     order: 1,
     question:
-      "Esta seção avalia a produção de óleo da pele e a hidratação. Não permita que os seus preconceitos ou falam sobre sua pele interfira nas respostas.",
+      "Esta seção avalia a produção de óleo da pele e a hidratação. Não permita que os seus preconceitos ou o que falam sobre sua pele interfira nas respostas.",
     buttonText: "Entendi",
     numbered: false,
   },
@@ -24,23 +24,38 @@ const questionnaireCards = [
     question:
       "Após lavar o rosto, não aplique hidratante, protetor solar, tônico, pó ou qualquer outro produto. Depois de duas ou três horas, olhe o rosto no espelho sob boa iluminação. Como é a aparência geral da fronte (testa) e das bochechas? ",
     options: [
-      { value: 1, text: "Muito áspera, descamativa, sem brilho e sem “vida”." },
-      { value: 2, text: "Sensação de tensão (repuxamento)." },
+      {
+        value: 1,
+        text:
+          "Muito áspera, descamativa, sem brilho e sem “vida”.",
+      },
+      {
+        value: 2,
+        text: "Sensação de tensão (repuxamento).",
+      },
       {
         value: 3,
         text:
           "Bem hidratada, sem brilho excessivo (sem refletir o brilho da luz).",
       },
-      { value: 4, text: "Muito brilhante, refletindo o brilho da luz." },
+      {
+        value: 4,
+        text:
+          "Muito brilhante, refletindo o brilho da luz.",
+      },
     ],
   },
   {
     order: 3,
     sectionOrder: 2,
     section: "oilyOrDry",
-    question: "Em fotos, a sua pele aparece brilhante:",
+    question:
+      "Em fotos, a sua pele aparece brilhante:",
     options: [
-      { value: 1, text: "Nunca ou você nunca notou." },
+      {
+        value: 1,
+        text: "Nunca ou você nunca notou.",
+      },
       { value: 2, text: " Às vezes." },
       {
         value: 3,
@@ -56,7 +71,10 @@ const questionnaireCards = [
     question:
       "Duas ou três horas após a aplicação da base cosmética, mas sem pó, a aparência de sua maquilhagem é:",
     options: [
-      { value: 1, text: "Descamativa, encrostada." },
+      {
+        value: 1,
+        text: "Descamativa, encrostada.",
+      },
       { value: 2, text: "Lisa, macia." },
       {
         value: 3,
@@ -73,15 +91,23 @@ const questionnaireCards = [
     question:
       "Em meio ambiente com baixa humidade, se você não usar hidratante, nem protetor solar, a sua pele do rosto:",
     options: [
-      { value: 1, text: "Fica muito seca e craquelada (descamativa)." },
-      { value: 2, text: "Fica com sensação de tensão ." },
+      {
+        value: 1,
+        text:
+          "Fica muito seca e craquelada (descamativa).",
+      },
+      {
+        value: 2,
+        text: "Fica com sensação de tensão .",
+      },
       {
         value: 3,
         text: "Fica normal.",
       },
       {
         value: 4,
-        text: "Fica brilhante, ou nunca sinto que precisa de hidratante.",
+        text:
+          "Fica brilhante, ou nunca sinto que precisa de hidratante.",
       },
       { value: 2.5, text: "Não sei." },
     ],
@@ -94,7 +120,11 @@ const questionnaireCards = [
       "Num espelho de aumento. Quantos poros abertos e dilatados (tamanho de uma ponta de alfinete ou maior) você tem?",
     options: [
       { value: 1, text: "Nenhum." },
-      { value: 2, text: "Apenas um pouco na “zona T” (testa e nariz)." },
+      {
+        value: 2,
+        text:
+          "Apenas um pouco na “zona T” (testa e nariz).",
+      },
       {
         value: 3,
         text: "Muitos.",
@@ -114,7 +144,8 @@ const questionnaireCards = [
     order: 7,
     sectionOrder: 6,
     section: "oilyOrDry",
-    question: "Você classifica  a sua pele do rosto como:",
+    question:
+      "Você classifica  a sua pele do rosto como:",
     options: [
       { value: 1, text: "Seca." },
       { value: 2, text: "Normal." },
@@ -132,9 +163,13 @@ const questionnaireCards = [
     order: 8,
     sectionOrder: 7,
     section: "oilyOrDry",
-    question: "Quando  usa sabonete comum  a pele do seu rosto:",
+    question:
+      "Quando  usa sabonete comum  a pele do seu rosto:",
     options: [
-      { value: 1, text: "Fica seca ou craquelada." },
+      {
+        value: 1,
+        text: "Fica seca ou craquelada.",
+      },
       {
         value: 2,
         text:
@@ -203,7 +238,8 @@ const questionnaireCards = [
     order: 11,
     sectionOrder: 10,
     section: "oilyOrDry",
-    question: "A sua pele é oleosa na “zona T” (testa e nariz):",
+    question:
+      "A sua pele é oleosa na “zona T” (testa e nariz):",
     options: [
       { value: 1, text: "Nunca." },
       {
@@ -229,7 +265,8 @@ const questionnaireCards = [
     options: [
       {
         value: 1,
-        text: "Muito ásperas, descamativas, sem brilho e sem “vida”.",
+        text:
+          "Muito ásperas, descamativas, sem brilho e sem “vida”.",
       },
       {
         value: 2,
@@ -242,7 +279,8 @@ const questionnaireCards = [
       },
       {
         value: 4,
-        text: "Brilhantes e lisas, ou nunca uso hidratante.",
+        text:
+          "Brilhantes e lisas, ou nunca uso hidratante.",
       },
     ],
   },
@@ -259,7 +297,8 @@ const questionnaireCards = [
     order: 14,
     sectionOrder: 1,
     section: "sensitiveOrResistant",
-    question: "Você apresenta pápulas (“bolinhas”) vermelhas em sua pele:",
+    question:
+      "Você apresenta pápulas (“bolinhas”) vermelhas em sua pele:",
     options: [
       {
         value: 1,
@@ -313,7 +352,8 @@ const questionnaireCards = [
     order: 16,
     sectionOrder: 3,
     section: "sensitiveOrResistant",
-    question: "Você já teve diagnóstico de acne ou rosácea:",
+    question:
+      "Você já teve diagnóstico de acne ou rosácea:",
     options: [
       {
         value: 1,
@@ -496,15 +536,18 @@ const questionnaireCards = [
       },
       {
         value: 2,
-        text: "Na maioria das vezes não tenho problemas.",
+        text:
+          "Na maioria das vezes não tenho problemas.",
       },
       {
         value: 3,
-        text: "Não, minha pele, fica vermelha e irritada e da comichão.",
+        text:
+          "Não, minha pele, fica vermelha e irritada e da comichão.",
       },
       {
         value: 4,
-        text: "Não posso usar porque já tive vários problemas quando tentei!",
+        text:
+          "Não posso usar porque já tive vários problemas quando tentei!",
       },
       {
         value: 2.5,
@@ -556,7 +599,8 @@ const questionnaireCards = [
       },
       {
         value: 2,
-        text: "A minha pele fica levemente ressecada.",
+        text:
+          "A minha pele fica levemente ressecada.",
       },
       {
         value: 3,
@@ -564,11 +608,13 @@ const questionnaireCards = [
       },
       {
         value: 4,
-        text: "A minha pele da comichão, fica irritada e com pápulas.",
+        text:
+          "A minha pele da comichão, fica irritada e com pápulas.",
       },
       {
         value: 2.5,
-        text: "Não tenho certeza porque nunca usei esse tipo de produto.",
+        text:
+          "Não tenho certeza porque nunca usei esse tipo de produto.",
       },
     ],
   },
@@ -614,7 +660,8 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "Sempre, ou não bebo por causa desse problema.",
+        text:
+          "Sempre, ou não bebo por causa desse problema.",
       },
       {
         value: 4,
@@ -661,15 +708,18 @@ const questionnaireCards = [
       },
       {
         value: 2,
-        text: "Poucos (de um a três no rosto todo, incluindo o nariz).",
+        text:
+          "Poucos (de um a três no rosto todo, incluindo o nariz).",
       },
       {
         value: 3,
-        text: "Alguns (de quatro a seis no rosto todo, incluindo o nariz).",
+        text:
+          "Alguns (de quatro a seis no rosto todo, incluindo o nariz).",
       },
       {
         value: 4,
-        text: "Muitos (mais de sete, incluindo o nariz).",
+        text:
+          "Muitos (mais de sete, incluindo o nariz).",
       },
     ],
   },
@@ -677,7 +727,8 @@ const questionnaireCards = [
     order: 29,
     sectionOrder: 16,
     section: "sensitiveOrResistant",
-    question: "O seu rosto aparece vermelho nas fotografias?",
+    question:
+      "O seu rosto aparece vermelho nas fotografias?",
     options: [
       {
         value: 1,
@@ -808,7 +859,8 @@ const questionnaireCards = [
       },
       {
         value: 2.5,
-        text: "Nunca tive pápulas, “espinhas”, nem pêlo encravado.Sempre.",
+        text:
+          "Nunca tive pápulas, “espinhas”, nem pêlo encravado.Sempre.",
       },
     ],
   },
@@ -819,7 +871,10 @@ const questionnaireCards = [
     question:
       "Quando sofre um corte ou ferimento, quanto tempo o local fica com uma marca castanha (não vermelha)?",
     options: [
-      { value: 1, text: "Nunca fico com marcas castanhas." },
+      {
+        value: 1,
+        text: "Nunca fico com marcas castanhas.",
+      },
       {
         value: 2,
         text: "Uma semana.",
@@ -875,11 +930,13 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "Sim, elas são (ou eram) levemente perceptíveis.",
+        text:
+          "Sim, elas são (ou eram) levemente perceptíveis.",
       },
       {
         value: 4,
-        text: "Sim, elas são (ou eram) muito perceptíveis.",
+        text:
+          "Sim, elas são (ou eram) muito perceptíveis.",
       },
     ],
   },
@@ -890,7 +947,10 @@ const questionnaireCards = [
     question:
       " As suas manchas escuras no rosto ficam piores quando você apanha sol?",
     options: [
-      { value: 1, text: "Não tenho manchas escuras." },
+      {
+        value: 1,
+        text: "Não tenho manchas escuras.",
+      },
       {
         value: 2,
         text: "Não tenho certeza.",
@@ -968,7 +1028,8 @@ const questionnaireCards = [
       { value: 1, text: "Ela só queima." },
       {
         value: 2,
-        text: "Queima e depois fica levemente bronzeada.",
+        text:
+          "Queima e depois fica levemente bronzeada.",
       },
       {
         value: 3,
@@ -988,10 +1049,14 @@ const questionnaireCards = [
     question:
       "O que acontece quando se expõe o sol por vários dias consecutivos?",
     options: [
-      { value: 1, text: "Somente fico vermelha." },
+      {
+        value: 1,
+        text: "Somente fico vermelha.",
+      },
       {
         value: 2,
-        text: "A minha pele fica discretamente morena.",
+        text:
+          "A minha pele fica discretamente morena.",
       },
       {
         value: 3,
@@ -1013,9 +1078,13 @@ const questionnaireCards = [
     order: 42,
     sectionOrder: 10,
     section: "pigmentedOrNonPigmented",
-    question: "Quando se expõe ao sol aparecem sardas (pequenas 1-2 mm)?",
+    question:
+      "Quando se expõe ao sol aparecem sardas (pequenas 1-2 mm)?",
     options: [
-      { value: 1, text: "Não, nunca tenho sardas." },
+      {
+        value: 1,
+        text: "Não, nunca tenho sardas.",
+      },
       {
         value: 2,
         text: "Aparecem poucas sardas por ano.",
@@ -1031,7 +1100,8 @@ const questionnaireCards = [
       },
       {
         value: 2.5,
-        text: "Nunca me exponho ao sol (Bom pra você!)",
+        text:
+          "Nunca me exponho ao sol (Bom pra você!)",
       },
     ],
   },
@@ -1053,7 +1123,8 @@ const questionnaireCards = [
       },
       {
         value: 4,
-        text: "Muitas no rosto, colo, pescoço e braços.",
+        text:
+          "Muitas no rosto, colo, pescoço e braços.",
       },
       {
         value: 2.5,
@@ -1097,7 +1168,8 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "Mais de uma pessoa na minha família.",
+        text:
+          "Mais de uma pessoa na minha família.",
       },
       {
         value: 4,
@@ -1113,7 +1185,8 @@ const questionnaireCards = [
     order: 46,
     sectionOrder: 14,
     section: "pigmentedOrNonPigmented",
-    question: "Você tem manchas escuras na pele, em áreas de exposição ao sol?",
+    question:
+      "Você tem manchas escuras na pele, em áreas de exposição ao sol?",
     options: [
       {
         value: 5,
@@ -1147,7 +1220,8 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "Sim, ao fazer expressões faciais e algumas mesmo sem movimento.",
+        text:
+          "Sim, ao fazer expressões faciais e algumas mesmo sem movimento.",
       },
       {
         value: 4,
@@ -1160,11 +1234,13 @@ const questionnaireCards = [
     order: 49,
     sectionOrder: 2,
     section: "wrinkledOrTight",
-    question: "Quantos anos sua mãe aparenta (rosto)?",
+    question:
+      "Quantos anos sua mãe aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1172,15 +1248,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velha que sua verdadeira idade.",
+        text:
+          "5 anos mais velha que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1188,11 +1267,13 @@ const questionnaireCards = [
     order: 50,
     sectionOrder: 3,
     section: "wrinkledOrTight",
-    question: "Quantos anos seu pai aparenta (rosto)?",
+    question:
+      "Quantos anos seu pai aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1200,15 +1281,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velho que sua verdadeira idade.",
+        text:
+          "5 anos mais velho que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1216,11 +1300,13 @@ const questionnaireCards = [
     order: 51,
     sectionOrder: 4,
     section: "wrinkledOrTight",
-    question: "Quantos anos sua avó materna aparenta (rosto)?",
+    question:
+      "Quantos anos sua avó materna aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1228,15 +1314,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velha que sua verdadeira idade.",
+        text:
+          "5 anos mais velha que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1244,11 +1333,13 @@ const questionnaireCards = [
     order: 52,
     sectionOrder: 5,
     section: "wrinkledOrTight",
-    question: "Quantos anos seu avô materno aparenta (rosto)?",
+    question:
+      "Quantos anos seu avô materno aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1256,15 +1347,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velho que sua verdadeira idade.",
+        text:
+          "5 anos mais velho que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1272,11 +1366,13 @@ const questionnaireCards = [
     order: 53,
     sectionOrder: 6,
     section: "wrinkledOrTight",
-    question: "Quantos anos sua avó paterna aparenta (rosto)?",
+    question:
+      "Quantos anos sua avó paterna aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1284,15 +1380,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velha que sua verdadeira idade.",
+        text:
+          "5 anos mais velha que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1300,11 +1399,13 @@ const questionnaireCards = [
     order: 54,
     sectionOrder: 7,
     section: "wrinkledOrTight",
-    question: "Quantos anos seu avô paterno aparenta (rosto)?",
+    question:
+      "Quantos anos seu avô paterno aparenta (rosto)?",
     options: [
       {
         value: 1,
-        text: "De 5 a 10 anos mais jovem que sua verdadeira idade.",
+        text:
+          "De 5 a 10 anos mais jovem que sua verdadeira idade.",
       },
       {
         value: 2,
@@ -1312,15 +1413,18 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "5 anos mais velho que sua verdadeira idade.",
+        text:
+          "5 anos mais velho que sua verdadeira idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos que sua verdadeira idade.",
+        text:
+          "Mais de 5 anos que sua verdadeira idade.",
       },
       {
         value: 2.5,
-        text: "Não-aplicável; sou adotado ou não me lembro.",
+        text:
+          "Não-aplicável; sou adotado ou não me lembro.",
       },
     ],
   },
@@ -1393,7 +1497,8 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "Moderada; morei em lugares razoavelmente ensolarados.",
+        text:
+          "Moderada; morei em lugares razoavelmente ensolarados.",
       },
       {
         value: 4,
@@ -1410,7 +1515,8 @@ const questionnaireCards = [
     options: [
       {
         value: 1,
-        text: "De 1 a 5 anos mais nova que sua idade.",
+        text:
+          "De 1 a 5 anos mais nova que sua idade.",
       },
       {
         value: 2,
@@ -1418,11 +1524,13 @@ const questionnaireCards = [
       },
       {
         value: 3,
-        text: "De 1 a 5 anos a mais que sua idade.",
+        text:
+          "De 1 a 5 anos a mais que sua idade.",
       },
       {
         value: 4,
-        text: "Mais de 5 anos a mais que sua idade.",
+        text:
+          "Mais de 5 anos a mais que sua idade.",
       },
     ],
   },
@@ -1455,7 +1563,8 @@ const questionnaireCards = [
     order: 60,
     sectionOrder: 13,
     section: "wrinkledOrTight",
-    question: "Com que freqüência  faz bronzeamento artificial?",
+    question:
+      "Com que freqüência  faz bronzeamento artificial?",
     options: [
       {
         value: 1,
@@ -1509,7 +1618,8 @@ const questionnaireCards = [
     order: 62,
     sectionOrder: 15,
     section: "wrinkledOrTight",
-    question: "Por favor, descreva a poluição do ar no local onde você vive.",
+    question:
+      "Por favor, descreva a poluição do ar no local onde você vive.",
     options: [
       {
         value: 1,
@@ -1560,7 +1670,8 @@ const questionnaireCards = [
     order: 64,
     sectionOrder: 17,
     section: "wrinkledOrTight",
-    question: "Com que freqüência você come frutas, legumes e verduras:",
+    question:
+      "Com que freqüência você come frutas, legumes e verduras:",
     options: [
       {
         value: 1,
@@ -1638,11 +1749,13 @@ const questionnaireCards = [
     options: [
       {
         value: 1,
-        text: "Africano ou descendente de africanos, caribenho, negro.",
+        text:
+          "Africano ou descendente de africanos, caribenho, negro.",
       },
       {
         value: 2,
-        text: "Asiático, índio, mediterrâneo, árabe, indiano.",
+        text:
+          "Asiático, índio, mediterrâneo, árabe, indiano.",
       },
       {
         value: 3,

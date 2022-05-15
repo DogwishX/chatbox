@@ -1,19 +1,46 @@
 import "./MenuItems.css";
 
-function MenuItems({ isMenuActive, toggleIsMenuActive }) {
+function MenuItems({
+  isMenuActive,
+  toggleIsMenuActive,
+}) {
   return (
-    <ul className="menu-items">
-      <li className="menu-items">
-        <a href="/questionnaire">Questionário de Baumann</a>
+    <ul
+      className={`menu-items${
+        isMenuActive ? " menu-items--active" : ""
+      }`}
+    >
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/questionnaire"
+        >
+          Questionário de Baumann
+        </a>
       </li>
-      <li className="menu-items">
-        <a href="/seca">Pele Seca</a>
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/seca"
+        >
+          Pele Seca
+        </a>
       </li>
-      <li className="menu-items">
-        <a href="/oleosa">Pele Oleosa</a>
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/oleosa"
+        >
+          Pele Oleosa
+        </a>
       </li>
-      <li className="menu-items">
-        <a href="/clareadores">Clareadores</a>
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/clareadores"
+        >
+          Clareadores
+        </a>
       </li>
     </ul>
   );

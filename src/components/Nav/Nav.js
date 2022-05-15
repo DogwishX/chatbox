@@ -6,7 +6,10 @@ import MenuItems from "./MenuItems/MenuItems";
 import "./Nav.css";
 
 function Nav() {
-  const [isMenuActive, toggleIsMenuActive] = useToggle(false);
+  const [
+    isMenuActive,
+    toggleIsMenuActive,
+  ] = useToggle(false);
 
   return (
     <nav>
@@ -15,7 +18,7 @@ function Nav() {
         isMenuActive={isMenuActive}
         toggleIsMenuActive={toggleIsMenuActive}
       />
-      {isMenuActive && <MenuItems />}
+      <MenuItems isMenuActive={isMenuActive} />
     </nav>
   );
 }
