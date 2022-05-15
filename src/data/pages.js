@@ -1,7 +1,7 @@
 const pages = [
   {
     id: "oleosa",
-    name: "Pele Oleosa",
+    name: "Oleosa",
     categories: [
       {
         categoryId: "sabonetes",
@@ -51,7 +51,7 @@ const pages = [
   },
   {
     id: "seca",
-    name: "Pele Seca",
+    name: "Seca",
     categories: [
       {
         categoryId: "sabonetes",
@@ -96,7 +96,8 @@ const pages = [
   },
   {
     id: "osnc",
-    name: "Oleosa, sensível, não-pigmentada e com tendência a rugas",
+    name:
+      "Oleosa, sensível, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -156,7 +157,8 @@ const pages = [
   },
   {
     id: "osnf",
-    name: "Oleosa, sensível, não–pigmentada e firme",
+    name:
+      "Oleosa, sensível, não–pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -204,7 +206,8 @@ const pages = [
   },
   {
     id: "ornf",
-    name: "Oleosa, resistente, não-pigmentada e firme",
+    name:
+      "Oleosa, resistente, não-pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -255,7 +258,8 @@ const pages = [
   },
   {
     id: "ornc",
-    name: "Oleosa, resistente, não-pigmentada e com  tendência a rugas",
+    name:
+      "Oleosa, resistente, não-pigmentada e com  tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -317,7 +321,8 @@ const pages = [
   },
   {
     id: "orpc",
-    name: "Oleosa, resistente, pigmentada e com tendência a rugas",
+    name:
+      "Oleosa, resistente, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -387,7 +392,8 @@ const pages = [
   },
   {
     id: "ospc",
-    name: "Oleosa, sensível, pigmentada e com tendência a rugas",
+    name:
+      "Oleosa, sensível, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -525,7 +531,8 @@ const pages = [
   },
   {
     id: "ssnc",
-    name: "Seca, sensível, não-pigmentada e com tendência a rugas",
+    name:
+      "Seca, sensível, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -581,7 +588,8 @@ const pages = [
   },
   {
     id: "srnc",
-    name: "Seca, resistente, não-pigmentada e com tendência a rugas",
+    name:
+      "Seca, resistente, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -640,7 +648,8 @@ const pages = [
   },
   {
     id: "srnf",
-    name: "Seca, resistente, não-pigmentada e firme",
+    name:
+      "Seca, resistente, não-pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -688,7 +697,8 @@ const pages = [
   },
   {
     id: "ssnf",
-    name: "Seca, sensível, não pigmentada e firme",
+    name:
+      "Seca, sensível, não pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
