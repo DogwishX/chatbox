@@ -4,3 +4,10 @@
   align-items: center;
   margin-left: auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    position: relative;
+    margin-left: 2rem;
+  }
+}

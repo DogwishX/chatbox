@@ -34,14 +34,14 @@ function MenuItems({
           Pele Oleosa
         </a>
       </li>
-      <li className="menu-items__item">
+      {/* <li className="menu-items__item">
         <a
           className="menu-items__link"
           href="/clareadores"
         >
           Clareadores
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }

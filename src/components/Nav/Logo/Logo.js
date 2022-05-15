@@ -8,6 +8,7 @@ function Logo() {
       <img
         className="logo__image"
         src={LogoImg}
+        alt="logo"
       />
     </Link>
   );
