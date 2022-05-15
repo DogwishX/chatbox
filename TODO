@@ -8,10 +8,10 @@ Nav:
 Questionnaire: 
   ✔ Add numbers @done(22-05-15 20:12)
   ✔ Show question Number instead of Section Number @done(22-05-15 20:26)
-  ☐ Add progress bar
+  ✔ Add progress bar @done(22-05-15 20:49)
 
 Home: 
-  ☐ Add background image on hero for desktop/high resolution views
+  ✔ Add background image on hero for desktop/high resolution views @done(22-05-15 22:41)
   ☐ Change flex direction of info cards
   ☐ Change image for 'sem custos' card
   ☐ Improve card styling
