@@ -4,6 +4,19 @@
   background-color: #f6ece2;
 }
 
+.questionnaire__progress-container {
+  position: fixed;
+  height: 0.5rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.questionnaire__progress {
+  width: 0;
+  height: 100%;
+  background-color: black;
+}
+
 .questionnaire__questions-container {
   display: flex;
   flex-wrap: nowrap;

@@ -4,7 +4,7 @@ const questionnaireCards = [
     order: 0,
     header: "Questionário de Baumann",
     question:
-      "Este é um questionario que ajuda a determinar o seu tipo de pele - o Sistema de Baumann.",
+      "Este é um questionario de 64 perguntas que ajuda a determinar o seu tipo de pele usando o Sistema de Baumann.",
     buttonText: "Quero fazer!",
     numbered: false,
   },

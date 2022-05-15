@@ -31,6 +31,7 @@ function Questionnaire() {
 
   return (
     <div className="questionnaire">
+      <ProgressBar />
       <div className="questionnaire__questions-container">
         {questionnaireCards.map((card, index) => (
           <Question
@@ -49,6 +50,24 @@ function Questionnaire() {
       {displayResult && <Result />}
     </div>
   );
+
+  function ProgressBar() {
+    const amountOfQuestions = 64;
+    const questionProgressWidth =
+      (100 / amountOfQuestions) *
+      focusedQuestionIndex;
+
+    return (
+      <div className="questionnaire__progress-container">
+        <div
+          className="questionnaire__progress"
+          style={{
+            width: `${questionProgressWidth}%`,
+          }}
+        ></div>
+      </div>
+    );
+  }
 
   function CardNavigation() {
     return (
