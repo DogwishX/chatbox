@@ -8,8 +8,8 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(138, 2, 138);
-  opacity: 0.2;
+  background-color: rgba(138, 2, 138, 0.582);
+  opacity: 0.1;
   z-index: -1;
 }
 
