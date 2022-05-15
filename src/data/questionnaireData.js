@@ -295,7 +295,7 @@ const questionnaireCards = [
   },
   {
     order: 14,
-    sectionOrder: 1,
+    sectionOrder: 12,
     section: "sensitiveOrResistant",
     question:
       "Você apresenta pápulas (“bolinhas”) vermelhas em sua pele:",
@@ -320,7 +320,7 @@ const questionnaireCards = [
   },
   {
     order: 15,
-    sectionOrder: 2,
+    sectionOrder: 13,
     section: "sensitiveOrResistant",
     question:
       "Produtos para cuidado com a pele (incluindo sabonetes, hidratantes,tônicos e maquilhagem) causam irritação, comichão, vermelhidão, ardência ou “alergia” em sua pele:",
@@ -350,7 +350,7 @@ const questionnaireCards = [
   },
   {
     order: 16,
-    sectionOrder: 3,
+    sectionOrder: 14,
     section: "sensitiveOrResistant",
     question:
       "Você já teve diagnóstico de acne ou rosácea:",
@@ -379,7 +379,7 @@ const questionnaireCards = [
   },
   {
     order: 17,
-    sectionOrder: 4,
+    sectionOrder: 15,
     section: "sensitiveOrResistant",
     question:
       "Você tem “alergia” quando usa bijuterias ou jóias que não sejam somente ouro 18 quilates:",
@@ -408,7 +408,7 @@ const questionnaireCards = [
   },
   {
     order: 18,
-    sectionOrder: 5,
+    sectionOrder: 16,
     section: "sensitiveOrResistant",
     question:
       "Os protetores solares fazem a sua pele, queimar, ficar vermelha ou irritada, com comichão:",
@@ -437,7 +437,7 @@ const questionnaireCards = [
   },
   {
     order: 19,
-    sectionOrder: 6,
+    sectionOrder: 17,
     section: "sensitiveOrResistant",
     question:
       "Você já teve diagnóstico de dermatite atópica, eczema ou dermatite de contato (inflamação ou erupções na pele)?:",
@@ -466,7 +466,7 @@ const questionnaireCards = [
   },
   {
     order: 20,
-    sectionOrder: 7,
+    sectionOrder: 18,
     section: "sensitiveOrResistant",
     question:
       "Com que freqüência  tem inflamação ou “alergia” no local onde usa anel?",
@@ -495,7 +495,7 @@ const questionnaireCards = [
   },
   {
     order: 21,
-    sectionOrder: 8,
+    sectionOrder: 19,
     section: "sensitiveOrResistant",
     question:
       "Banho em banheira com sabonete liquido, uso de óleo para massagem ou de loções hidratantes causam comichão, ressecamento ou reações alérgicas em sua pele:",
@@ -525,7 +525,7 @@ const questionnaireCards = [
   },
   {
     order: 22,
-    sectionOrder: 9,
+    sectionOrder: 20,
     section: "sensitiveOrResistant",
     question:
       "Pode utilizar o sabonete comum de um hotel no rosto e corpo sem ter problemas de “alergia”?",
@@ -558,7 +558,7 @@ const questionnaireCards = [
   },
   {
     order: 23,
-    sectionOrder: 10,
+    sectionOrder: 21,
     section: "sensitiveOrResistant",
     question:
       "Alguém na sua família tem diagnóstico de dermatite atópica, eczema, asma e/ou alergias?",
@@ -588,7 +588,7 @@ const questionnaireCards = [
   },
   {
     order: 24,
-    sectionOrder: 11,
+    sectionOrder: 22,
     section: "sensitiveOrResistant",
     question:
       "O que acontece se  usar sabão e/ou amaciador perfumado para lavar suas roupas ou produtos que diminuem a eletricidade estática do tecido na maquina de secar roupa?",
@@ -620,7 +620,7 @@ const questionnaireCards = [
   },
   {
     order: 25,
-    sectionOrder: 12,
+    sectionOrder: 23,
     section: "sensitiveOrResistant",
     question:
       "Com que freqüência a sua pele e/ou pescoço ficam vermelhos após exercícios moderados, e/ou com stress ou com fortes emoções (com raiva)?",
@@ -645,7 +645,7 @@ const questionnaireCards = [
   },
   {
     order: 26,
-    sectionOrder: 13,
+    sectionOrder: 24,
     section: "sensitiveOrResistant",
     question:
       "Com que freqüência  tende a ficar vermelha ou ruborizada após ingerir bebidas alcoólicas?",
@@ -671,7 +671,7 @@ const questionnaireCards = [
   },
   {
     order: 27,
-    sectionOrder: 14,
+    sectionOrder: 25,
     section: "sensitiveOrResistant",
     question:
       "Com que freqüência  tende a ficar vermelha ou ruborizada após comer alimentos apimentados ou muito quentes (temperatura)?",
@@ -697,7 +697,7 @@ const questionnaireCards = [
   },
   {
     order: 28,
-    sectionOrder: 15,
+    sectionOrder: 26,
     section: "sensitiveOrResistant",
     question:
       "Quantas “veinhas” vermelhas ou azuladas você tem no rosto, incluindo o nariz (se você fez tratamento para eliminá-los, considere os que tinha antes)?",
@@ -725,7 +725,7 @@ const questionnaireCards = [
   },
   {
     order: 29,
-    sectionOrder: 16,
+    sectionOrder: 27,
     section: "sensitiveOrResistant",
     question:
       "O seu rosto aparece vermelho nas fotografias?",
@@ -750,7 +750,7 @@ const questionnaireCards = [
   },
   {
     order: 30,
-    sectionOrder: 17,
+    sectionOrder: 28,
     section: "sensitiveOrResistant",
     question:
       "As pessoas perguntam se teve ao sol (porque fica vermelha como pimentão), mesmo quando você não teve?",
@@ -780,7 +780,7 @@ const questionnaireCards = [
   },
   {
     order: 31,
-    sectionOrder: 18,
+    sectionOrder: 29,
     section: "sensitiveOrResistant",
     question:
       "Ao usar maquilhagem, protetor solar ou produtos para cuidados com a pele, você fica com vermelhidão, coceira ou irritação:",
@@ -810,7 +810,7 @@ const questionnaireCards = [
   },
   {
     order: 32,
-    sectionOrder: 19,
+    sectionOrder: 30,
     section: "sensitiveOrResistant",
     question:
       "O seu dermatologista já deu o diagnóstico de acne, rosácea, dermatite de contato ou eczema?",
@@ -839,7 +839,7 @@ const questionnaireCards = [
   },
   {
     order: 34,
-    sectionOrder: 1,
+    sectionOrder: 31,
     section: "pigmentedOrNonPigmented",
     question:
       "Se  tiver uma pápula (“bolinha vermelha”), uma “espinha” ou um pêlo encravado, no local fica uma mancha castanha ou um ponto preto:",
@@ -866,7 +866,7 @@ const questionnaireCards = [
   },
   {
     order: 35,
-    sectionOrder: 2,
+    sectionOrder: 32,
     section: "pigmentedOrNonPigmented",
     question:
       "Quando sofre um corte ou ferimento, quanto tempo o local fica com uma marca castanha (não vermelha)?",
@@ -891,7 +891,7 @@ const questionnaireCards = [
   },
   {
     order: 36,
-    sectionOrder: 3,
+    sectionOrder: 33,
     section: "pigmentedOrNonPigmented",
     question:
       "Quantas manchas escuras  teve no rosto quando engravidou, ou tomou pílulas anticoncepcionais, ou fez terapia de reposição hormonal?",
@@ -918,7 +918,7 @@ const questionnaireCards = [
   },
   {
     order: 36,
-    sectionOrder: 4,
+    sectionOrder: 34,
     section: "pigmentedOrNonPigmented",
     question:
       "Tem algum tipo de mancha escura no buço (pele sobre o lábio superior) ou bochechas? Ou já teve alguma que foi tratada?",
@@ -942,7 +942,7 @@ const questionnaireCards = [
   },
   {
     order: 37,
-    sectionOrder: 5,
+    sectionOrder: 35,
     section: "pigmentedOrNonPigmented",
     question:
       " As suas manchas escuras no rosto ficam piores quando você apanha sol?",
@@ -972,7 +972,7 @@ const questionnaireCards = [
   },
   {
     order: 38,
-    sectionOrder: 6,
+    sectionOrder: 36,
     section: "pigmentedOrNonPigmented",
     question:
       "Já teve diagnóstico de melasma (manchas castanhas no rosto), sardas brancas ou sardas castanhas, ou melanoses solares (manchas de sol castanhas) no rosto?",
@@ -998,7 +998,7 @@ const questionnaireCards = [
   },
   {
     order: 39,
-    sectionOrder: 7,
+    sectionOrder: 37,
     section: "pigmentedOrNonPigmented",
     question:
       "Tem, ou já teve, manchas castanhas (sardas ou manchas de sol) no rosto, colo, costas ou braços?",
@@ -1020,7 +1020,7 @@ const questionnaireCards = [
   },
   {
     order: 40,
-    sectionOrder: 8,
+    sectionOrder: 38,
     section: "pigmentedOrNonPigmented",
     question:
       "Quando a sua pele é exposta ao sol pela primeira vez após muitos meses:",
@@ -1044,7 +1044,7 @@ const questionnaireCards = [
   },
   {
     order: 41,
-    sectionOrder: 9,
+    sectionOrder: 39,
     section: "pigmentedOrNonPigmented",
     question:
       "O que acontece quando se expõe o sol por vários dias consecutivos?",
@@ -1076,7 +1076,7 @@ const questionnaireCards = [
   },
   {
     order: 42,
-    sectionOrder: 10,
+    sectionOrder: 40,
     section: "pigmentedOrNonPigmented",
     question:
       "Quando se expõe ao sol aparecem sardas (pequenas 1-2 mm)?",
@@ -1107,7 +1107,7 @@ const questionnaireCards = [
   },
   {
     order: 43,
-    sectionOrder: 11,
+    sectionOrder: 41,
     section: "pigmentedOrNonPigmented",
     question:
       "Algum de seus pais tem sardas? Por favor, assinalar quantas. Se nenhum ou apenas um apresentar, responda às questões. Se os dois apresentarem, considere o que apresenta mais sardas para responder.",
@@ -1134,7 +1134,7 @@ const questionnaireCards = [
   },
   {
     order: 44,
-    sectionOrder: 12,
+    sectionOrder: 42,
     section: "pigmentedOrNonPigmented",
     question:
       "Qual a cor natural de seu cabelo? (Atenção: se já estiver “branco”, considerar a cor anterior).",
@@ -1156,7 +1156,7 @@ const questionnaireCards = [
   },
   {
     order: 45,
-    sectionOrder: 13,
+    sectionOrder: 43,
     section: "pigmentedOrNonPigmented",
     question:
       "Já teve melanoma (tipo de câncer de pele maligno) ou alguém em sua família já teve (parente “de sangue”)?",
@@ -1183,7 +1183,7 @@ const questionnaireCards = [
   },
   {
     order: 46,
-    sectionOrder: 14,
+    sectionOrder: 44,
     section: "pigmentedOrNonPigmented",
     question:
       "Você tem manchas escuras na pele, em áreas de exposição ao sol?",
@@ -1204,7 +1204,7 @@ const questionnaireCards = [
   },
   {
     order: 48,
-    sectionOrder: 1,
+    sectionOrder: 45,
     section: "wrinkledOrTight",
     question: " Tem rugas no rosto?",
     options: [
@@ -1232,7 +1232,7 @@ const questionnaireCards = [
   },
   {
     order: 49,
-    sectionOrder: 2,
+    sectionOrder: 46,
     section: "wrinkledOrTight",
     question:
       "Quantos anos sua mãe aparenta (rosto)?",
@@ -1265,7 +1265,7 @@ const questionnaireCards = [
   },
   {
     order: 50,
-    sectionOrder: 3,
+    sectionOrder: 47,
     section: "wrinkledOrTight",
     question:
       "Quantos anos seu pai aparenta (rosto)?",
@@ -1298,7 +1298,7 @@ const questionnaireCards = [
   },
   {
     order: 51,
-    sectionOrder: 4,
+    sectionOrder: 48,
     section: "wrinkledOrTight",
     question:
       "Quantos anos sua avó materna aparenta (rosto)?",
@@ -1331,7 +1331,7 @@ const questionnaireCards = [
   },
   {
     order: 52,
-    sectionOrder: 5,
+    sectionOrder: 49,
     section: "wrinkledOrTight",
     question:
       "Quantos anos seu avô materno aparenta (rosto)?",
@@ -1364,7 +1364,7 @@ const questionnaireCards = [
   },
   {
     order: 53,
-    sectionOrder: 6,
+    sectionOrder: 50,
     section: "wrinkledOrTight",
     question:
       "Quantos anos sua avó paterna aparenta (rosto)?",
@@ -1397,7 +1397,7 @@ const questionnaireCards = [
   },
   {
     order: 54,
-    sectionOrder: 7,
+    sectionOrder: 51,
     section: "wrinkledOrTight",
     question:
       "Quantos anos seu avô paterno aparenta (rosto)?",
@@ -1430,7 +1430,7 @@ const questionnaireCards = [
   },
   {
     order: 55,
-    sectionOrder: 8,
+    sectionOrder: 52,
     section: "wrinkledOrTight",
     question:
       "Alguma vez já bronzeou sua pele rotineiramente cerca de duas semanas ininterruptas ou mais por ano?Em  caso afirmativo, por quantos anos no total você fez ou faz isso? Por favor, considerar bronzeamento como todas as atividades que são realizadas em local ensolarado, como jogar tênis, pescar, jogar golfe, vôlei, ou qualquer outra atividade com exposição solar, a praia não é o único local onde se “apanha sol”!",
@@ -1455,7 +1455,7 @@ const questionnaireCards = [
   },
   {
     order: 56,
-    sectionOrder: 9,
+    sectionOrder: 53,
     section: "wrinkledOrTight",
     question:
       "Alguma vez na sua vida você já se bronzeou em ocasiões esporádicas duas semanas por ano ou mais? (Sim, as férias durante o verão também contam). Em caso afirmativo, qual a freqüência:",
@@ -1480,7 +1480,7 @@ const questionnaireCards = [
   },
   {
     order: 57,
-    sectionOrder: 10,
+    sectionOrder: 53,
     section: "wrinkledOrTight",
     question:
       "Baseando-se nos locais em que já viveu (morou), quanta exposição solar  teve em sua vida?",
@@ -1509,7 +1509,7 @@ const questionnaireCards = [
   },
   {
     order: 58,
-    sectionOrder: 11,
+    sectionOrder: 54,
     section: "wrinkledOrTight",
     question: "Que idade  aparenta?",
     options: [
@@ -1536,7 +1536,7 @@ const questionnaireCards = [
   },
   {
     order: 59,
-    sectionOrder: 12,
+    sectionOrder: 55,
     section: "wrinkledOrTight",
     question:
       "Durante os últimos cinco anos,  bronzeou-se  em atividades ao ar livre (intencionalmente ou não)?",
@@ -1561,7 +1561,7 @@ const questionnaireCards = [
   },
   {
     order: 60,
-    sectionOrder: 13,
+    sectionOrder: 56,
     section: "wrinkledOrTight",
     question:
       "Com que freqüência  faz bronzeamento artificial?",
@@ -1586,7 +1586,7 @@ const questionnaireCards = [
   },
   {
     order: 61,
-    sectionOrder: 14,
+    sectionOrder: 57,
     section: "wrinkledOrTight",
     question:
       "Durante a sua vida, quantos cigarros você já fumou (considerar também exposição passiva):",
@@ -1616,7 +1616,7 @@ const questionnaireCards = [
   },
   {
     order: 62,
-    sectionOrder: 15,
+    sectionOrder: 58,
     section: "wrinkledOrTight",
     question:
       "Por favor, descreva a poluição do ar no local onde você vive.",
@@ -1642,7 +1642,7 @@ const questionnaireCards = [
   },
   {
     order: 63,
-    sectionOrder: 16,
+    sectionOrder: 59,
     section: "wrinkledOrTight",
     question:
       "Considere quanto você já utilizou de produtos para cuidado com a pele contendo vitamina A, ácido retinóico ou derivados (como: retinol, retinova, retin-A, tazaroteno, adapaleno, differin, dalap ou produtos manipulados com ácido retinóico):",
@@ -1668,7 +1668,7 @@ const questionnaireCards = [
   },
   {
     order: 64,
-    sectionOrder: 17,
+    sectionOrder: 60,
     section: "wrinkledOrTight",
     question:
       "Com que freqüência você come frutas, legumes e verduras:",
@@ -1693,7 +1693,7 @@ const questionnaireCards = [
   },
   {
     order: 65,
-    sectionOrder: 18,
+    sectionOrder: 61,
     section: "wrinkledOrTight",
     question:
       "Durante a sua vida, que percentagem da sua dieta consistiu em frutas, legumes e verduras? (Nota: Não considerar suco de fruta industrializado, só vale se for fresco).",
@@ -1718,7 +1718,7 @@ const questionnaireCards = [
   },
   {
     order: 66,
-    sectionOrder: 19,
+    sectionOrder: 62,
     section: "wrinkledOrTight",
     question:
       "Qual a cor natural de sua pele? (Considere pele as áreas cobertas e sem bronzeado, nem autobronzeamento).",
@@ -1743,7 +1743,7 @@ const questionnaireCards = [
   },
   {
     order: 67,
-    sectionOrder: 20,
+    sectionOrder: 63,
     section: "wrinkledOrTight",
     question: "Qual sua etnia?",
     options: [
@@ -1769,7 +1769,7 @@ const questionnaireCards = [
   },
   {
     order: 68,
-    sectionOrder: 21,
+    sectionOrder: 64,
     section: "wrinkledOrTight",
     question: "Você tem mais de 65 anos?",
     options: [
