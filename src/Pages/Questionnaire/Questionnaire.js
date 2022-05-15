@@ -43,7 +43,9 @@ function Questionnaire() {
           />
         ))}
       </div>
-      <CardNavigation />
+      {focusedQuestionIndex > 0 && (
+        <CardNavigation />
+      )}
       {displayResult && <Result />}
     </div>
   );
