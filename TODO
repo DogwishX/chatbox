@@ -12,9 +12,12 @@ Questionnaire:
 
 Home: 
   ✔ Add background image on hero for desktop/high resolution views @done(22-05-15 22:41)
-  ☐ Change flex direction of info cards
-  ☐ Change image for 'sem custos' card
-  ☐ Improve card styling
+  ✔ Change flex direction of info cards @done(22-05-15 23:39)
+  ✔ Change image for 'sem custos' card @done(22-05-15 23:39)
+  ✔ Improve card styling @done(22-05-15 23:39)
+
+SkinPage: 
+  ☐ Add desktop background image for SkinPage
 
 Carousel:
   ☐ Add clareadores
