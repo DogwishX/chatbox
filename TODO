@@ -1,9 +1,11 @@
-☐ Add footer
+☐ Add missing data
 
 Nav:
   ✔ Add nav menu --mobile @done(22-05-15 05:57)
   ✔ Add nav menu --desktop @done(22-05-15 19:58)
-  ✘ Add clareadores link @cancelled(22-05-15 20:00)
+  ☐ Add clareadores
+  ☐ Add glow facial
+  ☐ Add corpo page
 
 Questionnaire: 
   ✔ Add numbers @done(22-05-15 20:12)
@@ -20,14 +22,20 @@ SkinPage:
   ☐ Add desktop background image for SkinPage
 
 Carousel:
-  ☐ Add clareadores
+  ☐ Fix Next btn 
   ☐ Add swipe interaction to carousel
 
 FAQ:
   ☐ Ask what they want to do with the section.
   ☐ Ask for content of answers to questions.
 
-Archive:
+Footer:
+  ☐ Add footer
+
+
+
+
+  Archive:
   ✔ Add functionality to navigation @done(22-05-12 04:47) @project(Survey)
   ✔ Create skeleton @done(22-05-12 04:47) @project(Survey)
   ✔ Style skeleton @done(22-05-12 04:47) @project(Survey)
