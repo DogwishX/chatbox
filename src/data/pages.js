@@ -742,8 +742,7 @@ const pages = [
   },
   {
     id: "ospf",
-    name:
-      "Oleosa, sensível, pigmentada e firme",
+    name: "Oleosa, sensível, pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -929,8 +928,7 @@ const pages = [
   },
   {
     id: "sspf",
-    name:
-      "Seca, sensível, pigmentada e firme",
+    name: "Seca, sensível, pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -1057,8 +1055,7 @@ const pages = [
   },
   {
     id: "srpf",
-    name:
-      "Seca, resistente, pigmentada e firme",
+    name: "Seca, resistente, pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -1111,6 +1108,41 @@ const pages = [
           "Filtrum Hidrat FPS 30",
           "Isdin Ultra FPS 99",
           "Anthelios XL FPS 60",
+        ],
+      },
+    ],
+  },
+  {
+    id: "base",
+    name: "Base",
+    categories: [
+      {
+        categoryId: "glow-facial",
+        categoryName: "Glow Facial",
+        categoryProducts: [
+          "Glycolic 10 renew overnight",
+        ],
+      },
+      {
+        categoryId: "corpo",
+        categoryName: "Para o Corpo",
+        categoryProducts: [
+          "Ivy C corpo e colo",
+          "Hidratante corporal Ureadin 10",
+          "Ideal body pescoço, colo e mãos",
+          "Hidratante Corporal Neutrogena® Body Care Intensive",
+          "Cerave hidratante corporal",
+        ],
+      },
+      {
+        categoryId: "clareadores",
+        categoryName: "Clareadores",
+        categoryProducts: [
+          "Discoloration Defense skinceuticals",
+          "Blancy TX gel clareador",
+          "Lumixyl loção clareadora",
+          "Neostrata Gel clareador",
+          "Clarité face Dermage",
         ],
       },
     ],
