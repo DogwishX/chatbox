@@ -23,6 +23,7 @@
 body {
   font-size: 1.8rem;
   font-family: "geograph-regular", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
