@@ -59,7 +59,7 @@ function SectionPage({ categoryId, skinTypeId }) {
         <p className="breadcrumb__text">
           Voltar para a página{" "}
           {skinTypeId === "base"
-            ? "princial"
+            ? "inicialg"
             : "de produtos"}
         </p>
       </a>
