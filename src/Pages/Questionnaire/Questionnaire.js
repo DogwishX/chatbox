@@ -52,7 +52,8 @@ function Questionnaire() {
   );
 
   function ProgressBar() {
-    const amountOfQuestions = 64;
+    const amountOfQuestions =
+      questionnaireCards.length;
     const questionProgressWidth =
       (100 / amountOfQuestions) *
       focusedQuestionIndex;
