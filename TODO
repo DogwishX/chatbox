@@ -1,11 +1,11 @@
-☐ Add missing data
+✔ Add missing data @done(22-05-17 05:42)
 
 Nav:
   ✔ Add nav menu --mobile @done(22-05-15 05:57)
   ✔ Add nav menu --desktop @done(22-05-15 19:58)
-  ☐ Add clareadores
-  ☐ Add glow facial
-  ☐ Add corpo page
+  ✔ Add clareadores @done(22-05-17 05:02)
+  ✔ Add glow facial @done(22-05-17 05:02)
+  ✔ Add corpo page @done(22-05-17 05:02)
 
 Questionnaire: 
   ✔ Add numbers @done(22-05-15 20:12)
@@ -22,12 +22,15 @@ SkinPage:
   ☐ Add desktop background image for SkinPage
 
 Carousel:
-  ☐ Fix Next btn 
+  ✔ Fix Next btn @done(22-05-17 05:42)
   ☐ Add swipe interaction to carousel
 
 FAQ:
   ☐ Ask what they want to do with the section.
   ☐ Ask for content of answers to questions.
+
+Title:
+  ☐ Change dynamically, based on visited page
 
 Footer:
   ☐ Add footer
