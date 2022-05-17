@@ -12,7 +12,6 @@
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  padding: 2rem;
   width: 100%;
   border-radius: 2rem;
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px; */
@@ -53,6 +52,9 @@
     flex-direction: row;
   }
 
+  .cards__item {
+    padding: 2rem;
+  }
   .cards__item::after {
     visibility: hidden;
   }

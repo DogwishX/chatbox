@@ -15,8 +15,8 @@ function Home() {
       <Nav />
       <Hero />
       <HowItWorks />
-      <Cards />
       <Recommendations />
+      <Cards />
       {/* <FAQ /> */}
       <ChatIcon />
       <ChatBox />
