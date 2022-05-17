@@ -21,7 +21,10 @@ function ChatBox() {
 
 function CloseChat() {
   return (
-    <div className="chatbox__close" onClick={toggleChat}>
+    <div
+      className="chatbox__close"
+      onClick={toggleChat}
+    >
       ✖
     </div>
   );
@@ -30,11 +33,19 @@ function CloseChat() {
 function handleEndFn({ values }) {
   // When skin type is unknown by the user
   if (values.includes("nao-sei"))
-    return setTimeout(() => (window.location.href = "/questionnaire"), 5000);
+    return setTimeout(
+      () =>
+        (window.location.href = "/questionnaire"),
+      5000
+    );
 
   // When user knows their skin type
   const skinTypeId = values[values.length - 1];
-  setTimeout(() => (window.location.href = `/${skinTypeId}`), 5000);
+  setTimeout(
+    () =>
+      (window.location.href = `/${skinTypeId}`),
+    5000
+  );
 }
 
 export default ChatBox;

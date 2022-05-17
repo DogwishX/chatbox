@@ -77,6 +77,7 @@ function SectionPage({ categoryId, skinTypeId }) {
 
     return (
       <div className="products-grid">
+        {console.log(categoryProductsData)}
         {categoryProductsData.map(
           ({ name, amazonLink, image }) => (
             <a

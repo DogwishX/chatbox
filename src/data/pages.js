@@ -39,9 +39,9 @@ const pages = [
         categoryId: "protetor-solar",
         categoryName: "Protetor Solar",
         categoryProducts: [
-          "Episol sec 60 FPS",
+          "Episol sec 60 fps",
           "Episol Color 70 Pele Extra clara",
-          "Anthelios Airlicium 70 FPS",
+          "Anthelios Airlicium 70 fps",
           "Neutrogena Ultra sheer face FPS 55",
           "Isdin fusion water FPS 50",
           "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",

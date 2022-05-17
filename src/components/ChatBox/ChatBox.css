@@ -9,9 +9,8 @@
   scrollbar-color: black;
   z-index: 1000;
 }
-
-.chatbox-container--active,
-.ikahXp {
+/* 
+.chatbox-container--active {
   right: 5rem;
   height: fit-content;
   max-height: 60rem;
@@ -59,8 +58,8 @@
 
 .chatbox__close {
   position: absolute;
-  top: 0.5rem;
-  right: 2rem;
+  right: 0;
+  top: 0;
   color: white;
   cursor: pointer;
   z-index: 1001;
