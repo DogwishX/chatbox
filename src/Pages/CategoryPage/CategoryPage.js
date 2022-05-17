@@ -83,6 +83,7 @@ function SectionPage({ categoryId, skinTypeId }) {
               className="products-grid__card"
               href={amazonLink}
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="products-grid__image"
