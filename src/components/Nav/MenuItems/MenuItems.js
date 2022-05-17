@@ -34,14 +34,30 @@ function MenuItems({
           Pele Oleosa
         </a>
       </li>
-      {/* <li className="menu-items__item">
+      <li className="menu-items__item">
         <a
           className="menu-items__link"
-          href="/clareadores"
+          href="/base/clareadores"
         >
           Clareadores
         </a>
-      </li> */}
+      </li>
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/base/glow-facial"
+        >
+          Glow Facial
+        </a>
+      </li>
+      <li className="menu-items__item">
+        <a
+          className="menu-items__link"
+          href="/base/corpo"
+        >
+          Para o Corpo
+        </a>
+      </li>
     </ul>
   );
 }
