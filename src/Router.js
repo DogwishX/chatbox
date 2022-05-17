@@ -15,6 +15,7 @@ function Router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/base" element={<App />} />
           <Route
             path="/questionnaire"
             element={<Questionnaire />}
@@ -24,9 +25,11 @@ function Router() {
               <Route
                 path={`/${page.id}`}
                 element={
-                  <SkinPage
-                    selectedSkinType={page.id}
-                  />
+                  page.id !== "base" && (
+                    <SkinPage
+                      selectedSkinType={page.id}
+                    />
+                  )
                 }
               />
               {page.categories.map(
