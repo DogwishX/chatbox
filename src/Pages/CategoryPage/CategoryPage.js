@@ -7,15 +7,9 @@ import Nav from "../../components/Nav/Nav";
 import "./CategoryPage.css";
 
 function SectionPage({ categoryId, skinTypeId }) {
-  const { name, categories } = pages.find(
-    (page) => page.id === skinTypeId
-  );
-  const {
-    categoryName,
-    categoryProducts,
-  } = categories.find(
-    (category) =>
-      category.categoryId === categoryId
+  const { name, categories } = pages.find((page) => page.id === skinTypeId);
+  const { categoryName, categoryProducts } = categories.find(
+    (category) => category.categoryId === categoryId
   );
 
   return (
@@ -32,9 +26,7 @@ function SectionPage({ categoryId, skinTypeId }) {
     return (
       <div className="product-category__header">
         <Breadcrumb />
-        <h1 className="product-category__title">
-          {categoryName}
-        </h1>
+        <h1 className="product-category__title">{categoryName}</h1>
         {skinTypeId !== "base" && (
           <p className="product-category__skin-type">
             Para a sua pele:
@@ -47,10 +39,7 @@ function SectionPage({ categoryId, skinTypeId }) {
 
   function Breadcrumb() {
     return (
-      <a
-        className="breadcrumb"
-        href={`../${skinTypeId}`}
-      >
+      <a className="breadcrumb" href={`../${skinTypeId}`}>
         <FontAwesomeIcon
           className="breadcrumb__arrow"
           icon={faArrowLeft}
@@ -58,45 +47,31 @@ function SectionPage({ categoryId, skinTypeId }) {
         />
         <p className="breadcrumb__text">
           Voltar para a página{" "}
-          {skinTypeId === "base"
-            ? "inicial"
-            : "de produtos"}
+          {skinTypeId === "base" ? "inicial" : "de produtos"}
         </p>
       </a>
     );
   }
 
   function ProductsGrid() {
-    const categoryProductsData = categoryProducts.map(
-      (productName) =>
-        products.find(
-          (productData) =>
-            productData.name === productName
-        )
+    const categoryProductsData = categoryProducts.map((productName) =>
+      products.find((productData) => productData.name === productName)
     );
+    console.log(categoryProductsData);
 
     return (
       <div className="products-grid">
-        {console.log(categoryProductsData)}
-        {categoryProductsData.map(
-          ({ name, amazonLink, image }) => (
-            <a
-              className="products-grid__card"
-              href={amazonLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="products-grid__image"
-                src={image}
-                alt={name}
-              />
-              <h2 className="products-grid__product-name">
-                {name}
-              </h2>
-            </a>
-          )
-        )}
+        {categoryProductsData.map(({ name, amazonLink, image }) => (
+          <a
+            className="products-grid__card"
+            href={amazonLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="products-grid__image" src={image} alt={name} />
+            <h2 className="products-grid__product-name">{name}</h2>
+          </a>
+        ))}
       </div>
     );
   }

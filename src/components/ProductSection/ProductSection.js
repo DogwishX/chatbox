@@ -19,7 +19,6 @@ function ProductSection({
               (item) => item.name.toLowerCase() === product.toLowerCase()
             );
             const currentProductImgSrc = currentProduct.image;
-            console.log(currentProduct.name);
             return (
               <img
                 key={index}

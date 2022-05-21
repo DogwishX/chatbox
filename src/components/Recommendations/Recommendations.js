@@ -4,16 +4,11 @@ import Categories from "../Categories/Categories";
 import "./Recommendations.css";
 
 function Recommendations() {
-  const [
-    selectedPage,
-    setSelectedPage,
-  ] = useState("seca");
+  const [selectedPage, setSelectedPage] = useState("seca");
 
   return (
     <div className="recommendations">
-      <h2 className="recommendations__title">
-        Nossas Sugestões
-      </h2>
+      <h2 className="recommendations__title">Nossas Sugestões</h2>
       <div className="recommendations__tabs">
         <h3
           id="seca"
@@ -22,21 +17,14 @@ function Recommendations() {
         >
           Pele Seca
         </h3>
-        <h3
-          id="oleosa"
-          className="recommendations__tab "
-          onClick={displayTab}
-        >
+        <h3 id="oleosa" className="recommendations__tab" onClick={displayTab}>
           Pele Oleosa
         </h3>
+        <h3 id="corpo" className="recommendations__tab" onClick={displayTab}>
+          Corpo
+        </h3>
       </div>
-      <Carousel
-        content={
-          <Categories
-            selectedPage={selectedPage}
-          />
-        }
-      />
+      <Carousel content={<Categories selectedPage={selectedPage} />} />
     </div>
   );
 
@@ -47,20 +35,14 @@ function Recommendations() {
   }
 
   function clearActiveStyling() {
-    const tabNodeList = document.querySelectorAll(
-      ".recommendations__tab"
-    );
+    const tabNodeList = document.querySelectorAll(".recommendations__tab");
     tabNodeList.forEach((tab) =>
-      tab.classList.remove(
-        "recommendations__tab--active"
-      )
+      tab.classList.remove("recommendations__tab--active")
     );
   }
 
   function applyActiveStyling(currentTarget) {
-    currentTarget.classList.add(
-      "recommendations__tab--active"
-    );
+    currentTarget.classList.add("recommendations__tab--active");
   }
 }
 

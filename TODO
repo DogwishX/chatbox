@@ -1,61 +1,65 @@
-✔ Add missing data @done(22-05-17 05:42)
+Web optimization:
+  ☐ Implement Google Analytics
+  ☐ Add SEO optimization
 
-Nav:
-  ✔ Add nav menu --mobile @done(22-05-15 05:57)
-  ✔ Add nav menu --desktop @done(22-05-15 19:58)
-  ✔ Add clareadores @done(22-05-17 05:02)
-  ✔ Add glow facial @done(22-05-17 05:02)
-  ✔ Add corpo page @done(22-05-17 05:02)
 
-Questionnaire: 
-  ✔ Add numbers @done(22-05-15 20:12)
-  ✔ Show question Number instead of Section Number @done(22-05-15 20:26)
-  ✔ Add progress bar @done(22-05-15 20:49)
-
-Home: 
-  ✔ Add background image on hero for desktop/high resolution views @done(22-05-15 22:41)
-  ✔ Change flex direction of info cards @done(22-05-15 23:39)
-  ✔ Change image for 'sem custos' card @done(22-05-15 23:39)
-  ✔ Improve card styling @done(22-05-15 23:39)
-
-SkinPage: 
-  ☐ Add desktop background image for SkinPage
+Home:
+  ✔ Change colour scheme @done(22-05-21 03:10)
+  ✔ Change content for How it Works and Hero @done(22-05-21 03:28)
+  ✔ Remove detail cards @done(22-05-21 03:30)
+  ☐ Contact form
 
 Carousel:
-  ✔ Fix Next btn @done(22-05-17 05:42)
+  ☐ Add corpo - WAITING ON DATA
   ☐ Add swipe interaction to carousel
 
-FAQ:
-  ☐ Ask what they want to do with the section.
-  ☐ Ask for content of answers to questions.
+Chatbox: 
+  ☐ Improve theming
 
 Title:
   ☐ Change dynamically, based on visited page
 
+Questionnaire: 
+  ☐ The styling of other questions' options are being deactivated on click of an option
+
 Footer:
   ☐ Add footer
 
-
-
-
-  Archive:
-  ✔ Add functionality to navigation @done(22-05-12 04:47) @project(Survey)
-  ✔ Create skeleton @done(22-05-12 04:47) @project(Survey)
-  ✔ Style skeleton @done(22-05-12 04:47) @project(Survey)
-  ✔ Input Data @done(22-05-12 04:47) @project(Survey)
-  ✔ Add logic to disable proceeding further than last question answered @done(22-05-12 20:53) @project(Survey)
-  ✘ Dynamic styling on navigation buttons based on displayedCardIndex. Gray out button that is inactive. @cancelled(22-05-12 20:53)  @project(Survey)
-  ✔ Add popup to call user's attention. @done(22-05-12 21:58) @project(ChatIcon)
-  ✔ Fix close button position to align with rest of header @done(22-05-13 02:01) @project(ChatBox)
-  ✔ Remove empty space when you reach end of carousel @done(22-05-13 05:17) @project(Carousel)
-  ✔ Show/Hide navigation buttons based on displayed card @done(22-05-13 05:17) @project(Carousel)
-  ✔ Improve card styling/Add border @done(22-05-13 05:17) @project(Carousel)
-  ✔ Add ProductSection to Categories.js @started(22-04-30 16:04) @done(22-04-30 16:32) @lasted(28m49s) @project(Home Page)
-  ✔ Improve carousel item styling @started(22-04-30 16:36) @done(22-04-30 16:49) @lasted(13m49s) @project(Home Page)
-  ✔ Add navigation buttons to carousel @started(22-04-30 20:29) @done(22-05-01 00:16) @lasted(3h47m43s) @project(Home Page)
-  ✔ Create buttons @started(22-04-30 20:29) @done(22-04-30 20:47) @lasted(18m9s) @project(Home Page)
-  ✔ useState for focused card @done(22-04-30 21:04) @project(Home Page)
-  ✔ click event function to change focused card @done(22-04-30 21:04) @project(Home Page)
-  ✔ apply offset left (focusedCardIndex * cardWidth) @done(22-05-01 00:16) @project(Home Page)
-  ✘ Retrieve product details in pages.js @cancelled(22-04-30 17:10)  @project(Home Page)
-    Due to possible performance issues
+  
+Archive:
+  ✘ Add desktop background image for SkinPage @cancelled(22-05-21 02:45) Removed as it looks better without an image @project(SkinPage)
+✔ Add missing data @done(22-05-17 05:42)
+✔ Add nav menu --mobile @done(22-05-15 05:57) @project(Nav)
+✔ Add nav menu --desktop @done(22-05-15 19:58) @project(Nav)
+✔ Add clareadores @done(22-05-17 05:02) @project(Nav)
+✔ Add glow facial @done(22-05-17 05:02) @project(Nav)
+✔ Add corpo page @done(22-05-17 05:02) @project(Nav)
+✔ Add numbers @done(22-05-15 20:12) @project(Questionnaire)
+✔ Show question Number instead of Section Number @done(22-05-15 20:26) @project(Questionnaire)
+✔ Add progress bar @done(22-05-15 20:49) @project(Questionnaire)
+✔ Add background image on hero for desktop/high resolution views @done(22-05-15 22:41) @project(Home)
+✔ Change flex direction of info cards @done(22-05-15 23:39) @project(Home)
+✔ Change image for 'sem custos' card @done(22-05-15 23:39) @project(Home)
+✔ Improve card styling @done(22-05-15 23:39) @project(Home)
+✔ Add spacing @done(22-05-17 18:39) @project(Recommendations)
+✔ Fix Next btn @done(22-05-17 05:42) @project(Carousel)
+✔ Add functionality to navigation @done(22-05-12 04:47) @project(Survey)
+✔ Create skeleton @done(22-05-12 04:47) @project(Survey)
+✔ Style skeleton @done(22-05-12 04:47) @project(Survey)
+✔ Input Data @done(22-05-12 04:47) @project(Survey)
+✔ Add logic to disable proceeding further than last question answered @done(22-05-12 20:53) @project(Survey)
+✘ Dynamic styling on navigation buttons based on displayedCardIndex. Gray out button that is inactive. @cancelled(22-05-12 20:53)  @project(Survey)
+✔ Add popup to call user's attention. @done(22-05-12 21:58) @project(ChatIcon)
+✔ Fix close button position to align with rest of header @done(22-05-13 02:01) @project(ChatBox)
+✔ Remove empty space when you reach end of carousel @done(22-05-13 05:17) @project(Carousel)
+✔ Show/Hide navigation buttons based on displayed card @done(22-05-13 05:17) @project(Carousel)
+✔ Improve card styling/Add border @done(22-05-13 05:17) @project(Carousel)
+✔ Add ProductSection to Categories.js @started(22-04-30 16:04) @done(22-04-30 16:32) @lasted(28m49s) @project(Home Page)
+✔ Improve carousel item styling @started(22-04-30 16:36) @done(22-04-30 16:49) @lasted(13m49s) @project(Home Page)
+✔ Add navigation buttons to carousel @started(22-04-30 20:29) @done(22-05-01 00:16) @lasted(3h47m43s) @project(Home Page)
+✔ Create buttons @started(22-04-30 20:29) @done(22-04-30 20:47) @lasted(18m9s) @project(Home Page)
+✔ useState for focused card @done(22-04-30 21:04) @project(Home Page)
+✔ click event function to change focused card @done(22-04-30 21:04) @project(Home Page)
+✔ apply offset left (focusedCardIndex * cardWidth) @done(22-05-01 00:16) @project(Home Page)
+✘ Retrieve product details in pages.js @cancelled(22-04-30 17:10)  @project(Home Page)
+  Due to possible performance issues

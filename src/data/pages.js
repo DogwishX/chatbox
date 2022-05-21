@@ -96,8 +96,7 @@ const pages = [
   },
   {
     id: "osnc",
-    name:
-      "Oleosa, sensível, não-pigmentada e com tendência a rugas",
+    name: "Oleosa, sensível, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -157,8 +156,7 @@ const pages = [
   },
   {
     id: "osnf",
-    name:
-      "Oleosa, sensível, não–pigmentada e firme",
+    name: "Oleosa, sensível, não–pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -206,8 +204,7 @@ const pages = [
   },
   {
     id: "ornf",
-    name:
-      "Oleosa, resistente, não-pigmentada e firme",
+    name: "Oleosa, resistente, não-pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -258,8 +255,7 @@ const pages = [
   },
   {
     id: "ornc",
-    name:
-      "Oleosa, resistente, não-pigmentada e com  tendência a rugas",
+    name: "Oleosa, resistente, não-pigmentada e com  tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -321,8 +317,7 @@ const pages = [
   },
   {
     id: "orpc",
-    name:
-      "Oleosa, resistente, pigmentada e com tendência a rugas",
+    name: "Oleosa, resistente, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -392,8 +387,7 @@ const pages = [
   },
   {
     id: "ospc",
-    name:
-      "Oleosa, sensível, pigmentada e com tendência a rugas",
+    name: "Oleosa, sensível, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -531,8 +525,7 @@ const pages = [
   },
   {
     id: "ssnc",
-    name:
-      "Seca, sensível, não-pigmentada e com tendência a rugas",
+    name: "Seca, sensível, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -588,8 +581,7 @@ const pages = [
   },
   {
     id: "srnc",
-    name:
-      "Seca, resistente, não-pigmentada e com tendência a rugas",
+    name: "Seca, resistente, não-pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -648,8 +640,7 @@ const pages = [
   },
   {
     id: "srnf",
-    name:
-      "Seca, resistente, não-pigmentada e firme",
+    name: "Seca, resistente, não-pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -697,8 +688,7 @@ const pages = [
   },
   {
     id: "ssnf",
-    name:
-      "Seca, sensível, não pigmentada e firme",
+    name: "Seca, sensível, não pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -800,8 +790,7 @@ const pages = [
   },
   {
     id: "orpf",
-    name:
-      "Oleosa, resistente, pigmentada e firme",
+    name: "Oleosa, resistente, pigmentada e firme",
     categories: [
       {
         categoryId: "sabonetes",
@@ -860,8 +849,7 @@ const pages = [
   },
   {
     id: "sspc",
-    name:
-      "Seca, sensível, pigmentada e com tendência a rugas",
+    name: "Seca, sensível, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -984,8 +972,7 @@ const pages = [
   },
   {
     id: "srpc",
-    name:
-      "Seca, resistente, pigmentada e com tendência a rugas",
+    name: "Seca, resistente, pigmentada e com tendência a rugas",
     categories: [
       {
         categoryId: "sabonetes",
@@ -1119,9 +1106,7 @@ const pages = [
       {
         categoryId: "glow-facial",
         categoryName: "Glow Facial",
-        categoryProducts: [
-          "Glycolic 10 renew overnight",
-        ],
+        categoryProducts: ["Glycolic 10 renew overnight"],
       },
       {
         categoryId: "corpo",
@@ -1143,6 +1128,48 @@ const pages = [
           "Lumixyl loção clareadora",
           "Neostrata Gel clareador",
           "Clarité face Dermage",
+        ],
+      },
+    ],
+  },
+  {
+    id: "corpo",
+    name: "Corpo",
+    categories: [
+      {
+        categoryId: "corpo",
+        categoryName: "Corpo",
+        categoryProducts: [
+          "Glycare Loção",
+          "Bioderma Pigmentbio (clareador corporal)",
+        ],
+      },
+      {
+        categoryId: "labios",
+        categoryName: "Lábios",
+        categoryProducts: [
+          "Cicalfate reparador labial",
+          "Hidratante labial Nuxe",
+          "Lip mask oceane Mascara Labial",
+          "Cicaplast lábios",
+        ],
+      },
+      {
+        categoryId: "maos",
+        categoryName: "Mãos",
+        categoryProducts: [
+          "Ureadin mãos",
+          "Hidratante antiidade mãos Neutrogena",
+          "Hidratante para mãos Bioderma",
+        ],
+      },
+      {
+        categoryId: "pes",
+        categoryName: "Pés ",
+        categoryProducts: [
+          "Ureadin Podos",
+          "CeraVe AS creme renovador para os pés",
+          "Eucerin Urea repair Plus",
         ],
       },
     ],

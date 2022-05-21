@@ -21,7 +21,6 @@ function ChatIcon() {
   function handleIconClick() {
     toggleChat();
     setHasBeenClickedOnce(true);
-    console.log(hasBeenClickedOnce);
   }
 }
 

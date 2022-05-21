@@ -8,51 +8,42 @@ const products = [
   {
     name: "Effaclar concentrado",
     amazonLink: "https://amzn.to/3Kxc6uW",
-    image:
-      "https://m.media-amazon.com/images/I/415UacCO0qL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/415UacCO0qL._AC_SY355_.jpg",
   },
   {
     name: "Normaderm Phytosolution",
     amazonLink: "https://amzn.to/3vYobDU",
-    image:
-      "https://m.media-amazon.com/images/I/419ea-TkdrL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/419ea-TkdrL._AC_SY355_.jpg",
   },
   {
     name: "Cleanance gel",
     amazonLink: "https://amzn.to/3OMdJrV",
-    image:
-      "https://m.media-amazon.com/images/I/515u1nQwWtL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/515u1nQwWtL._AC_SY355_.jpg",
   },
   {
     name: "Epidac OC Sabonete Barra",
     amazonLink: "https://amzn.to/3KzO1nc",
-    image:
-      "https://m.media-amazon.com/images/I/518Nuux-zJL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/518Nuux-zJL._AC_SY355_.jpg",
   },
   {
     name: "Bioderma Sebium Gel Moussant",
     amazonLink: "https://amzn.to/3Lt4zyp",
-    image:
-      "https://m.media-amazon.com/images/I/61dITcOEKmL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61dITcOEKmL._AC_SY355_.jpg",
   },
   {
     name: "Vichy mineral 89",
     amazonLink: "https://amzn.to/3MKSBjI",
-    image:
-      "https://m.media-amazon.com/images/I/51HSOjcm+xS._AC_SY450_.jpg",
+    image: "https://m.media-amazon.com/images/I/51HSOjcm+xS._AC_SY450_.jpg",
   },
   {
     name: "Effaclar anti-age sérum",
     amazonLink: "https://amzn.to/3KrWkBq",
-    image:
-      "https://m.media-amazon.com/images/I/417S4zZIN-L._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/417S4zZIN-L._AC_SY355_.jpg",
   },
   {
-    name:
-      "Sérum oil- Free Blemish + age defense skinceuticals",
+    name: "Sérum oil- Free Blemish + age defense skinceuticals",
     amazonLink: "https://amzn.to/3F8qc4D",
-    image:
-      "https://m.media-amazon.com/images/I/51B7jtRysML._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51B7jtRysML._AC_SY355_.jpg",
   },
   {
     name: "Normaderm Skin Balance Vichy",
@@ -69,50 +60,42 @@ const products = [
   {
     name: "Salicily C 10",
     amazonLink: "https://amzn.to/3FjuMNP",
-    image:
-      "https://m.media-amazon.com/images/I/51f6IpPyXSL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51f6IpPyXSL._AC_SY355_.jpg",
   },
   {
     name: "Ivy C AOX",
     amazonLink: "https://amzn.to/38J2QXn",
-    image:
-      "https://m.media-amazon.com/images/I/51GUmmnSuHL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51GUmmnSuHL._AC_SY355_.jpg",
   },
   {
     name: "Vichy Lift active AOX",
     amazonLink: "https://amzn.to/39vyKa8",
-    image:
-      "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
   },
   {
     name: "Episol sec 60 fps",
     amazonLink: "https://amzn.to/3OOx5g1",
-    image:
-      "https://m.media-amazon.com/images/I/415+AArN3xL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/415+AArN3xL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Extra clara",
     amazonLink: "https://amzn.to/3Ly3FRh",
-    image:
-      "https://m.media-amazon.com/images/I/411A2lo6mTL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/411A2lo6mTL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Clara",
     amazonLink: "https://amzn.to/3736FpG",
-    image:
-      "https://m.media-amazon.com/images/I/41A00phTT0L._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41A00phTT0L._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Morena",
     amazonLink: "https://amzn.to/3vZYWkV",
-    image:
-      "https://m.media-amazon.com/images/I/511UCGkevVL._AC_SY741_.jpg",
+    image: "https://m.media-amazon.com/images/I/511UCGkevVL._AC_SY741_.jpg",
   },
   {
     name: "Episol Color 70 Pele Morena-Escura",
     amazonLink: "https://amzn.to/3kzyKIc",
-    image:
-      "https://m.media-amazon.com/images/I/41cVJqDZuXL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41cVJqDZuXL._AC_SY355_.jpg",
   },
   {
     name: "Episol Color 70 Pele Negra",
@@ -124,14 +107,12 @@ const products = [
   {
     name: "Anthelios Airlicium 70 fps",
     amazonLink: "https://amzn.to/3s4LMSd",
-    image:
-      "https://m.media-amazon.com/images/I/41KG1rsauDL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41KG1rsauDL._AC_SY355_.jpg",
   },
   {
     name: "Neutrogena Ultra sheer face FPS 55",
     amazonLink: "https://amzn.to/3y5vtZe",
-    image:
-      "https://m.media-amazon.com/images/I/61005K7VJFL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61005K7VJFL._AC_SY355_.jpg",
   },
   {
     name: "Isdin fusion water FPS 50",
@@ -140,29 +121,24 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/51m0yOmNYqL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name:
-      "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
+    name: "Skinceuticals Blemish + age UV Defense FPS 50 Protetor solar",
     amazonLink: "https://amzn.to/3KwmIdu",
-    image:
-      "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SL1000_.jpg",
+    image: "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SL1000_.jpg",
   },
   {
     name: "Fisiogel Sabonete líquido",
     amazonLink: "https://amzn.to/3LxGPZW",
-    image:
-      "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/412VaW-xEXL._AC_SY355_.jpg",
   },
   {
     name: "Cetaphil loção de limpeza facial",
     amazonLink: "https://amzn.to/3krGuvZ",
-    image:
-      "https://m.media-amazon.com/images/I/61Vt7fnQL6L._AC_SY606_.jpg",
+    image: "https://m.media-amazon.com/images/I/61Vt7fnQL6L._AC_SY606_.jpg",
   },
   {
     name: "Dermotivin soft sabonete liquido",
     amazonLink: "https://amzn.to/3OOA6gj",
-    image:
-      "https://m.media-amazon.com/images/I/410+zCIetHL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/410+zCIetHL._AC_SY355_.jpg",
   },
   {
     name: "Profuse Nutrel creme suavizante",
@@ -171,15 +147,13 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/41CMM4kjSlL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name:
-      "Bepantol derma hidratante loção facial noturno",
+    name: "Bepantol derma hidratante loção facial noturno",
     amazonLink: "https://amzn.to/3ONpyxT",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/81RnjAQwLGL.__AC_SX300_SY300_QL70_ML2_.jpg",
   },
   {
-    name:
-      "Hidratante calmante Avene Tolerance Extreme",
+    name: "Hidratante calmante Avene Tolerance Extreme",
     amazonLink: "https://amzn.to/3vtSfbE",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/61CFax4nLUL.__AC_SX300_SY300_QL70_ML2_.jpg",
@@ -187,8 +161,7 @@ const products = [
   {
     name: "Hidratante Nivea lata",
     amazonLink: "https://amzn.to/3vxA4BS",
-    image:
-      "https://m.media-amazon.com/images/I/51tT+dtZJuS._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51tT+dtZJuS._AC_SY355_.jpg",
   },
   {
     name: "Toleriane Hidratante facial",
@@ -199,8 +172,7 @@ const products = [
   {
     name: "Serum 10 skinceuticals",
     amazonLink: "https://amzn.to/3F1EPXz",
-    image:
-      "https://m.media-amazon.com/images/I/519ErIGbv0L._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/519ErIGbv0L._AC_SY355_.jpg",
   },
   {
     name: "Improve c 20 dermage",
@@ -211,8 +183,7 @@ const products = [
   {
     name: "Active C 10 creme",
     amazonLink: "https://amzn.to/3Fjxp29",
-    image:
-      "https://m.media-amazon.com/images/I/41Xwu9QFHZL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41Xwu9QFHZL._AC_SY355_.jpg",
   },
   {
     name: "Filtrum Hidrat FPS 30",
@@ -229,26 +200,22 @@ const products = [
   {
     name: "Anthelios XL FPS 60",
     amazonLink: "https://amzn.to/3OLIwFc",
-    image:
-      "https://m.media-amazon.com/images/I/51SDV2D4KAL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51SDV2D4KAL._AC_SY355_.jpg",
   },
   {
     name: "Discoloration Defense skinceuticals",
     amazonLink: "https://amzn.to/3LBE6ij",
-    image:
-      "https://m.media-amazon.com/images/I/517GFNcUzxL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/517GFNcUzxL._AC_SY355_.jpg",
   },
   {
     name: "Blancy TX gel clareador",
     amazonLink: "https://amzn.to/3vV2hBI",
-    image:
-      "https://m.media-amazon.com/images/I/51h+--ckvxL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51h+--ckvxL._AC_SY355_.jpg",
   },
   {
     name: "Lumixyl loção clareadora",
     amazonLink: "https://amzn.to/3F2qM40",
-    image:
-      "https://m.media-amazon.com/images/I/41x+GdqTbiL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41x+GdqTbiL._AC_SY355_.jpg",
   },
   {
     name: "Neostrata Gel clareador",
@@ -265,8 +232,7 @@ const products = [
   {
     name: "Effaclar alta tolerância",
     amazonLink: "https://amzn.to/39uTCyi",
-    image:
-      "https://m.media-amazon.com/images/I/61WV66rsusL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61WV66rsusL._AC_SY355_.jpg",
   },
   {
     name: "Suavié sabonete liquido",
@@ -277,8 +243,7 @@ const products = [
   {
     name: "Nutrel sabonete Barra",
     amazonLink: "https://amzn.to/38IeZfa",
-    image:
-      "https://m.media-amazon.com/images/I/51bK7g96cML._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51bK7g96cML._AC_SY355_.jpg",
   },
   {
     name: "C E ferulic skinceuticals",
@@ -294,14 +259,12 @@ const products = [
   {
     name: "Liftactiv supreme vichy",
     amazonLink: "https://amzn.to/3OReX4W",
-    image:
-      "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61ubyb5WFNL._AC_SY355_.jpg",
   },
   {
     name: "Peptide – AHA vichy",
     amazonLink: "https://amzn.to/3LBiEK2",
-    image:
-      "https://m.media-amazon.com/images/I/411qch8z8tS._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/411qch8z8tS._AC_SY355_.jpg",
   },
   {
     name: "Neovadiol comple sustitut nuit",
@@ -318,8 +281,7 @@ const products = [
   {
     name: "H. A intensifier skinceuticals",
     amazonLink: "https://amzn.to/3vY1jog",
-    image:
-      "https://m.media-amazon.com/images/I/71oxQ8Yo2iL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/71oxQ8Yo2iL._AC_SY355_.jpg",
   },
   {
     name: "Ivy C aox",
@@ -336,40 +298,88 @@ const products = [
   {
     name: "Ivy C corpo e colo",
     amazonLink: "https://amzn.to/3Lgtq7I",
-    image:
-      "https://m.media-amazon.com/images/I/41D3UhrhORL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/41D3UhrhORL._AC_SY355_.jpg",
   },
   {
     name: "Hidratante corporal Ureadin 10",
     amazonLink: "https://amzn.to/3LhkZcb",
-    image:
-      "https://m.media-amazon.com/images/I/51Tf0UwLW+L._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51Tf0UwLW+L._AC_SY355_.jpg",
   },
   {
     name: "Ideal body pescoço, colo e mãos",
     amazonLink: "https://amzn.to/3MjP10a",
-    image:
-      "https://m.media-amazon.com/images/I/51StZKgak2L._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/51StZKgak2L._AC_SY355_.jpg",
   },
   {
-    name:
-      "Hidratante Corporal Neutrogena® Body Care Intensive",
+    name: "Hidratante Corporal Neutrogena® Body Care Intensive",
     amazonLink: "https://amzn.to/3l98sgx",
-    image:
-      "https://m.media-amazon.com/images/I/61ja+onkb0L._AC_SY550_.jpg",
+    image: "https://m.media-amazon.com/images/I/61ja+onkb0L._AC_SY550_.jpg",
   },
   {
     name: "Cerave hidratante corporal",
     amazonLink: "https://amzn.to/3Lib7iy",
-    image:
-      "https://m.media-amazon.com/images/I/61sQ6vnhYQL._AC_SY355_.jpg",
+    image: "https://m.media-amazon.com/images/I/61sQ6vnhYQL._AC_SY355_.jpg",
   },
   {
-    name:
-      "Hidratanete corporal para pele áspera - Glycare Loção",
+    name: "Glycare Loção",
     amazonLink: "https://amzn.to/3FL3cZQ",
+    image: "https://m.media-amazon.com/images/I/51v51TJbNqL._AC_SY355_.jpg",
+  },
+  {
+    name: "Bioderma Pigmentbio (clareador corporal)",
+    amazonLink: "https://amzn.to/39ESRCC",
+    image: "https://m.media-amazon.com/images/I/61MaIJvSEbL._AC_SY550_.jpg",
+  },
+  {
+    name: "Cicalfate reparador labial",
+    amazonLink: "https://amzn.to/3MxMZd9",
+    image: "https://m.media-amazon.com/images/I/41HQQZco7hL._AC_SX425_.jpg",
+  },
+  {
+    name: "Cicaplast lábios",
+    amazonLink: "https://amzn.to/3LzDM2F",
     image:
-      "https://m.media-amazon.com/images/I/51v51TJbNqL._AC_SY355_.jpg",
+      "https://www.laroche-posay.com.br/-/media/project/loreal/brand-sites/lrp/america/br/products/cicaplast/baume-b5/body-care/cicaplast-labio-20ml.png?cx=0.5&cy=0.55&cw=600&ch=600&hash=C9E61152BB80DCBCE377278F4911009FED62BC60",
+  },
+  {
+    name: "Lip mask oceane Mascara Labial",
+    amazonLink: "https://amzn.to/3Lzaf96",
+    image: "https://m.media-amazon.com/images/I/81vCcsQfKYL._AC_SX425_.jpg",
+  },
+  {
+    name: "Hidratante labial Nuxe",
+    amazonLink: "https://amzn.to/3LzRxhE",
+    image: "https://m.media-amazon.com/images/I/51mxERcLDkL._AC_SY355_.jpg",
+  },
+  {
+    name: "Ureadin mãos",
+    amazonLink: "https://amzn.to/3wLOyxA",
+    image: "https://m.media-amazon.com/images/I/51nDWjrRciL._AC_SY355_.jpg",
+  },
+  {
+    name: "Hidratante antiidade mãos Neutrogena",
+    amazonLink: "https://amzn.to/3lrTEtq",
+    image: "https://m.media-amazon.com/images/I/51Am+RvuzgL._AC_SX425_.jpg",
+  },
+  {
+    name: "Hidratante para mãos Bioderma",
+    amazonLink: "https://amzn.to/3lrKflA",
+    image: "https://m.media-amazon.com/images/I/61-esrO45uL._AC_SX355_.jpg",
+  },
+  {
+    name: "Ureadin Podos",
+    amazonLink: "https://amzn.to/3NpFPrf",
+    image: "https://m.media-amazon.com/images/I/51ljGpffIfL._AC_SY355_.jpg",
+  },
+  {
+    name: "CeraVe AS creme renovador para os pés",
+    amazonLink: "https://amzn.to/3LxYBLX",
+    image: "https://m.media-amazon.com/images/I/514VF93EE2L._AC_SY355_.jpg",
+  },
+  {
+    name: "Eucerin Urea repair Plus",
+    amazonLink: "https://amzn.to/382TkOG",
+    image: "https://m.media-amazon.com/images/I/61zfL9hGBJL._AC_SY879_.jpg",
   },
 ];
 

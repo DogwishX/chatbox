@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fd194da.css",
-    "main.js": "/static/js/main.0114d0ca.js",
+    "main.css": "/static/css/main.ee184637.css",
+    "main.js": "/static/js/main.8820923a.js",
+    "static/media/background-desktop.avif": "/static/media/background-desktop.faeab0d61e70b3f846c8.avif",
+    "static/media/background-mobile.avif": "/static/media/background-mobile.b2d6303f17ab41091ef9.avif",
     "static/media/geographwebbold.ttf": "/static/media/geographwebbold.988ff04bdb91a75dd680.ttf",
     "static/media/geographwebregular.ttf": "/static/media/geographwebregular.1aff0291f7cc649d98fe.ttf",
     "static/media/geographweblight.ttf": "/static/media/geographweblight.12d435da891fab269255.ttf",
-    "static/media/background-mobile.avif": "/static/media/background-mobile.9b955577a544ad54a28d.avif",
     "static/media/gastos.png": "/static/media/gastos.4ec8363a013c3efa205c.png",
     "static/media/praticidade.jpg": "/static/media/praticidade.ff6d6290a25c31af9147.jpg",
     "static/media/result.jpg": "/static/media/result.a33e414a00c49c807f9c.jpg",
     "static/media/confiavel.jpg": "/static/media/confiavel.49d730121876ebbb062a.jpg",
-    "static/media/background-desktop.avif": "/static/media/background-desktop.1575d945442521bbd091.avif",
     "index.html": "/index.html",
-    "main.2fd194da.css.map": "/static/css/main.2fd194da.css.map",
-    "main.0114d0ca.js.map": "/static/js/main.0114d0ca.js.map"
+    "main.ee184637.css.map": "/static/css/main.ee184637.css.map",
+    "main.8820923a.js.map": "/static/js/main.8820923a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fd194da.css",
-    "static/js/main.0114d0ca.js"
+    "static/css/main.ee184637.css",
+    "static/js/main.8820923a.js"
   ]
 }

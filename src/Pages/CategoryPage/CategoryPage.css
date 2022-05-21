@@ -15,10 +15,12 @@
 
 .breadcrumb {
   display: flex;
+  user-select: none;
 }
 
 .breadcrumb__text {
   margin-left: 1rem;
+  font-size: clamp(1.3rem, 5vw, 1.8rem);
   color: #4a4a4a;
 }
 
