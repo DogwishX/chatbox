@@ -10,11 +10,6 @@ function SkinPage({ selectedSkinType }) {
     <>
       <Nav />
       <div className="skin-page">
-        <img
-          className="skin-page__image"
-          src={resultImg}
-          alt="Random products being displayed"
-        />
         <h1 className="skin-page__title">Nossas recomendacoes</h1>
         <p className="skin-page__text">
           Estes produtos foram recomendados por nossos especialistas para o seu
