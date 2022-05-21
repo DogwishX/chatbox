@@ -9,16 +9,20 @@
   background-color: #fff46d;
 }
 
+.how-it-works__content {
+  max-width: 70rem;
+}
+
 .how-it-works__title {
   font-weight: 900;
   font-size: 3rem;
+  text-align: center;
 }
 
 .how-it-works__subtitle {
   font-weight: 600;
-  text-align: center;
   font-size: 1.8rem;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 .how-it-works__text {
