@@ -9,7 +9,7 @@
   scrollbar-color: black;
   z-index: 1000;
 }
-/* 
+
 .chatbox-container--active {
   right: 5rem;
   height: fit-content;
@@ -22,7 +22,6 @@
 }
 .rsc-header {
   background-color: #faaab5;
-  height: 3rem;
 }
 
 .rsc-header-title {
@@ -58,9 +57,15 @@
 
 .chatbox__close {
   position: absolute;
-  right: 0;
-  top: 0;
+  top: 1.8rem;
+  right: 1.8rem;
   color: white;
   cursor: pointer;
   z-index: 1001;
+}
+
+@media screen and (min-width: 568px) {
+  .chatbox__close {
+    right: -1rem;
+  }
 }

@@ -8,7 +8,6 @@ function ChatBox() {
     <div className="chatbox-container">
       <ChatBot
         fontFamily="arial"
-        headerBgColor="#faaab5"
         headerTitle="Conversa com PicSkin"
         placeholder="Digite sua mensagem..."
         handleEnd={handleEndFn}

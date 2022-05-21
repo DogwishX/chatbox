@@ -5,25 +5,18 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero__image-container">
-        <img
-          className="hero__image"
-          alt="background"
-        />
+        <img className="hero__image" alt="background" />
       </div>
       <div className="hero__call-to-action">
-        <h1 className="hero__title">
-          Consulte agora
-        </h1>
+        <h1 className="hero__title">Consulte agora</h1>
         <p className="hero__text">
-          Converse com a PicSkin, nossa
-          especialista virtual.
+          A escolha certa deixa sua pele bonita e te faz sentir segura!
+          <br /> <br />
+          Converse com a PICSKIN nossa conselheira virtual e acerte na escolha
         </p>
-        <p
-          className="hero__button"
-          onClick={toggleChat}
-        >
+        <button className="hero__button" onClick={toggleChat}>
           Abrir o chat
-        </p>
+        </button>
       </div>
     </div>
   );

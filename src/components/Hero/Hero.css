@@ -5,7 +5,6 @@
   align-items: center;
   height: fit-content;
   max-width: 100%;
-  max-height: 70rem;
   padding-bottom: 4rem;
 }
 
@@ -20,7 +19,7 @@
 .hero__image {
   width: 100%;
   max-width: 100%;
-  max-height: 60vh;
+  max-height: 50vh;
   content: url("../../assets/background-mobile.avif") !important;
   object-fit: cover;
 }
@@ -57,18 +56,20 @@
   letter-spacing: 0.1rem;
   font-family: "geograph-bold";
   font-size: 1.5rem;
-  background-color: black;
+  background-color: var(--dark-purple);
   color: white;
 }
 
 .hero__button:hover {
-  filter: invert(1);
+  border: 2px solid var(--dark-purple);
+  background-color: white;
+  color: var(--dark-purple);
   cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
   .hero__image {
-    max-height: 65vh;
+    max-height: 60vh;
     content: url("../../assets/background-desktop.avif") !important;
   }
 

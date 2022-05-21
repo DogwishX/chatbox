@@ -5,12 +5,13 @@
   align-items: center;
   bottom: 2rem;
   right: 2rem;
-  background-color: #f58997;
+  background-color: var(--purple);
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
   transition: all 0.2s linear;
   box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+  animation: chat-icon-animation 2s infinite;
   z-index: 2;
 }
 
@@ -26,4 +27,25 @@
 
 .chat-icon {
   transform: scale(1.2);
+}
+
+@keyframes chat-icon-animation {
+  0% {
+    transform: translateX(0%);
+  }
+  5% {
+    transform: translateX(2.5%);
+  }
+  10% {
+    transform: translateX(-2.5%);
+  }
+  15% {
+    transform: translateX(2.5%);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
