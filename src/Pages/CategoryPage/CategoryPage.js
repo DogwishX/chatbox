@@ -5,6 +5,8 @@ import pages from "../../data/pages";
 import products from "../../data/products";
 import Nav from "../../components/Nav/Nav";
 import "./CategoryPage.css";
+import { useEffect } from "react";
+import usePageTracking from "../../hooks/usePageTracker";
 
 function SectionPage({ categoryId, skinTypeId }) {
   const { name, categories } = pages.find((page) => page.id === skinTypeId);
@@ -12,6 +14,13 @@ function SectionPage({ categoryId, skinTypeId }) {
     (category) => category.categoryId === categoryId
   );
   const isNotException = !(skinTypeId === "base" || skinTypeId === "corpo");
+  usePageTracking();
+
+  useEffect(() => {
+    document.title = `PicSkin - ${categoryName} - ${
+      pages.find((page) => page.id === skinTypeId).name
+    }`;
+  }, []);
 
   return (
     <>

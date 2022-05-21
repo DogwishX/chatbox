@@ -1,25 +1,21 @@
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleUp,
-  faAngleDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Question from "../../components/Question/Question";
 import questionnaireCards from "../../data/questionnaireData";
 import "./Questionnaire.css";
 import Result from "../../components/Result/Result";
+import usePageTracking from "../../hooks/usePageTracker";
 
 function Questionnaire() {
-  const [
-    displayResult,
-    setDisplayResult,
-  ] = useState(false);
-  const [
-    focusedQuestionIndex,
-    setFocusedQuestionIndex,
-  ] = useState(
+  const [displayResult, setDisplayResult] = useState(false);
+  const [focusedQuestionIndex, setFocusedQuestionIndex] = useState(
     JSON.parse(localStorage.lastAnswered || 0)
   );
+  usePageTracking();
+  useEffect(() => {
+    document.title = `PicSkin - Questionário`;
+  }, []);
 
   useEffect(() => {
     const questionnaireQuestionsContainer = document.querySelector(
@@ -37,26 +33,20 @@ function Questionnaire() {
           <Question
             key={index}
             cardInfo={card}
-            updateFocusedQuestion={
-              updateFocusedQuestion
-            }
+            updateFocusedQuestion={updateFocusedQuestion}
             setDisplayResult={setDisplayResult}
           />
         ))}
       </div>
-      {focusedQuestionIndex > 0 && (
-        <CardNavigation />
-      )}
+      {focusedQuestionIndex > 0 && <CardNavigation />}
       {displayResult && <Result />}
     </div>
   );
 
   function ProgressBar() {
-    const amountOfQuestions =
-      questionnaireCards.length;
+    const amountOfQuestions = questionnaireCards.length;
     const questionProgressWidth =
-      (100 / amountOfQuestions) *
-      focusedQuestionIndex;
+      (100 / amountOfQuestions) * focusedQuestionIndex;
 
     return (
       <div className="questionnaire__progress-container">
@@ -78,54 +68,32 @@ function Questionnaire() {
           id="questionanaire__nav-btn--prev"
           className="questionanaire__nav-btn"
         >
-          <FontAwesomeIcon
-            icon={faAngleUp}
-            size="2x"
-            color="white"
-          />
+          <FontAwesomeIcon icon={faAngleUp} size="2x" color="white" />
         </button>
-        {focusedQuestionIndex <=
-          localStorage.lastAnswered && (
+        {focusedQuestionIndex <= localStorage.lastAnswered && (
           <button
             onClick={updateFocusedQuestion}
             id="questionanaire__nav-btn--next"
             className="questionanaire__nav-btn"
           >
-            <FontAwesomeIcon
-              icon={faAngleDown}
-              size="2x"
-              color="white"
-            />
+            <FontAwesomeIcon icon={faAngleDown} size="2x" color="white" />
           </button>
         )}
       </div>
     );
   }
-  function updateFocusedQuestion({
-    currentTarget,
-  }) {
+  function updateFocusedQuestion({ currentTarget }) {
     // Clicked button identifier
-    const isNextBtnClicked = currentTarget.id.includes(
-      "next"
-    );
+    const isNextBtnClicked = currentTarget.id.includes("next");
 
     // Conditional variables
-    const isBeforeEnd =
-      focusedQuestionIndex + 1 <
-      questionnaireCards.length;
-    const isAfterStart =
-      focusedQuestionIndex - 1 >= 0;
+    const isBeforeEnd = focusedQuestionIndex + 1 < questionnaireCards.length;
+    const isAfterStart = focusedQuestionIndex - 1 >= 0;
 
     // Checks if at start or end
     isNextBtnClicked
-      ? isBeforeEnd &&
-        setFocusedQuestionIndex(
-          focusedQuestionIndex + 1
-        )
-      : isAfterStart &&
-        setFocusedQuestionIndex(
-          focusedQuestionIndex - 1
-        );
+      ? isBeforeEnd && setFocusedQuestionIndex(focusedQuestionIndex + 1)
+      : isAfterStart && setFocusedQuestionIndex(focusedQuestionIndex - 1);
   }
 }
 

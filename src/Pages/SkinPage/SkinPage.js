@@ -1,11 +1,17 @@
+import { useEffect } from "react";
+import usePageTracking from "../../hooks/usePageTracker";
+
 import Nav from "../../components/Nav/Nav";
-import resultImg from "../../assets/result.jpg";
 import ProductSection from "../../components/ProductSection/ProductSection";
 import pages from "../../data/pages";
 import "./SkinPage.css";
 
 function SkinPage({ selectedSkinType }) {
   const currentPage = pages.find((item) => item.id === selectedSkinType);
+  usePageTracking();
+  useEffect(() => {
+    document.title = `PicSkin - ${currentPage.name}`;
+  }, []);
   return (
     <>
       <Nav />
