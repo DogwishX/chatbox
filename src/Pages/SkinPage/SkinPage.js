@@ -13,8 +13,8 @@ function SkinPage({ selectedSkinType }) {
         <h1 className="skin-page__title">Nossas recomendacoes</h1>
         <p className="skin-page__text">
           Estes produtos foram recomendados por nossos especialistas para o seu
-          tipo de pele:
-          <em>{currentPage.name}</em>
+          {selectedSkinType === "corpo" ? " corpo." : "tipo de pele:"}
+          {selectedSkinType !== "corpo" && <em>{currentPage.name}</em>}
         </p>
         {currentPage.categories.map(
           ({ categoryId, categoryName, categoryProducts }, index) => (

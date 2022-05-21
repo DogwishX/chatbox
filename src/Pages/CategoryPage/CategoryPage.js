@@ -11,6 +11,7 @@ function SectionPage({ categoryId, skinTypeId }) {
   const { categoryName, categoryProducts } = categories.find(
     (category) => category.categoryId === categoryId
   );
+  const isNotException = !(skinTypeId === "base" || skinTypeId === "corpo");
 
   return (
     <>
@@ -27,7 +28,7 @@ function SectionPage({ categoryId, skinTypeId }) {
       <div className="product-category__header">
         <Breadcrumb />
         <h1 className="product-category__title">{categoryName}</h1>
-        {skinTypeId !== "base" && (
+        {isNotException && (
           <p className="product-category__skin-type">
             Para a sua pele:
             <em> {name}</em>
@@ -57,7 +58,6 @@ function SectionPage({ categoryId, skinTypeId }) {
     const categoryProductsData = categoryProducts.map((productName) =>
       products.find((productData) => productData.name === productName)
     );
-    console.log(categoryProductsData);
 
     return (
       <div className="products-grid">
